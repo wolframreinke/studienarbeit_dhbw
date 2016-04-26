@@ -112,6 +112,7 @@ public:
   bool    analyzeHearMessage            ( char *strMsg               );
   bool    analyzePlayerMessage          ( int  iTime  , char *strMsg );
   bool    analyzeCoachMessage           ( char *strMsg               );  
+  bool    analyzeCLangMessage           ( char *strMsg               );  
   bool    analyzeChangePlayerTypeMessage( char *strMsg               );
   bool    analyzeServerParamMessage     ( char *strMsg               );
   bool    analyzeCheckBall              ( char *strMsg               );

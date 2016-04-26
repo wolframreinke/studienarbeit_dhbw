@@ -203,6 +203,7 @@ bool SenseHandler::analyzeMessage( char *strMsg )
           return analyzeChangePlayerTypeMessage( strMsg );      // ( c hange_
         else
             // TODO Insert Wolfram code here!
+            return analyzeCLangMessage( strMsg );
           ;                                                    // (clang
         break;
     case 'f':
@@ -710,6 +711,14 @@ bool SenseHandler::analyzeCoachMessage( char *strMsg )
 
   return true;
 }
+
+bool SenseHandler::analyzeCLangMessage( char *strMsg )
+{
+  Log.log( 606, "received CLang messages: %s" , strMsg );
+
+  return true;
+}
+
 /*! This method analyzes the check_ball message that is only received by the
     coach. It sets the information in the Worldmodel what the status of the
     ball is.

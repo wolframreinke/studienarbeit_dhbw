@@ -53,7 +53,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   #include <sys/poll.h>
 #endif
 
+#include <sstream>
 #include "hungarian.h"  /* the hungarian method for dynamic role assignment */
+
 
 extern Logger Log; /*!< This is a reference to the Logger to write loginfo to*/
 
@@ -121,12 +123,10 @@ void BasicCoach::mainLoopNormal( )
             bContLoop = false;
         }
 
-        if (WM->getCurrentTime() - timeLastRoleAssign >= 300) {
+        if (WM->getCurrentTime() - timeLastRoleAssign >= 100) {
 
             // It's time to reasses the role assignment and notify the players,
             // if it changed.
-
-            const int PLAYER_CNT = 11;
 
             timeLastRoleAssign = WM->getCurrentTime();
 
@@ -166,15 +166,15 @@ void BasicCoach::mainLoopNormal( )
                           , HUNGARIAN_MIN   /* algorithm should minimize cost */
                           );
 
-            hungarian_print_rating(&prob);
+            // hungarian_print_rating(&prob);
 
             hungarian_solve(&prob);
 
-            hungarian_print_assignment(&prob);
+            // hungarian_print_assignment(&prob);
 
-            int *assignment = prob.a;
-            // TODO assign to each player the corresponding position
-            // for player i, the corresponding position is assignment[i]
+            // TODO assign to each player the corresponding position for player
+            // i, the corresponding position is assignment[i]
+            sendAssignment(prob.a, fPos);
 
 
             hungarian_fini(&prob);
@@ -190,6 +190,32 @@ void BasicCoach::mainLoopNormal( )
     return;
 }
 
+
+void BasicCoach::sendAssignment( int *assignment,
+        VecPosition homePositions[] )
+{
+    // call ACT->sendMessage( char *msg )
+
+    stringstream ss;
+    ss << "(say (advice (0 (true) ";
+    for (int i = 0; i < PLAYER_CNT; i++)
+    {
+        int index = assignment[i];
+
+        int x = (int) homePositions[index].getX(),
+            y = (int) homePositions[index].getY();
+
+        ss << "(do our {" << (i+1)
+           << "} (home (pt "
+           << x << " " << y << ")))";
+    }
+    ss << ")))";
+
+    char *message = (char *)ss.str().c_str();
+
+    cout << message;
+    ACT->sendMessage( message );
+}
 
 /*! This method substitutes one player to the given player type and sends
     this command (using the ActHandler) to the soccer server. */

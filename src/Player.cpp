@@ -120,7 +120,7 @@ void Player::mainLoop( )
     bContLoop =  false;
 
   // and set the clang version
-  sprintf( str, "(clang (ver 8 8))" );
+  sprintf( str, "(clang (ver 7 8))" );
   ACT->sendMessage( str );
 
   while( bContLoop )                                 // as long as server alive

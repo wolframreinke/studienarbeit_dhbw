@@ -56,6 +56,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   void* stdin_callback( void * v );
 #endif
 
+#define PLAYER_CNT 11
+
 /*! This class starts a simple coach, which actions are defined in the method
     mainLoop. It uses an ActHandler to send actions to the server and can
     receive information from the WorldModel. The declaration of the different
@@ -85,6 +87,9 @@ class BasicCoach
         void          showStringCommands        ( ostream& out                );
         bool          executeStringCommand      ( char *str                   );
 
+
+        // methods added for the dynamic role assignment
+        void sendAssignment(int *assignment, VecPosition homePositions[]);
 };
 
 #endif

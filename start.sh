@@ -72,11 +72,11 @@ if( $1 =~ [0123456789]* && $1 !~ *.* ) then
 else
   set i = 1
   while ( ${i} <12 )
-    ${prog} -log 101 -number ${i} -host ${host} -team ${team}  -f ${fconf} -c ${pconf} -o log/player_${team}_${i}.log &
+    ${prog} -log 101 -log 605 -number ${i} -host ${host} -team ${team}  -f ${fconf} -c ${pconf} -o log/player_${team}_${i}.log &
     sleep $wait
     @ i++
   end
   sleep 2
-  ${coach} -host ${host} -team ${team} -f ${fconf} -o log/coach_${team}.log -l 0..2 &
+  ${coach} -log 606 -host ${host} -team ${team} -f ${fconf} -o log/coach_${team}.log -l 0..2 &
 endif
 

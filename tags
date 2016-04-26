@@ -3,574 +3,50 @@
 !_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.8	//
-ACLOCAL	src/Makefile	/^ACLOCAL = ${SHELL} \/home\/reinke.wolfram-tit13\/data\/programFiles\/robocup\/src\/tit11\/missing --run aclocal-1.7$/;"	m
-ACLOCAL_M4	src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 ACT	src/ActHandler.cpp	/^ActHandler* ACT; \/*!< Pointer to ActHandler class needed by signal handler *\/$/;"	v
-ACT	src/BasicCoach.h	/^        ActHandler     *ACT; \/*!< ActHandler to which commands can be sent    *\/$/;"	m	class:BasicCoach
-ACT	src/BasicPlayer.h	/^  ActHandler      *ACT; \/*!< ActHandler to which commands can be sent        *\/$/;"	m	class:BasicPlayer
-ACT_ANTICIPATE_BALL	src/SoccerTypes.h	/^  ACT_ANTICIPATE_BALL,            \/*!< turn in anticipation for ball         *\/$/;"	e	enum:ActionT
-ACT_CATCH_BALL	src/SoccerTypes.h	/^  ACT_CATCH_BALL,                 \/*!< catch the ball                        *\/$/;"	e	enum:ActionT
-ACT_DEFEND_GOALLINE	src/SoccerTypes.h	/^  ACT_DEFEND_GOALLINE,            \/*!< defend the goalline (for goalkeeper   *\/$/;"	e	enum:ActionT
-ACT_GOTO_STRATEGIC_POSITION	src/SoccerTypes.h	/^  ACT_GOTO_STRATEGIC_POSITION,    \/*!< go to a strategic position (dash)     *\/$/;"	e	enum:ActionT
-ACT_HOLD_BALL	src/SoccerTypes.h	/^  ACT_HOLD_BALL                   \/*!< hold the ball                         *\/$/;"	e	enum:ActionT
-ACT_ILLEGAL	src/SoccerTypes.h	/^  ACT_ILLEGAL,                    \/*!< illegal action (default)              *\/$/;"	e	enum:ActionT
-ACT_INTERCEPT	src/SoccerTypes.h	/^  ACT_INTERCEPT,                  \/*!< intercept the ball                    *\/$/;"	e	enum:ActionT
-ACT_INTERCEPT_SCORING_ATTEMPT	src/SoccerTypes.h	/^  ACT_INTERCEPT_SCORING_ATTEMPT,  \/*!< intercept ball heading to goal        *\/$/;"	e	enum:ActionT
-ACT_KICK_BALL	src/SoccerTypes.h	/^  ACT_KICK_BALL,                  \/*!< kick the ball                         *\/$/;"	e	enum:ActionT
-ACT_MARK	src/SoccerTypes.h	/^  ACT_MARK,                       \/*!< mark an opponent                      *\/$/;"	e	enum:ActionT
-ACT_MOVE_TO_DEAD_BALL_POSITION	src/SoccerTypes.h	/^  ACT_MOVE_TO_DEAD_BALL_POSITION, \/*!< move to pos in dead ball situation    *\/$/;"	e	enum:ActionT
-ACT_SEARCH_BALL	src/SoccerTypes.h	/^  ACT_SEARCH_BALL,                \/*!< search for the ball                   *\/$/;"	e	enum:ActionT
-ACT_TACKLE	src/SoccerTypes.h	/^  ACT_TACKLE,                     \/*!< tackle the ball                       *\/$/;"	e	enum:ActionT
-ACT_TELEPORT_AFTER_CATCH	src/SoccerTypes.h	/^  ACT_TELEPORT_AFTER_CATCH,       \/*!< teleport after catch (for goalkeeper) *\/$/;"	e	enum:ActionT
-ACT_TELEPORT_TO_STRATEGIC_POSITION	src/SoccerTypes.h	/^  ACT_TELEPORT_TO_STRATEGIC_POSITION, \/*!< move to a strategic position(move)*\/$/;"	e	enum:ActionT
-ACT_TURN_BODY_TO_CENTER	src/SoccerTypes.h	/^  ACT_TURN_BODY_TO_CENTER,        \/*!< turn body to center of field          *\/$/;"	e	enum:ActionT
-ACT_WATCH_BALL	src/SoccerTypes.h	/^  ACT_WATCH_BALL,                 \/*!< watch the ball                        *\/$/;"	e	enum:ActionT
-AMDEP_FALSE	src/Makefile	/^AMDEP_FALSE = #$/;"	m
-AMDEP_TRUE	src/Makefile	/^AMDEP_TRUE = $/;"	m
-AMTAR	src/Makefile	/^AMTAR = ${SHELL} \/home\/reinke.wolfram-tit13\/data\/programFiles\/robocup\/src\/tit11\/missing --run tar$/;"	m
-AR	src/Makefile	/^AR = ar$/;"	m
-AUTOCONF	src/Makefile	/^AUTOCONF = ${SHELL} \/home\/reinke.wolfram-tit13\/data\/programFiles\/robocup\/src\/tit11\/missing --run autoconf$/;"	m
-AUTOHEADER	src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/reinke.wolfram-tit13\/data\/programFiles\/robocup\/src\/tit11\/missing --run autoheader$/;"	m
-AUTOMAKE	src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/reinke.wolfram-tit13\/data\/programFiles\/robocup\/src\/tit11\/missing --run automake-1.7$/;"	m
-AWK	src/Makefile	/^AWK = gawk$/;"	m
 ActHandler	src/ActHandler.cpp	/^ActHandler::ActHandler( Connection *c, WorldModel *wm, ServerSettings *ss )$/;"	f	class:ActHandler
-ActHandler	src/ActHandler.h	/^class ActHandler {$/;"	c
-ActionT	src/SoccerTypes.h	/^enum ActionT {$/;"	g
 AgentObject	src/Objects.cpp	/^AgentObject::AgentObject( double dStaminaMax ):PlayerObject( )$/;"	f	class:AgentObject
-AgentObject	src/Objects.h	/^class AgentObject: public PlayerObject$/;"	c
-AngDeg	src/Geometry.h	/^typedef double AngDeg;  \/*!< Type definition for angles in radians. *\/$/;"	t
-AngRad	src/Geometry.h	/^typedef double AngRad;  \/*!< Type definition for angles in degrees. *\/$/;"	t
-BS_GOAL_LEFT	src/SoccerTypes.h	/^  BS_GOAL_LEFT,         \/*!< ball is in left goal     *\/$/;"	e	enum:BallStatusT
-BS_GOAL_RIGHT	src/SoccerTypes.h	/^  BS_GOAL_RIGHT,        \/*!< ball is in right goal    *\/$/;"	e	enum:BallStatusT
-BS_ILLEGAL	src/SoccerTypes.h	/^  BS_ILLEGAL,           \/*!< illegal ball status      *\/$/;"	e	enum:BallStatusT
-BS_IN_FIELD	src/SoccerTypes.h	/^  BS_IN_FIELD,          \/*!< ball is in the field     *\/$/;"	e	enum:BallStatusT
-BS_OUT_OF_FIELD	src/SoccerTypes.h	/^  BS_OUT_OF_FIELD       \/*!< ball is not in the field *\/$/;"	e	enum:BallStatusT
-Ball	src/WorldModel.h	/^  BallObject    Ball;                    \/*!< information of the ball        *\/$/;"	m	class:WorldModel
 BallObject	src/Objects.cpp	/^BallObject::BallObject():DynamicObject()$/;"	f	class:BallObject
-BallObject	src/Objects.h	/^class BallObject: public DynamicObject$/;"	c
-BallStatusT	src/SoccerTypes.h	/^enum BallStatusT {$/;"	g
 BasicCoach	src/BasicCoach.cpp	/^BasicCoach::BasicCoach( ActHandler* act, WorldModel *wm, ServerSettings *ss,$/;"	f	class:BasicCoach
-BasicCoach	src/BasicCoach.h	/^class BasicCoach$/;"	c
-BasicPlayer	src/BasicPlayer.h	/^class BasicPlayer$/;"	c
-CARTESIAN	src/Geometry.h	/^  CARTESIAN,$/;"	e	enum:CoordSystemT
-CC	src/Makefile	/^CC = gcc$/;"	m
-CCDEPMODE	src/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
-CCLD	src/Makefile	/^CCLD = $(CC)$/;"	m
-CFLAGS	src/Makefile	/^CFLAGS = -g -O2$/;"	m
-CLEAR_BALL_DEFENSIVE	src/SoccerTypes.h	/^  CLEAR_BALL_DEFENSIVE,  \/*!< clear ball to the center line of the field    *\/$/;"	e	enum:ClearBallT
-CLEAR_BALL_GOAL	src/SoccerTypes.h	/^  CLEAR_BALL_GOAL        \/*!< clear ball to position in front of the goal   *\/$/;"	e	enum:ClearBallT
-CLEAR_BALL_ILLEGAL	src/SoccerTypes.h	/^  CLEAR_BALL_ILLEGAL,    \/*!< illegal clear ball                            *\/$/;"	e	enum:ClearBallT
-CLEAR_BALL_OFFENSIVE	src/SoccerTypes.h	/^  CLEAR_BALL_OFFENSIVE,  \/*!< clear ball to the front of the field          *\/$/;"	e	enum:ClearBallT
-CLEAR_BALL_OFFENSIVE_SIDE	src/SoccerTypes.h	/^  CLEAR_BALL_OFFENSIVE_SIDE, \/*!< clear ball to front and side of the field *\/$/;"	e	enum:ClearBallT
-CMD_ATTENTIONTO	src/SoccerTypes.h	/^  CMD_ATTENTIONTO,  \/*!< pay attention to specific player   *\/$/;"	e	enum:CommandT
-CMD_CATCH	src/SoccerTypes.h	/^  CMD_CATCH,        \/*!< catch command (goalie only)        *\/$/;"	e	enum:CommandT
-CMD_CHANGEPLAYER	src/SoccerTypes.h	/^  CMD_CHANGEPLAYER, \/*!< change_player command (coach only) *\/$/;"	e	enum:CommandT
-CMD_CHANGEVIEW	src/SoccerTypes.h	/^  CMD_CHANGEVIEW,   \/*!< change view command (player only)  *\/$/;"	e	enum:CommandT
-CMD_DASH	src/SoccerTypes.h	/^  CMD_DASH,         \/*!< dash command (player only)         *\/$/;"	e	enum:CommandT
-CMD_ILLEGAL	src/SoccerTypes.h	/^  CMD_ILLEGAL,      \/*!< illegal command *\/$/;"	e	enum:CommandT
-CMD_KICK	src/SoccerTypes.h	/^  CMD_KICK,         \/*!< kick command (player only)         *\/$/;"	e	enum:CommandT
-CMD_MAX_COMMANDS	src/SoccerTypes.h	/^  CMD_MAX_COMMANDS, \/*!< maximum number of commands         *\/$/;"	e	enum:CommandT
-CMD_MOVE	src/SoccerTypes.h	/^  CMD_MOVE,         \/*!< move command                       *\/$/;"	e	enum:CommandT
-CMD_POINTTO	src/SoccerTypes.h	/^  CMD_POINTTO,      \/*!< point arm towards a point on field *\/$/;"	e	enum:CommandT
-CMD_SAY	src/SoccerTypes.h	/^  CMD_SAY,          \/*!< say command                        *\/$/;"	e	enum:CommandT
-CMD_SENSEBODY	src/SoccerTypes.h	/^  CMD_SENSEBODY,    \/*!< sense_body command (player only)   *\/$/;"	e	enum:CommandT
-CMD_Synch_See	src/SoccerTypes.h	/^  CMD_Synch_See     \/*!<synch_see command*\/$/;"	e	enum:CommandT
-CMD_TACKLE	src/SoccerTypes.h	/^  CMD_TACKLE,       \/*!< tackle in current body direction   *\/$/;"	e	enum:CommandT
-CMD_TURN	src/SoccerTypes.h	/^  CMD_TURN,         \/*!< turn command (player only)         *\/$/;"	e	enum:CommandT
-CMD_TURNNECK	src/SoccerTypes.h	/^  CMD_TURNNECK,     \/*!< turn_neck command (player only)    *\/$/;"	e	enum:CommandT
-COMPILE	src/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
-CONFIG_CLEAN_FILES	src/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
-CONFIG_HEADER	src/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
-CPP	src/Makefile	/^CPP = gcc -E$/;"	m
-CPPFLAGS	src/Makefile	/^CPPFLAGS = $/;"	m
-CTAGS	src/Makefile	/^CTAGS = ctags$/;"	m
-CTAGSFLAGS	src/Makefile	/^CTAGSFLAGS =$/;"	m
-CXX	src/Makefile	/^CXX = g++$/;"	m
-CXXCOMPILE	src/Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
-CXXCPP	src/Makefile	/^CXXCPP = g++ -E$/;"	m
-CXXDEPMODE	src/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
-CXXFLAGS	src/Makefile	/^CXXFLAGS = -g -O2$/;"	m
-CXXLD	src/Makefile	/^CXXLD = $(CXX)$/;"	m
-CXXLINK	src/Makefile	/^CXXLINK = $(LIBTOOL) --mode=link $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) \\$/;"	m
-CYGPATH_W	src/Makefile	/^CYGPATH_W = echo$/;"	m
 Circle	src/Geometry.cpp	/^Circle::Circle( )$/;"	f	class:Circle
 Circle	src/Geometry.cpp	/^Circle::Circle( VecPosition pos, double dR )$/;"	f	class:Circle
-Circle	src/Geometry.h	/^class Circle$/;"	c
-ClearBallT	src/SoccerTypes.h	/^enum ClearBallT {$/;"	g
-CommandT	src/SoccerTypes.h	/^enum CommandT {$/;"	g
 Connection	src/Connection.cpp	/^Connection::Connection( )$/;"	f	class:Connection
 Connection	src/Connection.cpp	/^Connection::Connection(const char *hostname, int port, int iMaxSize)$/;"	f	class:Connection
-Connection	src/Connection.h	/^class Connection {$/;"	c
-CoordSystemT	src/Geometry.h	/^enum CoordSystemT {$/;"	g
-DEFAULT_INCLUDES	src/Makefile	/^DEFAULT_INCLUDES =  -I. -I$(srcdir) -I$(top_builddir)$/;"	m
-DEFAULT_OPPONENT_NAME	src/SoccerTypes.h	71;"	d
-DEFAULT_TEAM_NAME	src/SoccerTypes.h	70;"	d
-DEFS	src/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
-DEPDIR	src/Makefile	/^DEPDIR = .deps$/;"	m
-DEP_FILES	src/Makefile	/^DEP_FILES = .\/$(DEPDIR)\/ActHandler.Po \\$/;"	m
-DIR_CENTER	src/SoccerTypes.h	/^  DIR_CENTER,                  \/*!< center direction                         *\/$/;"	e	enum:DirectionT
-DIR_EAST	src/SoccerTypes.h	/^  DIR_EAST,                    \/*!< east direction                           *\/$/;"	e	enum:DirectionT
-DIR_ILLEGAL	src/SoccerTypes.h	/^  DIR_ILLEGAL,                 \/*!< illegal message                          *\/$/;"	e	enum:DirectionT
-DIR_MAX	src/SoccerTypes.h	/^  DIR_MAX                      \/*!< number of directions                     *\/$/;"	e	enum:DirectionT
-DIR_NORTH	src/SoccerTypes.h	/^  DIR_NORTH,                   \/*!< north direction                          *\/$/;"	e	enum:DirectionT
-DIR_NORTHEAST	src/SoccerTypes.h	/^  DIR_NORTHEAST,               \/*!< north east direction                     *\/$/;"	e	enum:DirectionT
-DIR_NORTHWEST	src/SoccerTypes.h	/^  DIR_NORTHWEST,               \/*!< north west direction                     *\/$/;"	e	enum:DirectionT
-DIR_SOUTH	src/SoccerTypes.h	/^  DIR_SOUTH,                   \/*!< south direction                          *\/$/;"	e	enum:DirectionT
-DIR_SOUTHEAST	src/SoccerTypes.h	/^  DIR_SOUTHEAST,               \/*!< south east direction                     *\/$/;"	e	enum:DirectionT
-DIR_SOUTHWEST	src/SoccerTypes.h	/^  DIR_SOUTHWEST,               \/*!< south west direction                     *\/$/;"	e	enum:DirectionT
-DIR_WEST	src/SoccerTypes.h	/^  DIR_WEST,                    \/*!< west direction                           *\/$/;"	e	enum:DirectionT
-DISTFILES	src/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
-DIST_COMMON	src/Makefile	/^DIST_COMMON = Makefile.am Makefile.in$/;"	m
-DIST_SOURCES	src/Makefile	/^DIST_SOURCES = $(trilearn_coach_SOURCES) $(trilearn_player_SOURCES)$/;"	m
-DRIBBLE_FAST	src/SoccerTypes.h	/^  DRIBBLE_FAST     \/*!< dribble fast by kicking ball up front               *\/$/;"	e	enum:DribbleT
-DRIBBLE_ILLEGAL	src/SoccerTypes.h	/^  DRIBBLE_ILLEGAL, \/*!< illegal dribbling                                   *\/$/;"	e	enum:DribbleT
-DRIBBLE_SLOW	src/SoccerTypes.h	/^  DRIBBLE_SLOW,    \/*!< dribble slowly but kicking ball slightly ahead      *\/$/;"	e	enum:DribbleT
-DRIBBLE_WITHBALL	src/SoccerTypes.h	/^  DRIBBLE_WITHBALL,\/*!< dribble with ball very close                        *\/$/;"	e	enum:DribbleT
 Deg2Rad	src/Geometry.cpp	/^AngRad Deg2Rad( AngDeg x )$/;"	f
-DirectionT	src/SoccerTypes.h	/^enum DirectionT {$/;"	g
-DribbleT	src/SoccerTypes.h	/^enum DribbleT {$/;"	g
 DynamicObject	src/Objects.cpp	/^DynamicObject::DynamicObject( ):Object( )$/;"	f	class:DynamicObject
-DynamicObject	src/Objects.h	/^class DynamicObject: public Object$/;"	c
-ECHO	src/Makefile	/^ECHO = echo$/;"	m
-ECHO_C	src/Makefile	/^ECHO_C = $/;"	m
-ECHO_N	src/Makefile	/^ECHO_N = -n$/;"	m
-ECHO_T	src/Makefile	/^ECHO_T = $/;"	m
 EDribble	src/Player.cpp	/^bool Player::EDribble(AngDeg& ang)$/;"	f	class:Player
-EGREP	src/Makefile	/^EGREP = grep -E$/;"	m
-EPSILON	src/Geometry.h	63;"	d
-ETAGS	src/Makefile	/^ETAGS = etags$/;"	m
-ETAGSFLAGS	src/Makefile	/^ETAGSFLAGS =$/;"	m
-EXEEXT	src/Makefile	/^EXEEXT = $/;"	m
-EXTRA_DIST	src/Makefile	/^EXTRA_DIST = formations.conf player.conf$/;"	m
 Esuitable	src/Player.cpp	/^int Player::Esuitable()$/;"	f	class:Player
-F77	src/Makefile	/^F77 = $/;"	m
-FEATURE_BEST_SCORING_POINT	src/SoccerTypes.h	/^  FEATURE_BEST_SCORING_POINT,        \/*!< best scoring point in the goal     *\/$/;"	e	enum:FeatureT
-FEATURE_FASTEST_OPPONENT_TO_BALL	src/SoccerTypes.h	/^  FEATURE_FASTEST_OPPONENT_TO_BALL,  \/*!< fastest opponent to the ball       *\/$/;"	e	enum:FeatureT
-FEATURE_FASTEST_PLAYER_TO_BALL	src/SoccerTypes.h	/^  FEATURE_FASTEST_PLAYER_TO_BALL,    \/*!< fastest player to the ball         *\/$/;"	e	enum:FeatureT
-FEATURE_FASTEST_TEAMMATE_TO_BALL	src/SoccerTypes.h	/^  FEATURE_FASTEST_TEAMMATE_TO_BALL,  \/*!< fastest teammate to the ball       *\/$/;"	e	enum:FeatureT
-FEATURE_FASTEST_TEAMMATE_TO_BALL_NO_GOALIE	src/SoccerTypes.h	/^  FEATURE_FASTEST_TEAMMATE_TO_BALL_NO_GOALIE, \/*!< fastest teammate, no goali*\/$/;"	e	enum:FeatureT
-FEATURE_ILLEGAL	src/SoccerTypes.h	/^  FEATURE_ILLEGAL,                   \/*!< illegal feature                    *\/$/;"	e	enum:FeatureT
-FEATURE_INTERCEPTION_POINT_BALL	src/SoccerTypes.h	/^  FEATURE_INTERCEPTION_POINT_BALL,   \/*!< interception point ball            *\/$/;"	e	enum:FeatureT
-FEATURE_INTERCEPT_CLOSE	src/SoccerTypes.h	/^  FEATURE_INTERCEPT_CLOSE,           \/*!< close interception point ball      *\/$/;"	e	enum:FeatureT
-FEATURE_INTERCEPT_CYCLES_ME	src/SoccerTypes.h	/^  FEATURE_INTERCEPT_CYCLES_ME,       \/*!< nr of cycles for me to intercept   *\/$/;"	e	enum:FeatureT
-FFLAGS	src/Makefile	/^FFLAGS = $/;"	m
-FT_DEFENSIVE	src/SoccerTypes.h	/^  FT_DEFENSIVE,           \/*!< defensive formation type                *\/$/;"	e	enum:FormationT
-FT_ILLEGAL	src/SoccerTypes.h	/^  FT_ILLEGAL,             \/*!< illegal formation type                  *\/$/;"	e	enum:FormationT
-FT_INITIAL	src/SoccerTypes.h	/^  FT_INITIAL,             \/*!< initial formation type (before kick off)*\/$/;"	e	enum:FormationT
-FT_OFFENSIVE	src/SoccerTypes.h	/^  FT_OFFENSIVE,       	  \/*!< offensive formation                 		*\/$/;"	e	enum:FormationT
 Feature	src/SoccerTypes.cpp	/^Feature::Feature( )$/;"	f	class:Feature
 Feature	src/SoccerTypes.cpp	/^Feature::Feature( Time timeSee, Time timeSense, Time timeHear, ObjectT object,$/;"	f	class:Feature
-Feature	src/SoccerTypes.h	/^class Feature$/;"	c
-FeatureT	src/SoccerTypes.h	/^enum FeatureT {$/;"	g
-FixedObject	src/Objects.h	/^class FixedObject : public Object$/;"	c
-Flags	src/WorldModel.h	/^  FixedObject   Flags[MAX_FLAGS];        \/*!< all flag information           *\/$/;"	m	class:WorldModel
-FormationT	src/SoccerTypes.h	/^enum FormationT {$/;"	g
 FormationTypeInfo	src/Formations.cpp	/^FormationTypeInfo::FormationTypeInfo( )$/;"	f	class:FormationTypeInfo
-FormationTypeInfo	src/Formations.h	/^class FormationTypeInfo$/;"	c
 Formations	src/Formations.cpp	/^Formations::Formations( const char *strFile, FormationT curFt, int iNr )$/;"	f	class:Formations
-Formations	src/Formations.h	/^class Formations$/;"	c
-GENERIC_VALUE_BOOLEAN	src/GenericValues.h	/^  GENERIC_VALUE_BOOLEAN = 2,$/;"	e	enum:GenericValueKind
-GENERIC_VALUE_DOUBLE	src/GenericValues.h	/^  GENERIC_VALUE_DOUBLE  = 0,$/;"	e	enum:GenericValueKind
-GENERIC_VALUE_INTEGER	src/GenericValues.h	/^  GENERIC_VALUE_INTEGER = 3,$/;"	e	enum:GenericValueKind
-GENERIC_VALUE_STRING	src/GenericValues.h	/^  GENERIC_VALUE_STRING  = 1,$/;"	e	enum:GenericValueKind
-GenericValueKind	src/GenericValues.h	/^enum GenericValueKind$/;"	g
 GenericValueT	src/GenericValues.cpp	/^GenericValueT::GenericValueT( const char *str, void *vAddr, GenericValueKind t)$/;"	f	class:GenericValueT
-GenericValueT	src/GenericValues.h	/^class GenericValueT$/;"	c
 GenericValues	src/GenericValues.cpp	/^GenericValues::GenericValues( char *strName, int iMaxValues )$/;"	f	class:GenericValues
-GenericValues	src/GenericValues.h	/^class GenericValues$/;"	c
-Geometry	src/Geometry.h	/^class Geometry$/;"	c
-HUNGARIAN_DONE	src/hungarian.c	/^  HUNGARIAN_DONE$/;"	e	enum:__anon1	file:
-HUNGARIAN_ERROR	src/hungarian.c	/^  HUNGARIAN_ERROR,$/;"	e	enum:__anon1	file:
-HUNGARIAN_H	src/hungarian.h	30;"	d
-HUNGARIAN_MAX	src/hungarian.h	46;"	d
-HUNGARIAN_MIN	src/hungarian.h	45;"	d
-HUNGARIAN_ONE	src/hungarian.c	/^  HUNGARIAN_ONE,$/;"	e	enum:__anon2	file:
-HUNGARIAN_ROUTINE_ONE	src/hungarian.c	/^  HUNGARIAN_ROUTINE_ONE,$/;"	e	enum:__anon1	file:
-HUNGARIAN_ROUTINE_TWO	src/hungarian.c	/^  HUNGARIAN_ROUTINE_TWO,$/;"	e	enum:__anon1	file:
-HUNGARIAN_STAR	src/hungarian.c	/^  HUNGARIAN_STAR$/;"	e	enum:__anon2	file:
-HUNGARIAN_ZERO	src/hungarian.c	/^  HUNGARIAN_ZERO,$/;"	e	enum:__anon2	file:
-HeteroPlayerSettings	src/ServerSettings.h	/^class HeteroPlayerSettings$/;"	c
-INSTALL	src/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
-INSTALL_DATA	src/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
-INSTALL_HEADER	src/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
-INSTALL_PROGRAM	src/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
-INSTALL_SCRIPT	src/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
-INSTALL_STRIP_PROGRAM	src/Makefile	/^INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s$/;"	m
-LDFLAGS	src/Makefile	/^LDFLAGS = $/;"	m
-LIBOBJS	src/Makefile	/^LIBOBJS = $/;"	m
-LIBS	src/Makefile	/^LIBS = -lpthread $/;"	m
-LIBTOOL	src/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
-LINK	src/Makefile	/^LINK = $(LIBTOOL) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \\$/;"	m
-LN_S	src/Makefile	/^LN_S = ln -s$/;"	m
-LTCOMPILE	src/Makefile	/^LTCOMPILE = $(LIBTOOL) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) \\$/;"	m
-LTCXXCOMPILE	src/Makefile	/^LTCXXCOMPILE = $(LIBTOOL) --mode=compile $(CXX) $(DEFS) \\$/;"	m
-LTLIBOBJS	src/Makefile	/^LTLIBOBJS = $/;"	m
 Line	src/Geometry.cpp	/^Line::Line( double dA, double dB, double dC )$/;"	f	class:Line
-Line	src/Geometry.h	/^class Line$/;"	c
-Lines	src/WorldModel.h	/^  FixedObject   Lines[MAX_LINES];        \/*!< all line information           *\/$/;"	m	class:WorldModel
 Log	src/Logger.cpp	/^Logger Log;          \/*!<Logger instantation that can be used by all classes *\/$/;"	v
 LogDraw	src/Logger.cpp	/^Logger LogDraw;      \/*!<Drawing logger instantation for all classes         *\/$/;"	v
 Logger	src/Logger.cpp	/^Logger::Logger( ostream& o, int iMin, int iMax )$/;"	f	class:Logger
-Logger	src/Logger.h	/^class Logger$/;"	c
-MAKEINFO	src/Makefile	/^MAKEINFO = ${SHELL} \/home\/reinke.wolfram-tit13\/data\/programFiles\/robocup\/src\/tit11\/missing --run makeinfo$/;"	m
-MARK_BALL	src/SoccerTypes.h	/^  MARK_BALL        \/*!< mark ball (stand on obj-ball line)                  *\/$/;"	e	enum:MarkT
-MARK_BISECTOR	src/SoccerTypes.h	/^  MARK_BISECTOR,   \/*!< mark bisector stand between goal,obj and ball,obj   *\/$/;"	e	enum:MarkT
-MARK_GOAL	src/SoccerTypes.h	/^  MARK_GOAL,       \/*!< mark goal (stand on obj-goal line)                  *\/$/;"	e	enum:MarkT
-MARK_ILLEGAL	src/SoccerTypes.h	/^  MARK_ILLEGAL,    \/*!< illegal marking                                     *\/$/;"	e	enum:MarkT
-MAX_FEATURES	src/SoccerTypes.h	/^  MAX_FEATURES$/;"	e	enum:FeatureT
-MAX_FLAGS	src/SoccerTypes.h	68;"	d
-MAX_FORMATION_TYPES	src/SoccerTypes.h	/^  MAX_FORMATION_TYPES$/;"	e	enum:FormationT
-MAX_HEADER	src/Logger.h	69;"	d
-MAX_HETERO_PLAYERS	src/SoccerTypes.h	64;"	d
-MAX_LINES	src/SoccerTypes.h	69;"	d
-MAX_LOG_LINE	src/Logger.h	68;"	d
-MAX_MSG	src/SoccerTypes.h	65;"	d
-MAX_OPPONENTS	src/SoccerTypes.h	63;"	d
-MAX_PLAYER_TYPES	src/SoccerTypes.h	/^  MAX_PLAYER_TYPES$/;"	e	enum:PlayerT
-MAX_SAY_MSG	src/SoccerTypes.h	66;"	d
-MAX_TEAMMATES	src/SoccerTypes.h	62;"	d
-MAX_TEAM_NAME_LENGTH	src/SoccerTypes.h	67;"	d
-MarkT	src/SoccerTypes.h	/^enum MarkT {$/;"	g
-NORMAL_INSTALL	src/Makefile	/^NORMAL_INSTALL = :$/;"	m
-NORMAL_UNINSTALL	src/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
-OBJECT_BALL	src/SoccerTypes.h	/^  OBJECT_BALL,             \/*!< Ball                     *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_B_0	src/SoccerTypes.h	/^  OBJECT_FLAG_B_0,         \/*!< Flag bottom 0            *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_B_L_10	src/SoccerTypes.h	/^  OBJECT_FLAG_B_L_10,      \/*!< Flag bottom left 10      *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_B_L_20	src/SoccerTypes.h	/^  OBJECT_FLAG_B_L_20,      \/*!< Flag bottom left 20      *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_B_L_30	src/SoccerTypes.h	/^  OBJECT_FLAG_B_L_30,      \/*!< Flag bottom left 30      *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_B_L_40	src/SoccerTypes.h	/^  OBJECT_FLAG_B_L_40,      \/*!< Flag bottom left 40      *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_B_L_50	src/SoccerTypes.h	/^  OBJECT_FLAG_B_L_50,      \/*!< Flag bottom left 50      *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_B_R_10	src/SoccerTypes.h	/^  OBJECT_FLAG_B_R_10,      \/*!< Flag bottom right 10     *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_B_R_20	src/SoccerTypes.h	/^  OBJECT_FLAG_B_R_20,      \/*!< Flag bottom right 20     *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_B_R_30	src/SoccerTypes.h	/^  OBJECT_FLAG_B_R_30,      \/*!< Flag bottom right 30     *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_B_R_40	src/SoccerTypes.h	/^  OBJECT_FLAG_B_R_40,      \/*!< Flag bottom right 40     *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_B_R_50	src/SoccerTypes.h	/^  OBJECT_FLAG_B_R_50,      \/*!< Flag bottom right 50     *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_C	src/SoccerTypes.h	/^  OBJECT_FLAG_C,           \/*!< Flag center field        *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_C_B	src/SoccerTypes.h	/^  OBJECT_FLAG_C_B,         \/*!< Flag center bottom       *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_C_T	src/SoccerTypes.h	/^  OBJECT_FLAG_C_T,         \/*!< Flag top center          *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_G_L_B	src/SoccerTypes.h	/^  OBJECT_FLAG_G_L_B,       \/*!< Flag goal left bottom    *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_G_L_T	src/SoccerTypes.h	/^  OBJECT_FLAG_G_L_T,       \/*!< Flag goal left top       *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_G_R_B	src/SoccerTypes.h	/^  OBJECT_FLAG_G_R_B,       \/*!< Flag goal right bottom   *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_G_R_T	src/SoccerTypes.h	/^  OBJECT_FLAG_G_R_T,       \/*!< Flag goal right top      *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_L_0	src/SoccerTypes.h	/^  OBJECT_FLAG_L_0,         \/*!< Flag left 0              *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_L_B	src/SoccerTypes.h	/^  OBJECT_FLAG_L_B,         \/*!< Flag left bottom         *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_L_B_10	src/SoccerTypes.h	/^  OBJECT_FLAG_L_B_10,      \/*!< Flag left bottom 10      *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_L_B_20	src/SoccerTypes.h	/^  OBJECT_FLAG_L_B_20,      \/*!< Flag left bottom 20      *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_L_B_30	src/SoccerTypes.h	/^  OBJECT_FLAG_L_B_30,      \/*!< Flag left bottom 30      *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_L_T	src/SoccerTypes.h	/^  OBJECT_FLAG_L_T,         \/*!< Flag left top            *\/   \/\/ 53 flags$/;"	e	enum:ObjectT
-OBJECT_FLAG_L_T_10	src/SoccerTypes.h	/^  OBJECT_FLAG_L_T_10,      \/*!< Flag left bottom 10      *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_L_T_20	src/SoccerTypes.h	/^  OBJECT_FLAG_L_T_20,      \/*!< Flag left bottom 20      *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_L_T_30	src/SoccerTypes.h	/^  OBJECT_FLAG_L_T_30,      \/*!< Flag left bottom 30      *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_P_L_B	src/SoccerTypes.h	/^  OBJECT_FLAG_P_L_B,       \/*!< Flag penaly left bottom  *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_P_L_C	src/SoccerTypes.h	/^  OBJECT_FLAG_P_L_C,       \/*!< Flag penaly left center  *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_P_L_T	src/SoccerTypes.h	/^  OBJECT_FLAG_P_L_T,       \/*!< Flag penaly left top     *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_P_R_B	src/SoccerTypes.h	/^  OBJECT_FLAG_P_R_B,       \/*!< Flag penaly right bottom *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_P_R_C	src/SoccerTypes.h	/^  OBJECT_FLAG_P_R_C,       \/*!< Flag penaly right center *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_P_R_T	src/SoccerTypes.h	/^  OBJECT_FLAG_P_R_T,       \/*!< Flag penaly right top    *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_R_0	src/SoccerTypes.h	/^  OBJECT_FLAG_R_0,         \/*!< Flag right 0             *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_R_B	src/SoccerTypes.h	/^  OBJECT_FLAG_R_B,         \/*!< Flag right bottom        *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_R_B_10	src/SoccerTypes.h	/^  OBJECT_FLAG_R_B_10,      \/*!< Flag right bottom 10     *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_R_B_20	src/SoccerTypes.h	/^  OBJECT_FLAG_R_B_20,      \/*!< Flag right bottom 20     *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_R_B_30	src/SoccerTypes.h	/^  OBJECT_FLAG_R_B_30,      \/*!< Flag right bottom 30     *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_R_T	src/SoccerTypes.h	/^  OBJECT_FLAG_R_T,         \/*!< Flag right top           *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_R_T_10	src/SoccerTypes.h	/^  OBJECT_FLAG_R_T_10,      \/*!< Flag right top 10        *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_R_T_20	src/SoccerTypes.h	/^  OBJECT_FLAG_R_T_20,      \/*!< Flag right top 20        *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_R_T_30	src/SoccerTypes.h	/^  OBJECT_FLAG_R_T_30,      \/*!< Flag right top 30        *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_T_0	src/SoccerTypes.h	/^  OBJECT_FLAG_T_0,         \/*!< Flag top left 0          *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_T_L_10	src/SoccerTypes.h	/^  OBJECT_FLAG_T_L_10,      \/*!< Flag top left 10         *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_T_L_20	src/SoccerTypes.h	/^  OBJECT_FLAG_T_L_20,      \/*!< Flag top left 20         *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_T_L_30	src/SoccerTypes.h	/^  OBJECT_FLAG_T_L_30,      \/*!< Flag top left 30         *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_T_L_40	src/SoccerTypes.h	/^  OBJECT_FLAG_T_L_40,      \/*!< Flag top left 40         *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_T_L_50	src/SoccerTypes.h	/^  OBJECT_FLAG_T_L_50,      \/*!< Flag top left 50         *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_T_R_10	src/SoccerTypes.h	/^  OBJECT_FLAG_T_R_10,      \/*!< Flag top right 10        *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_T_R_20	src/SoccerTypes.h	/^  OBJECT_FLAG_T_R_20,      \/*!< Flag top right 20        *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_T_R_30	src/SoccerTypes.h	/^  OBJECT_FLAG_T_R_30,      \/*!< Flag top right 30        *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_T_R_40	src/SoccerTypes.h	/^  OBJECT_FLAG_T_R_40,      \/*!< Flag top right 40        *\/$/;"	e	enum:ObjectT
-OBJECT_FLAG_T_R_50	src/SoccerTypes.h	/^  OBJECT_FLAG_T_R_50,      \/*!< Flag top right 50        *\/$/;"	e	enum:ObjectT
-OBJECT_GOAL_L	src/SoccerTypes.h	/^  OBJECT_GOAL_L,           \/*!< Left goal                *\/    \/\/ 2 goals$/;"	e	enum:ObjectT
-OBJECT_GOAL_R	src/SoccerTypes.h	/^  OBJECT_GOAL_R,           \/*!< Right goal               *\/$/;"	e	enum:ObjectT
-OBJECT_GOAL_UNKNOWN	src/SoccerTypes.h	/^  OBJECT_GOAL_UNKNOWN,     \/*!< Unknown goal             *\/$/;"	e	enum:ObjectT
-OBJECT_ILLEGAL	src/SoccerTypes.h	/^  OBJECT_ILLEGAL,          \/*!< illegal object           *\/$/;"	e	enum:ObjectT
-OBJECT_LINE_B	src/SoccerTypes.h	/^  OBJECT_LINE_B,           \/*!< Bottom line              *\/$/;"	e	enum:ObjectT
-OBJECT_LINE_L	src/SoccerTypes.h	/^  OBJECT_LINE_L,           \/*!< Left line                *\/    \/\/ 4 lines$/;"	e	enum:ObjectT
-OBJECT_LINE_R	src/SoccerTypes.h	/^  OBJECT_LINE_R,           \/*!< Right line               *\/$/;"	e	enum:ObjectT
-OBJECT_LINE_T	src/SoccerTypes.h	/^  OBJECT_LINE_T,           \/*!< Top line                 *\/$/;"	e	enum:ObjectT
-OBJECT_MAX_OBJECTS	src/SoccerTypes.h	/^  OBJECT_MAX_OBJECTS       \/*!< maximum nr of objects    *\/ \/\/ 90$/;"	e	enum:ObjectT
-OBJECT_OPPONENT_1	src/SoccerTypes.h	/^  OBJECT_OPPONENT_1,       \/*!< Opponent nr 1            *\/    \/\/ opponents 73$/;"	e	enum:ObjectT
-OBJECT_OPPONENT_10	src/SoccerTypes.h	/^  OBJECT_OPPONENT_10,      \/*!< Opponent nr 10           *\/$/;"	e	enum:ObjectT
-OBJECT_OPPONENT_11	src/SoccerTypes.h	/^  OBJECT_OPPONENT_11,      \/*!< Opponent nr 11           *\/$/;"	e	enum:ObjectT
-OBJECT_OPPONENT_2	src/SoccerTypes.h	/^  OBJECT_OPPONENT_2,       \/*!< Opponent nr 2            *\/$/;"	e	enum:ObjectT
-OBJECT_OPPONENT_3	src/SoccerTypes.h	/^  OBJECT_OPPONENT_3,       \/*!< Opponent nr 3            *\/$/;"	e	enum:ObjectT
-OBJECT_OPPONENT_4	src/SoccerTypes.h	/^  OBJECT_OPPONENT_4,       \/*!< Opponent nr 4            *\/$/;"	e	enum:ObjectT
-OBJECT_OPPONENT_5	src/SoccerTypes.h	/^  OBJECT_OPPONENT_5,       \/*!< Opponent nr 5            *\/$/;"	e	enum:ObjectT
-OBJECT_OPPONENT_6	src/SoccerTypes.h	/^  OBJECT_OPPONENT_6,       \/*!< Opponent nr 6            *\/$/;"	e	enum:ObjectT
-OBJECT_OPPONENT_7	src/SoccerTypes.h	/^  OBJECT_OPPONENT_7,       \/*!< Opponent nr 7            *\/$/;"	e	enum:ObjectT
-OBJECT_OPPONENT_8	src/SoccerTypes.h	/^  OBJECT_OPPONENT_8,       \/*!< Opponent nr 8            *\/$/;"	e	enum:ObjectT
-OBJECT_OPPONENT_9	src/SoccerTypes.h	/^  OBJECT_OPPONENT_9,       \/*!< Opponent nr 9            *\/$/;"	e	enum:ObjectT
-OBJECT_OPPONENT_GOALIE	src/SoccerTypes.h	/^  OBJECT_OPPONENT_GOALIE,  \/*!< Goalie of opponent side  *\/$/;"	e	enum:ObjectT
-OBJECT_OPPONENT_UNKNOWN	src/SoccerTypes.h	/^  OBJECT_OPPONENT_UNKNOWN, \/*!< Opponent nr unknown      *\/    \/\/ 84$/;"	e	enum:ObjectT
-OBJECT_PLAYER_UNKNOWN	src/SoccerTypes.h	/^  OBJECT_PLAYER_UNKNOWN,   \/*!< Unknown player           *\/$/;"	e	enum:ObjectT
-OBJECT_SET_FLAGS	src/SoccerTypes.h	/^  OBJECT_SET_FLAGS,            \/*!< flags                           *\/$/;"	e	enum:ObjectSetT
-OBJECT_SET_ILLEGAL	src/SoccerTypes.h	/^  OBJECT_SET_ILLEGAL           \/*!< illegal                         *\/$/;"	e	enum:ObjectSetT
-OBJECT_SET_LINES	src/SoccerTypes.h	/^  OBJECT_SET_LINES,            \/*!< lines                           *\/$/;"	e	enum:ObjectSetT
-OBJECT_SET_OPPONENTS	src/SoccerTypes.h	/^  OBJECT_SET_OPPONENTS,        \/*!< opponents                       *\/$/;"	e	enum:ObjectSetT
-OBJECT_SET_PLAYERS	src/SoccerTypes.h	/^  OBJECT_SET_PLAYERS,          \/*!< players                         *\/$/;"	e	enum:ObjectSetT
-OBJECT_SET_TEAMMATES	src/SoccerTypes.h	/^  OBJECT_SET_TEAMMATES,        \/*!< teammates                       *\/$/;"	e	enum:ObjectSetT
-OBJECT_SET_TEAMMATES_NO_GOALIE	src/SoccerTypes.h	/^  OBJECT_SET_TEAMMATES_NO_GOALIE,\/*!< teammates without the goalie  *\/$/;"	e	enum:ObjectSetT
-OBJECT_TEAMMATE_1	src/SoccerTypes.h	/^  OBJECT_TEAMMATE_1,       \/*!< Teammate nr 1            *\/    \/\/ teammates 61$/;"	e	enum:ObjectT
-OBJECT_TEAMMATE_10	src/SoccerTypes.h	/^  OBJECT_TEAMMATE_10,      \/*!< Teammate nr 10           *\/$/;"	e	enum:ObjectT
-OBJECT_TEAMMATE_11	src/SoccerTypes.h	/^  OBJECT_TEAMMATE_11,      \/*!< Teammate nr 11           *\/$/;"	e	enum:ObjectT
-OBJECT_TEAMMATE_2	src/SoccerTypes.h	/^  OBJECT_TEAMMATE_2,       \/*!< Teammate nr 2            *\/$/;"	e	enum:ObjectT
-OBJECT_TEAMMATE_3	src/SoccerTypes.h	/^  OBJECT_TEAMMATE_3,       \/*!< Teammate nr 3            *\/$/;"	e	enum:ObjectT
-OBJECT_TEAMMATE_4	src/SoccerTypes.h	/^  OBJECT_TEAMMATE_4,       \/*!< Teammate nr 4            *\/$/;"	e	enum:ObjectT
-OBJECT_TEAMMATE_5	src/SoccerTypes.h	/^  OBJECT_TEAMMATE_5,       \/*!< Teammate nr 5            *\/$/;"	e	enum:ObjectT
-OBJECT_TEAMMATE_6	src/SoccerTypes.h	/^  OBJECT_TEAMMATE_6,       \/*!< Teammate nr 6            *\/$/;"	e	enum:ObjectT
-OBJECT_TEAMMATE_7	src/SoccerTypes.h	/^  OBJECT_TEAMMATE_7,       \/*!< Teammate nr 7            *\/$/;"	e	enum:ObjectT
-OBJECT_TEAMMATE_8	src/SoccerTypes.h	/^  OBJECT_TEAMMATE_8,       \/*!< Teammate nr 8            *\/$/;"	e	enum:ObjectT
-OBJECT_TEAMMATE_9	src/SoccerTypes.h	/^  OBJECT_TEAMMATE_9,       \/*!< Teammate nr 9            *\/$/;"	e	enum:ObjectT
-OBJECT_TEAMMATE_GOALIE	src/SoccerTypes.h	/^  OBJECT_TEAMMATE_GOALIE,  \/*!< Goalie of your side      *\/$/;"	e	enum:ObjectT
-OBJECT_TEAMMATE_UNKNOWN	src/SoccerTypes.h	/^  OBJECT_TEAMMATE_UNKNOWN, \/*!< Teammate nr unkown       *\/$/;"	e	enum:ObjectT
-OBJECT_UNKNOWN	src/SoccerTypes.h	/^  OBJECT_UNKNOWN,          \/*!< Unknown object           *\/$/;"	e	enum:ObjectT
-OBJEXT	src/Makefile	/^OBJEXT = o$/;"	m
 Object	src/Objects.cpp	/^Object::Object( )$/;"	f	class:Object
-Object	src/Objects.h	/^class Object$/;"	c
 ObjectNames	src/SoccerTypes.cpp	/^const char * ObjectNames[] =$/;"	v
-ObjectSetT	src/SoccerTypes.h	/^enum ObjectSetT$/;"	g
-ObjectT	src/SoccerTypes.h	/^enum ObjectT { \/\/ don't change order$/;"	g
-Opponents	src/WorldModel.h	/^  PlayerObject  Opponents[MAX_OPPONENTS];\/*!< information of all opponents   *\/$/;"	m	class:WorldModel
-PACKAGE	src/Makefile	/^PACKAGE = trilearn_base_sources$/;"	m
-PACKAGE_BUGREPORT	src/Makefile	/^PACKAGE_BUGREPORT = jellekok@science.uva.nl$/;"	m
-PACKAGE_NAME	src/Makefile	/^PACKAGE_NAME = trilearn__base_sources$/;"	m
-PACKAGE_STRING	src/Makefile	/^PACKAGE_STRING = trilearn__base_sources 3.3$/;"	m
-PACKAGE_TARNAME	src/Makefile	/^PACKAGE_TARNAME = trilearn__base_sources$/;"	m
-PACKAGE_VERSION	src/Makefile	/^PACKAGE_VERSION = 3.3$/;"	m
-PASS_FAST	src/SoccerTypes.h	/^  PASS_FAST,       \/*!< pass fast to a teammate                             *\/$/;"	e	enum:PassT
-PASS_ILLEGAL	src/SoccerTypes.h	/^  PASS_ILLEGAL,    \/*!< illegal pass                                        *\/$/;"	e	enum:PassT
-PASS_NORMAL	src/SoccerTypes.h	/^  PASS_NORMAL      \/*!< pass normal to a teammate                           *\/$/;"	e	enum:PassT
-PATH_SEPARATOR	src/Makefile	/^PATH_SEPARATOR = :$/;"	m
-PENALTY_AREA_LENGTH	src/SoccerTypes.h	75;"	d
-PENALTY_AREA_WIDTH	src/SoccerTypes.h	76;"	d
-PENALTY_X	src/SoccerTypes.h	77;"	d
-PITCH_LENGTH	src/SoccerTypes.h	72;"	d
-PITCH_MARGIN	src/SoccerTypes.h	74;"	d
-PITCH_WIDTH	src/SoccerTypes.h	73;"	d
-PLAYER	src/Player.h	51;"	d
-PM_BACK_PASS_LEFT	src/SoccerTypes.h	/^  PM_BACK_PASS_LEFT,         \/*!< back_pass_l:       left team passed back   *\/$/;"	e	enum:PlayModeT
-PM_BACK_PASS_RIGHT	src/SoccerTypes.h	/^  PM_BACK_PASS_RIGHT,        \/*!< back_pass_r:       right team passed back  *\/$/;"	e	enum:PlayModeT
-PM_BEFORE_KICK_OFF	src/SoccerTypes.h	/^  PM_BEFORE_KICK_OFF,        \/*!< before_kick_off:   before kick off         *\/$/;"	e	enum:PlayModeT
-PM_CORNER_KICK_LEFT	src/SoccerTypes.h	/^  PM_CORNER_KICK_LEFT,       \/*!< corner_kick_l:     corner kick left team   *\/$/;"	e	enum:PlayModeT
-PM_CORNER_KICK_RIGHT	src/SoccerTypes.h	/^  PM_CORNER_KICK_RIGHT,      \/*!< corner_kick_r:     corner kick right team  *\/$/;"	e	enum:PlayModeT
-PM_FREE_KICK_FAULT_LEFT	src/SoccerTypes.h	/^  PM_FREE_KICK_FAULT_LEFT,   \/*!< free_kick_fault_l: free_kick to yourself   *\/$/;"	e	enum:PlayModeT
-PM_FREE_KICK_FAULT_RIGHT	src/SoccerTypes.h	/^  PM_FREE_KICK_FAULT_RIGHT,	 \/*!< free_kick_fault_r: free_kick to self   *\/$/;"	e	enum:PlayModeT
-PM_FREE_KICK_LEFT	src/SoccerTypes.h	/^  PM_FREE_KICK_LEFT,         \/*!< free_kick_l:       free kick for left team *\/$/;"	e	enum:PlayModeT
-PM_FREE_KICK_RIGHT	src/SoccerTypes.h	/^  PM_FREE_KICK_RIGHT,        \/*!< free_kick_r:       free kick for right team*\/$/;"	e	enum:PlayModeT
-PM_FROZEN	src/SoccerTypes.h	/^  PM_FROZEN,                 \/*!< game play is frozen                        *\/$/;"	e	enum:PlayModeT
-PM_GOAL_KICK_LEFT	src/SoccerTypes.h	/^  PM_GOAL_KICK_LEFT,         \/*!< goal_kick_l:       goal kick for left team *\/$/;"	e	enum:PlayModeT
-PM_GOAL_KICK_RIGHT	src/SoccerTypes.h	/^  PM_GOAL_KICK_RIGHT,        \/*!< goal_kick_r:       goal kick for right team*\/$/;"	e	enum:PlayModeT
-PM_GOAL_LEFT	src/SoccerTypes.h	/^  PM_GOAL_LEFT,              \/*!< goal_l:            goal scored by team left*\/$/;"	e	enum:PlayModeT
-PM_GOAL_RIGHT	src/SoccerTypes.h	/^  PM_GOAL_RIGHT,             \/*!< goal_r:            goal scored by team righ*\/$/;"	e	enum:PlayModeT
-PM_ILLEGAL	src/SoccerTypes.h	/^  PM_ILLEGAL                 \/*!< unknown playmode                           *\/$/;"	e	enum:PlayModeT
-PM_INDIRECT_FREE_KICK_LEFT	src/SoccerTypes.h	/^  PM_INDIRECT_FREE_KICK_LEFT,\/*!< indirect_free_kick_l: ind. free kick left  *\/$/;"	e	enum:PlayModeT
-PM_INDIRECT_FREE_KICK_RIGHT	src/SoccerTypes.h	/^  PM_INDIRECT_FREE_KICK_RIGHT,\/*!<indirect_free_kick_r: ind. free kick right *\/$/;"	e	enum:PlayModeT
-PM_KICK_IN_LEFT	src/SoccerTypes.h	/^  PM_KICK_IN_LEFT,           \/*!< kick_in_l:         kick in for left team   *\/$/;"	e	enum:PlayModeT
-PM_KICK_IN_RIGHT	src/SoccerTypes.h	/^  PM_KICK_IN_RIGHT,          \/*!< kick_in_r:         kick in for right team  *\/$/;"	e	enum:PlayModeT
-PM_KICK_OFF_LEFT	src/SoccerTypes.h	/^  PM_KICK_OFF_LEFT,          \/*!< kick_off_l:        kick off for left team  *\/$/;"	e	enum:PlayModeT
-PM_KICK_OFF_RIGHT	src/SoccerTypes.h	/^  PM_KICK_OFF_RIGHT,         \/*!< kick_off_r:        kick off for right team *\/$/;"	e	enum:PlayModeT
-PM_OFFSIDE_LEFT	src/SoccerTypes.h	/^  PM_OFFSIDE_LEFT,           \/*!< offside_l:         offside for left team   *\/$/;"	e	enum:PlayModeT
-PM_OFFSIDE_RIGHT	src/SoccerTypes.h	/^  PM_OFFSIDE_RIGHT,          \/*!< offside_r:         offside for right team  *\/$/;"	e	enum:PlayModeT
-PM_PENALTY_READY_LEFT	src/SoccerTypes.h	/^  PM_PENALTY_READY_LEFT,     \/*!< penalty_ready_left ready for penalty l team*\/$/;"	e	enum:PlayModeT
-PM_PENALTY_READY_RIGHT	src/SoccerTypes.h	/^  PM_PENALTY_READY_RIGHT,    \/*!< penalty_ready_right ready for pen r team   *\/$/;"	e	enum:PlayModeT
-PM_PENALTY_SETUP_LEFT	src/SoccerTypes.h	/^  PM_PENALTY_SETUP_LEFT,     \/*!< penalty_setup_left left setups for penalty *\/$/;"	e	enum:PlayModeT
-PM_PENALTY_SETUP_RIGHT	src/SoccerTypes.h	/^  PM_PENALTY_SETUP_RIGHT,    \/*!< penalty_setup_right right setup for penalty*\/$/;"	e	enum:PlayModeT
-PM_PENALTY_TAKEN_LEFT	src/SoccerTypes.h	/^  PM_PENALTY_TAKEN_LEFT,     \/*!< penalty_taken_left  penalty started left   *\/$/;"	e	enum:PlayModeT
-PM_PENALTY_TAKEN_RIGHT	src/SoccerTypes.h	/^  PM_PENALTY_TAKEN_RIGHT,    \/*!< penalty_taken_right penalty started right  *\/$/;"	e	enum:PlayModeT
-PM_PLAY_ON	src/SoccerTypes.h	/^  PM_PLAY_ON,                \/*!< play_on:           play on (during match)  *\/$/;"	e	enum:PlayModeT
-PM_QUIT	src/SoccerTypes.h	/^  PM_QUIT,                   \/*!< quit                                       *\/$/;"	e	enum:PlayModeT
-PM_TIME_OVER	src/SoccerTypes.h	/^  PM_TIME_OVER,              \/*!< time_over:         time over (after match) *\/$/;"	e	enum:PlayModeT
-POLAR	src/Geometry.h	/^  POLAR$/;"	e	enum:CoordSystemT
-POST_INSTALL	src/Makefile	/^POST_INSTALL = :$/;"	m
-POST_UNINSTALL	src/Makefile	/^POST_UNINSTALL = :$/;"	m
-PRE_INSTALL	src/Makefile	/^PRE_INSTALL = :$/;"	m
-PRE_UNINSTALL	src/Makefile	/^PRE_UNINSTALL = :$/;"	m
-PROGRAMS	src/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
-PS	src/BasicPlayer.h	/^  PlayerSettings  *PS;  \/*!< All parameters used for the player              *\/$/;"	m	class:BasicPlayer
-PS	src/SenseHandler.h	/^  PlayerSettings *PS;        \/*!< PlayerSettings with all client settings    *\/$/;"	m	class:SenseHandler
-PS	src/WorldModel.h	/^  PlayerSettings *PS;                     \/*!< Reference to all client params*\/$/;"	m	class:WorldModel
-PS_ALL	src/SoccerTypes.h	/^  PS_ALL                  \/*!< all players         *\/$/;"	e	enum:PlayerSetT
-PS_ATTACKERS	src/SoccerTypes.h	/^  PS_ATTACKERS,           \/*!< all attackers       *\/$/;"	e	enum:PlayerSetT
-PS_DEFENDERS	src/SoccerTypes.h	/^  PS_DEFENDERS,           \/*!< all defenders       *\/$/;"	e	enum:PlayerSetT
-PS_MIDFIELDERS	src/SoccerTypes.h	/^  PS_MIDFIELDERS,         \/*!< all midfielders     *\/$/;"	e	enum:PlayerSetT
-PT_ATTACKER	src/SoccerTypes.h	/^  PT_ATTACKER,            \/*!< central attacker    *\/$/;"	e	enum:PlayerT
-PT_ATTACKER_WING	src/SoccerTypes.h	/^  PT_ATTACKER_WING,       \/*!< wing attacker       *\/$/;"	e	enum:PlayerT
-PT_DEFENDER_CENTRAL	src/SoccerTypes.h	/^  PT_DEFENDER_CENTRAL,    \/*!< central defender    *\/$/;"	e	enum:PlayerT
-PT_DEFENDER_SWEEPER	src/SoccerTypes.h	/^  PT_DEFENDER_SWEEPER,    \/*!< sweeper defender    *\/$/;"	e	enum:PlayerT
-PT_DEFENDER_WING	src/SoccerTypes.h	/^  PT_DEFENDER_WING,       \/*!< wing defender       *\/$/;"	e	enum:PlayerT
-PT_GOALKEEPER	src/SoccerTypes.h	/^  PT_GOALKEEPER,          \/*!< goalkeeper          *\/$/;"	e	enum:PlayerT
-PT_ILLEGAL	src/SoccerTypes.h	/^  PT_ILLEGAL,             \/*!< illegal player type *\/$/;"	e	enum:PlayerT
-PT_MIDFIELDER_CENTER	src/SoccerTypes.h	/^  PT_MIDFIELDER_CENTER,   \/*!< central midfielder  *\/$/;"	e	enum:PlayerT
-PT_MIDFIELDER_WING	src/SoccerTypes.h	/^  PT_MIDFIELDER_WING,     \/*!< wing midfielder     *\/$/;"	e	enum:PlayerT
-Parse	src/Parse.h	/^class Parse$/;"	c
-PassT	src/SoccerTypes.h	/^enum PassT {$/;"	g
-PlayModeT	src/SoccerTypes.h	/^enum PlayModeT {$/;"	g
+PLAYER_CNT	src/BasicCoach.cpp	60;"	d	file:
 Player	src/Player.cpp	/^Player::Player( ActHandler* act, WorldModel *wm, ServerSettings *ss,$/;"	f	class:Player
-Player	src/Player.h	/^class Player:public BasicPlayer$/;"	c
 PlayerObject	src/Objects.cpp	/^PlayerObject::PlayerObject( ):DynamicObject( )$/;"	f	class:PlayerObject
-PlayerObject	src/Objects.h	/^class PlayerObject: public DynamicObject$/;"	c
-PlayerSetT	src/SoccerTypes.h	/^enum PlayerSetT {$/;"	g
 PlayerSettings	src/PlayerSettings.cpp	/^PlayerSettings::PlayerSettings( ) : GenericValues("PlayerSettings", 27)$/;"	f	class:PlayerSettings
-PlayerSettings	src/PlayerSettings.h	/^class PlayerSettings : public GenericValues$/;"	c
-PlayerT	src/SoccerTypes.h	/^enum PlayerT {$/;"	g
 PlayerTypeInfo	src/Formations.cpp	/^PlayerTypeInfo::PlayerTypeInfo( PlayerT pt, double dAttrX, double dAttrY,$/;"	f	class:PlayerTypeInfo
 PlayerTypeInfo	src/Formations.cpp	/^PlayerTypeInfo::PlayerTypeInfo()$/;"	f	class:PlayerTypeInfo
-PlayerTypeInfo	src/Formations.h	/^class PlayerTypeInfo$/;"	c
-RANLIB	src/Makefile	/^RANLIB = ranlib$/;"	m
-REFC_BACK_PASS_LEFT	src/SoccerTypes.h	/^  REFC_BACK_PASS_LEFT,         \/*!< back_pass_l:       left team passed back *\/$/;"	e	enum:RefereeMessageT
-REFC_BACK_PASS_RIGHT	src/SoccerTypes.h	/^  REFC_BACK_PASS_RIGHT,        \/*!< back_pass_r:       right team passed back*\/$/;"	e	enum:RefereeMessageT
-REFC_BEFORE_KICK_OFF	src/SoccerTypes.h	/^  REFC_BEFORE_KICK_OFF,        \/*!< before_kick_off:   before kick off       *\/$/;"	e	enum:RefereeMessageT
-REFC_CORNER_KICK_LEFT	src/SoccerTypes.h	/^  REFC_CORNER_KICK_LEFT,       \/*!< corner_kick_l:     corner kick left team *\/$/;"	e	enum:RefereeMessageT
-REFC_CORNER_KICK_RIGHT	src/SoccerTypes.h	/^  REFC_CORNER_KICK_RIGHT,      \/*!< corner_kick_r:     corner kick right team*\/$/;"	e	enum:RefereeMessageT
-REFC_DROP_BALL	src/SoccerTypes.h	/^  REFC_DROP_BALL,              \/*!< drop_ball:         ball is dropped       *\/$/;"	e	enum:RefereeMessageT
-REFC_FOUL_LEFT	src/SoccerTypes.h	/^  REFC_FOUL_LEFT,              \/*!< foul_l:            foul made by left     *\/$/;"	e	enum:RefereeMessageT
-REFC_FOUL_RIGHT	src/SoccerTypes.h	/^  REFC_FOUL_RIGHT,             \/*!< foul_r:            foul made by right    *\/$/;"	e	enum:RefereeMessageT
-REFC_FREE_KICK_FAULT_LEFT	src/SoccerTypes.h	/^  REFC_FREE_KICK_FAULT_LEFT,   \/*!< free_kick_fault_l: free_kick to yourself *\/$/;"	e	enum:RefereeMessageT
-REFC_FREE_KICK_FAULT_RIGHT	src/SoccerTypes.h	/^  REFC_FREE_KICK_FAULT_RIGHT,  \/*!< free_kick_fault_r: free_kick to yourself *\/$/;"	e	enum:RefereeMessageT
-REFC_FREE_KICK_LEFT	src/SoccerTypes.h	/^  REFC_FREE_KICK_LEFT,         \/*!< free_kick_l:       free kick left team   *\/$/;"	e	enum:RefereeMessageT
-REFC_FREE_KICK_RIGHT	src/SoccerTypes.h	/^  REFC_FREE_KICK_RIGHT,        \/*!< free_kick_r:       free kick right team  *\/$/;"	e	enum:RefereeMessageT
-REFC_FROZEN	src/SoccerTypes.h	/^  REFC_FROZEN,                 \/*!< frozen:            game play is frozen   *\/$/;"	e	enum:RefereeMessageT
-REFC_GOALIE_CATCH_BALL_LEFT	src/SoccerTypes.h	/^  REFC_GOALIE_CATCH_BALL_LEFT, \/*!< goalie_catch_ball_l: left goalie catch   *\/$/;"	e	enum:RefereeMessageT
-REFC_GOALIE_CATCH_BALL_RIGHT	src/SoccerTypes.h	/^  REFC_GOALIE_CATCH_BALL_RIGHT,\/*!< goalie_catch_ball_r: right goalie catch  *\/$/;"	e	enum:RefereeMessageT
-REFC_GOAL_KICK_LEFT	src/SoccerTypes.h	/^  REFC_GOAL_KICK_LEFT,         \/*!< goal_kick_l:       goal kick left team   *\/$/;"	e	enum:RefereeMessageT
-REFC_GOAL_KICK_RIGHT	src/SoccerTypes.h	/^  REFC_GOAL_KICK_RIGHT,        \/*!< goal_kick_r:       goal kick right team  *\/$/;"	e	enum:RefereeMessageT
-REFC_GOAL_LEFT	src/SoccerTypes.h	/^  REFC_GOAL_LEFT,              \/*!< goal_l:            goal made by left     *\/$/;"	e	enum:RefereeMessageT
-REFC_GOAL_RIGHT	src/SoccerTypes.h	/^  REFC_GOAL_RIGHT,             \/*!< goal_r:            goal made by right    *\/$/;"	e	enum:RefereeMessageT
-REFC_HALF_TIME	src/SoccerTypes.h	/^  REFC_HALF_TIME,              \/*!< half_time:         it is half time       *\/$/;"	e	enum:RefereeMessageT
-REFC_ILLEGAL	src/SoccerTypes.h	/^  REFC_ILLEGAL,                \/*!< unknown message                          *\/$/;"	e	enum:RefereeMessageT
-REFC_INDIRECT_FREE_KICK_LEFT	src/SoccerTypes.h	/^  REFC_INDIRECT_FREE_KICK_LEFT,\/*!< indirect_free_kick_l: ind. free kick left*\/$/;"	e	enum:RefereeMessageT
-REFC_INDIRECT_FREE_KICK_RIGHT	src/SoccerTypes.h	/^  REFC_INDIRECT_FREE_KICK_RIGHT,\/*!< indirect_free_kick_r: ind freekick right*\/$/;"	e	enum:RefereeMessageT
-REFC_KICK_IN_LEFT	src/SoccerTypes.h	/^  REFC_KICK_IN_LEFT,           \/*!< kick_in_l:         kick in for left team *\/$/;"	e	enum:RefereeMessageT
-REFC_KICK_IN_RIGHT	src/SoccerTypes.h	/^  REFC_KICK_IN_RIGHT,          \/*!< kick_in_r:         kick in for right team*\/$/;"	e	enum:RefereeMessageT
-REFC_KICK_OFF_LEFT	src/SoccerTypes.h	/^  REFC_KICK_OFF_LEFT,          \/*!< kick_off_l:        kickoff for left team *\/$/;"	e	enum:RefereeMessageT
-REFC_KICK_OFF_RIGHT	src/SoccerTypes.h	/^  REFC_KICK_OFF_RIGHT,         \/*!< kick_off_r:        kickoff for right team*\/$/;"	e	enum:RefereeMessageT
-REFC_OFFSIDE_LEFT	src/SoccerTypes.h	/^  REFC_OFFSIDE_LEFT,           \/*!< offside_l          offside left          *\/$/;"	e	enum:RefereeMessageT
-REFC_OFFSIDE_RIGHT	src/SoccerTypes.h	/^  REFC_OFFSIDE_RIGHT,          \/*!< offside_r          offside right         *\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_DRAW	src/SoccerTypes.h	/^  REFC_PENALTY_DRAW            \/*!< penalty_draw        penalty result = draw*\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_FOUL_LEFT	src/SoccerTypes.h	/^  REFC_PENALTY_FOUL_LEFT,      \/*!< penalty_foul_left   penalty foul l team  *\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_FOUL_RIGHT	src/SoccerTypes.h	/^  REFC_PENALTY_FOUL_RIGHT,     \/*!< penalty_foul_right  penalty foul r team  *\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_MISS_LEFT	src/SoccerTypes.h	/^  REFC_PENALTY_MISS_LEFT,      \/*!< penalty_miss_left   penalty missed r team*\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_MISS_RIGHT	src/SoccerTypes.h	/^  REFC_PENALTY_MISS_RIGHT,     \/*!< penalty_miss_right  penalty missed l team*\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_ONFIELD_LEFT	src/SoccerTypes.h	/^  REFC_PENALTY_ONFIELD_LEFT,   \/*!< penalty_onfield_left pen. on left field  *\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_ONFIELD_RIGHT	src/SoccerTypes.h	/^  REFC_PENALTY_ONFIELD_RIGHT,  \/*!< penalty_onfield_right pen. on right field*\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_READY_LEFT	src/SoccerTypes.h	/^  REFC_PENALTY_READY_LEFT,     \/*!< penalty_ready_left  ready for pen. l team*\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_READY_RIGHT	src/SoccerTypes.h	/^  REFC_PENALTY_READY_RIGHT,    \/*!< penalty_ready_right ready for pen. r team*\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_SCORE_LEFT	src/SoccerTypes.h	/^  REFC_PENALTY_SCORE_LEFT,     \/*!< penalty_score_left  penalty score l team *\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_SCORE_RIGHT	src/SoccerTypes.h	/^  REFC_PENALTY_SCORE_RIGHT,    \/*!< penalty_score_right penalty score r team *\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_SETUP_LEFT	src/SoccerTypes.h	/^  REFC_PENALTY_SETUP_LEFT,     \/*!< penalty_setup_left left setup for penalty*\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_SETUP_RIGHT	src/SoccerTypes.h	/^  REFC_PENALTY_SETUP_RIGHT,    \/*!< penalty_setup_right right setups for pen.*\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_TAKEN_LEFT	src/SoccerTypes.h	/^  REFC_PENALTY_TAKEN_LEFT,     \/*!< penalty_ready_left  pen. taken by  l team*\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_TAKEN_RIGHT	src/SoccerTypes.h	/^  REFC_PENALTY_TAKEN_RIGHT,    \/*!< penalty_ready_right pen. taken by  r team*\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_WINNER_LEFT	src/SoccerTypes.h	/^  REFC_PENALTY_WINNER_LEFT,    \/*!< penalty_winner_l    penalty won by r team*\/$/;"	e	enum:RefereeMessageT
-REFC_PENALTY_WINNER_RIGHT	src/SoccerTypes.h	/^  REFC_PENALTY_WINNER_RIGHT,   \/*!< penalty_winner_r    penalty won by l team*\/$/;"	e	enum:RefereeMessageT
-REFC_PLAY_ON	src/SoccerTypes.h	/^  REFC_PLAY_ON,                \/*!< play_on:           play on (during match)*\/$/;"	e	enum:RefereeMessageT
-REFC_QUIT	src/SoccerTypes.h	/^  REFC_QUIT,                   \/*!< quit:              quit                  *\/$/;"	e	enum:RefereeMessageT
-REFC_TIME_EXTENDED	src/SoccerTypes.h	/^  REFC_TIME_EXTENDED,          \/*!< time_extended:     time cont. overtime   *\/$/;"	e	enum:RefereeMessageT
-REFC_TIME_OVER	src/SoccerTypes.h	/^  REFC_TIME_OVER,              \/*!< time_over:         time over(after match)*\/$/;"	e	enum:RefereeMessageT
-REFC_TIME_UP	src/SoccerTypes.h	/^  REFC_TIME_UP,                \/*!< time_up:           match has finished    *\/$/;"	e	enum:RefereeMessageT
-REFC_TIME_UP_WITHOUT_A_TEAM	src/SoccerTypes.h	/^  REFC_TIME_UP_WITHOUT_A_TEAM, \/*!< time_up_without_a_team: match finished   *\/$/;"	e	enum:RefereeMessageT
 Rad2Deg	src/Geometry.cpp	/^AngDeg Rad2Deg( AngRad x )$/;"	f
 Rect	src/Geometry.cpp	/^Rect::Rect( VecPosition pos, VecPosition pos2 )$/;"	f	class:Rect
-Rect	src/Geometry.h	/^class Rect$/;"	c
-RefereeMessageT	src/SoccerTypes.h	/^enum RefereeMessageT {$/;"	g
-SET_MAKE	src/Makefile	/^SET_MAKE = $/;"	m
-SHELL	src/Makefile	/^SHELL = \/bin\/sh$/;"	m
-SIDE_ILLEGAL	src/SoccerTypes.h	/^  SIDE_ILLEGAL   \/*!< illegal SIDE *\/$/;"	e	enum:SideT
-SIDE_LEFT	src/SoccerTypes.h	/^  SIDE_LEFT,     \/*!< left side    *\/$/;"	e	enum:SideT
-SIDE_RIGHT	src/SoccerTypes.h	/^  SIDE_RIGHT,    \/*!< right SIDE   *\/$/;"	e	enum:SideT
-SOURCES	src/Makefile	/^SOURCES = Connection.cpp \\$/;"	m
-SS	src/ActHandler.h	/^  ServerSettings *SS;          \/*!< ServerSettings with server parameters    *\/$/;"	m	class:ActHandler
-SS	src/BasicCoach.h	/^        ServerSettings *SS;  \/*!< All parameters used by the server           *\/$/;"	m	class:BasicCoach
-SS	src/BasicPlayer.h	/^  ServerSettings  *SS;  \/*!< All parameters used by the server               *\/$/;"	m	class:BasicPlayer
-SS	src/SenseHandler.h	/^  ServerSettings *SS;        \/*!< ServerSettings with all server settings    *\/$/;"	m	class:SenseHandler
-SS	src/SoccerTypes.h	/^  ServerSettings *SS; \/*!< ServerSettings are used to check ranges of command*\/$/;"	m	class:SoccerCommand
-SS	src/WorldModel.h	/^  ServerSettings *SS;                     \/*!< Reference to all server params*\/$/;"	m	class:WorldModel
-STRIP	src/Makefile	/^STRIP = strip$/;"	m
-SUCCEED_ALWAYS	src/SoccerTypes.h	/^  SUCCEED_ALWAYS,              \/*!< wil always succeed                       *\/$/;"	e	enum:SucceedT
-SUCCEED_DOUBTFUL	src/SoccerTypes.h	/^  SUCCEED_DOUBTFUL,            \/*!< in some occassions it may succeed        *\/$/;"	e	enum:SucceedT
-SUCCEED_ILLEGAL	src/SoccerTypes.h	/^  SUCCEED_ILLEGAL,             \/*!< illegal message                          *\/$/;"	e	enum:SucceedT
-SUCCEED_NEVER	src/SoccerTypes.h	/^  SUCCEED_NEVER                \/*!< this will never succeed                  *\/$/;"	e	enum:SucceedT
 SenseHandler	src/SenseHandler.cpp	/^SenseHandler::SenseHandler( Connection *c, WorldModel *wm, ServerSettings *ss,$/;"	f	class:SenseHandler
-SenseHandler	src/SenseHandler.h	/^class SenseHandler {$/;"	c
 ServerSettings	src/ServerSettings.cpp	/^ServerSettings::ServerSettings( ):GenericValues( "ServerSettings", 136 )$/;"	f	class:ServerSettings
-ServerSettings	src/ServerSettings.h	/^class ServerSettings:public GenericValues$/;"	c
-SideT	src/SoccerTypes.h	/^enum SideT {$/;"	g
 SoccerCommand	src/SoccerTypes.cpp	/^SoccerCommand::SoccerCommand( CommandT com, char *msg )$/;"	f	class:SoccerCommand
 SoccerCommand	src/SoccerTypes.cpp	/^SoccerCommand::SoccerCommand( CommandT com, double d1, double d2, double d3 )$/;"	f	class:SoccerCommand
-SoccerCommand	src/SoccerTypes.h	/^class SoccerCommand$/;"	c
-SoccerTypes	src/SoccerTypes.h	/^class SoccerTypes$/;"	c
-Socket	src/Connection.h	/^} Socket ;$/;"	t	typeref:struct:_socket
 Stamina	src/Objects.cpp	/^Stamina::Stamina( double dSta, double dEff, double dRec )$/;"	f	class:Stamina
-Stamina	src/Objects.h	/^class Stamina$/;"	c
-SucceedT	src/SoccerTypes.h	/^enum SucceedT  {$/;"	g
 SynchSee	src/WorldModel.cpp	/^  SoccerCommand   WorldModel::SynchSee                (                                  )$/;"	f	class:WorldModel
-TIREDNESS_AVERAGE	src/SoccerTypes.h	/^  TIREDNESS_AVERAGE,     \/*!< average tiredness                             *\/$/;"	e	enum:TiredNessT
-TIREDNESS_BAD	src/SoccerTypes.h	/^  TIREDNESS_BAD,         \/*!< player starts to get tired                    *\/$/;"	e	enum:TiredNessT
-TIREDNESS_GOOD	src/SoccerTypes.h	/^  TIREDNESS_GOOD,        \/*!< player is not tired at all                    *\/$/;"	e	enum:TiredNessT
-TIREDNESS_ILLEGAL	src/SoccerTypes.h	/^  TIREDNESS_ILLEGAL,     \/*!< illegal tiredness value                       *\/$/;"	e	enum:TiredNessT
-TIREDNESS_TERRIBLE	src/SoccerTypes.h	/^  TIREDNESS_TERRIBLE     \/*!< player is so tired it cannot move             *\/ $/;"	e	enum:TiredNessT
-TIREDNESS_VERY_BAD	src/SoccerTypes.h	/^  TIREDNESS_VERY_BAD,    \/*!< player is so tired it can hardly move         *\/$/;"	e	enum:TiredNessT
-Teammates	src/WorldModel.h	/^  PlayerObject  Teammates[MAX_TEAMMATES];\/*!< information of all teammates   *\/$/;"	m	class:WorldModel
 Time	src/SoccerTypes.cpp	/^Time::Time( int iTime, int iStopped )$/;"	f	class:Time
-Time	src/SoccerTypes.h	/^class Time$/;"	c
-Timing	src/Logger.h	/^class Timing$/;"	c
-TiredNessT	src/SoccerTypes.h	/^enum TiredNessT {$/;"	g
-UnknownAngleValue	src/SoccerTypes.h	/^const AngDeg  UnknownAngleValue   = -1000.0; \/*!< indicates unknown angle    *\/$/;"	v
-UnknownDoubleValue	src/SoccerTypes.h	/^const double  UnknownDoubleValue  = -1000.0; \/*!< indicates unknown double   *\/$/;"	v
-UnknownIntValue	src/SoccerTypes.h	/^const int     UnknownIntValue     = -1000;   \/*!< indicates unknown int      *\/$/;"	v
-UnknownMessageNr	src/SoccerTypes.h	/^const long    UnknownMessageNr    = -30;     \/*!< indicates unknown messagenr*\/$/;"	v
-UnknownPlayers	src/WorldModel.h	/^  PlayerObject  UnknownPlayers[MAX_TEAMMATES+MAX_OPPONENTS];$/;"	m	class:WorldModel
-UnknownTime	src/SoccerTypes.h	/^const int     UnknownTime         = -20;     \/*!< indicates unknown time     *\/$/;"	v
-VA_ILLEGAL	src/SoccerTypes.h	/^  VA_ILLEGAL  \/*!< illegal view angle *\/$/;"	e	enum:ViewAngleT
-VA_NARROW	src/SoccerTypes.h	/^  VA_NARROW,  \/*!< view angle narrow  *\/$/;"	e	enum:ViewAngleT
-VA_NORMAL	src/SoccerTypes.h	/^  VA_NORMAL,  \/*!< view angle normal  *\/$/;"	e	enum:ViewAngleT
-VA_WIDE	src/SoccerTypes.h	/^  VA_WIDE,    \/*!< view angle wide    *\/$/;"	e	enum:ViewAngleT
-VERSION	src/Makefile	/^VERSION = 3.3$/;"	m
-VQ_HIGH	src/SoccerTypes.h	/^  VQ_HIGH,    \/*!< view quality high    *\/$/;"	e	enum:ViewQualityT
-VQ_ILLEGAL	src/SoccerTypes.h	/^  VQ_ILLEGAL  \/*!< illegal view quality *\/$/;"	e	enum:ViewQualityT
-VQ_LOW	src/SoccerTypes.h	/^  VQ_LOW,     \/*!< view quality low     *\/$/;"	e	enum:ViewQualityT
 VecPosition	src/Geometry.cpp	/^VecPosition::VecPosition( double x, double y, CoordSystemT cs )$/;"	f	class:VecPosition
-VecPosition	src/Geometry.h	/^class VecPosition$/;"	c
-ViewAngleT	src/SoccerTypes.h	/^enum ViewAngleT  {$/;"	g
-ViewQualityT	src/SoccerTypes.h	/^enum ViewQualityT {$/;"	g
-WM	src/ActHandler.h	/^  WorldModel     *WM;          \/*!< needed to set performed actions          *\/$/;"	m	class:ActHandler
-WM	src/BasicCoach.h	/^        WorldModel     *WM;  \/*!< WorldModel that contains information of worl*\/$/;"	m	class:BasicCoach
-WM	src/BasicPlayer.h	/^  WorldModel      *WM;  \/*!< WorldModel that contains information of world   *\/$/;"	m	class:BasicPlayer
-WM	src/SenseHandler.h	/^  WorldModel     *WM;        \/*!< Worldmodel containing all data of the match*\/$/;"	m	class:SenseHandler
 WorldModel	src/WorldModel.cpp	/^WorldModel::WorldModel( ServerSettings *ss, PlayerSettings *ps, $/;"	f	class:WorldModel
-WorldModel	src/WorldModel.h	/^class WorldModel$/;"	c
-_ACTHANDLER_	src/ActHandler.h	49;"	d
-_BASICCOACH_	src/BasicCoach.h	49;"	d
-_BASICPLAYER_	src/BasicPlayer.h	49;"	d
-_CONNECTION_	src/Connection.h	49;"	d
-_FORMATIONS_	src/Formations.h	69;"	d
-_GENERIC_VALUES_	src/GenericValues.h	56;"	d
-_GEOMETRY_	src/Geometry.h	52;"	d
-_LOGGER_	src/Logger.h	51;"	d
-_OBJECTS_	src/Objects.h	47;"	d
-_PARSE_	src/Parse.h	49;"	d
-_PlayerSettings_	src/PlayerSettings.h	50;"	d
-_SENSEHANDLER_	src/SenseHandler.h	48;"	d
-_SERVERSETTINGS_	src/ServerSettings.h	62;"	d
-_SOCCERTYPES_	src/SoccerTypes.h	51;"	d
-_WORLD_MODEL_	src/WorldModel.h	50;"	d
-_socket	src/Connection.h	/^typedef struct _socket{$/;"	s
-a	src/hungarian.h	/^  int* a;  \/\/ assignment vector$/;"	m	struct:__anon4
 abcFormula	src/Geometry.cpp	/^int Geometry::abcFormula(double a, double b, double c, double *s1, double *s2)$/;"	f	class:Geometry
-ac_ct_AR	src/Makefile	/^ac_ct_AR = ar$/;"	m
-ac_ct_CC	src/Makefile	/^ac_ct_CC = gcc$/;"	m
-ac_ct_CXX	src/Makefile	/^ac_ct_CXX = g++$/;"	m
-ac_ct_F77	src/Makefile	/^ac_ct_F77 = $/;"	m
-ac_ct_RANLIB	src/Makefile	/^ac_ct_RANLIB = ranlib$/;"	m
-ac_ct_STRIP	src/Makefile	/^ac_ct_STRIP = strip$/;"	m
 accelerateBallToVelocity	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::accelerateBallToVelocity( VecPosition velDes )$/;"	f	class:BasicPlayer
 acosDeg	src/Geometry.cpp	/^AngDeg acosDeg( double x )$/;"	f
 addLogLevel	src/Logger.cpp	/^bool  Logger::addLogLevel( int iLevel )$/;"	f	class:Logger
@@ -578,22 +54,8 @@ addLogRange	src/Logger.cpp	/^bool  Logger::addLogRange( int iMin, int iMax )$/;"
 addOneToGoalDiff	src/WorldModel.cpp	/^int WorldModel::addOneToGoalDiff( )$/;"	f	class:WorldModel
 addSetting	src/GenericValues.cpp	/^bool GenericValues::addSetting( const char *strName, void *vAddress,$/;"	f	class:GenericValues
 addToTime	src/SoccerTypes.cpp	/^bool Time::addToTime( int iCycles )$/;"	f	class:Time
-agentObject	src/WorldModel.h	/^  AgentObject   agentObject;             \/*!< information of the agent itself*\/$/;"	m	class:WorldModel
 alignNeckWithBody	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::alignNeckWithBody( )$/;"	f	class:BasicPlayer
-allow_mult_default_type	src/ServerSettings.h	/^    bool allow_mult_default_type ;$/;"	m	class:ServerSettings
 amIAgentToSaySomething	src/Player.cpp	/^bool Player::amIAgentToSaySomething( SoccerCommand socPri )$/;"	f	class:Player
-am__cd	src/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
-am__depfiles_maybe	src/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
-am__fastdepCC_FALSE	src/Makefile	/^am__fastdepCC_FALSE = #$/;"	m
-am__fastdepCC_TRUE	src/Makefile	/^am__fastdepCC_TRUE = $/;"	m
-am__fastdepCXX_FALSE	src/Makefile	/^am__fastdepCXX_FALSE = #$/;"	m
-am__fastdepCXX_TRUE	src/Makefile	/^am__fastdepCXX_TRUE = $/;"	m
-am__include	src/Makefile	/^am__include = include$/;"	m
-am__leading_dot	src/Makefile	/^am__leading_dot = .$/;"	m
-am__objects_1	src/Makefile	/^am__objects_1 = Connection.$(OBJEXT) SenseHandler.$(OBJEXT) \\$/;"	m
-am__quote	src/Makefile	/^am__quote = $/;"	m
-am_trilearn_coach_OBJECTS	src/Makefile	/^am_trilearn_coach_OBJECTS = $(am__objects_1) BasicCoach.$(OBJEXT) \\$/;"	m
-am_trilearn_player_OBJECTS	src/Makefile	/^am_trilearn_player_OBJECTS = $(am__objects_1) BasicPlayer.$(OBJEXT) \\$/;"	m
 analyzeChangePlayerTypeMessage	src/SenseHandler.cpp	/^bool SenseHandler::analyzeChangePlayerTypeMessage( char *strMsg )$/;"	f	class:SenseHandler
 analyzeCheckBall	src/SenseHandler.cpp	/^bool SenseHandler::analyzeCheckBall( char *strMsg )$/;"	f	class:SenseHandler
 analyzeCoachMessage	src/SenseHandler.cpp	/^bool SenseHandler::analyzeCoachMessage( char *strMsg )$/;"	f	class:SenseHandler
@@ -608,44 +70,11 @@ analyzeSeeGlobalMessage	src/SenseHandler.cpp	/^bool SenseHandler::analyzeSeeGlob
 analyzeSeeMessage	src/SenseHandler.cpp	/^bool SenseHandler::analyzeSeeMessage( char *strMsg )$/;"	f	class:SenseHandler
 analyzeSenseMessage	src/SenseHandler.cpp	/^bool SenseHandler::analyzeSenseMessage( char *strMsg )$/;"	f	class:SenseHandler
 analyzeServerParamMessage	src/SenseHandler.cpp	/^bool SenseHandler::analyzeServerParamMessage( char *strMsg )$/;"	f	class:SenseHandler
-angBodyAngleRelToNeck	src/Objects.h	/^  AngDeg       angBodyAngleRelToNeck; \/*!< Relative angle of body with neck  *\/$/;"	m	class:AgentObject
-angGlobalBodyAngle	src/Objects.h	/^  AngDeg  angGlobalBodyAngle;    \/*!< Global body angle                      *\/$/;"	m	class:PlayerObject
-angGlobalBodyAngleLastSee	src/Objects.h	/^  AngDeg  angGlobalBodyAngleLastSee;\/*!< Global body angle from last see msg *\/$/;"	m	class:PlayerObject
-angGlobalNeckAngle	src/Objects.h	/^  AngDeg  angGlobalNeckAngle;    \/*!< Global neck angle                      *\/$/;"	m	class:PlayerObject
-angRelativeBodyAngle	src/Objects.h	/^  AngDeg  angRelativeBodyAngle;  \/*!< Relative body angle to main player *\/$/;"	m	class:PlayerObject
-angRelativeNeckAngle	src/Objects.h	/^  AngDeg  angRelativeNeckAngle;  \/*!< Relative neck angle to main player *\/$/;"	m	class:PlayerObject
 asinDeg	src/Geometry.cpp	/^AngDeg asinDeg( double x )$/;"	f
 atan2Deg	src/Geometry.cpp	/^double atan2Deg( double x, double y )$/;"	f
 atanDeg	src/Geometry.cpp	/^AngDeg atanDeg( double x )$/;"	f
 attackerMainLoop	src/Player.cpp	/^SoccerCommand Player::attackerMainLoop( )$/;"	f	class:Player
 averageParticles	src/WorldModelUpdate.cpp	/^VecPosition WorldModel::averageParticles( VecPosition posArray[], int iLength )$/;"	f	class:WorldModel
-bBehindBall	src/Formations.h	/^  bool    bBehindBall;\/*!< should player always stay behind the ball         *\/$/;"	m	class:PlayerTypeInfo
-bContLoop	src/BasicCoach.h	/^        bool bContLoop;      \/*!< bool to indicate whether to stop or continue*\/$/;"	m	class:BasicCoach
-bContLoop	src/Player.h	/^  bool          bContLoop;               \/*!< is server is alive             *\/$/;"	m	class:Player
-bForbidKickOffOffside	src/ServerSettings.h	/^  bool   bForbidKickOffOffside; \/*!< forbid_kick_off_offside: a boolean flag$/;"	m	class:ServerSettings
-bFullStateL	src/ServerSettings.h	/^  bool   bFullStateL;       \/*!< fullstate_l: indicates full_state left team.*\/$/;"	m	class:ServerSettings
-bFullStateR	src/ServerSettings.h	/^  bool   bFullStateR;       \/*!< fullstate_r: indicates full_state right team*\/$/;"	m	class:ServerSettings
-bLogTimes	src/ServerSettings.h	/^  bool   bLogTimes;         \/*!< log_times: flag indicating whether ms should$/;"	m	class:ServerSettings
-bNewInfo	src/WorldModel.h	/^  bool          bNewInfo;                \/*!< indicates new info from server *\/$/;"	m	class:WorldModel
-bPenAllowMultKicks	src/ServerSettings.h	/^  bool   bPenAllowMultKicks;       \/*!< pen_allow_mult_kicks: allow multiple$/;"	m	class:ServerSettings
-bRecordLog	src/ServerSettings.h	/^  bool   bRecordLog;        \/*!< record_log: flag indicating whether log record$/;"	m	class:ServerSettings
-bSendLog	src/ServerSettings.h	/^  bool   bSendLog;          \/*!< send_log: flag indicating whether send client$/;"	m	class:ServerSettings
-bSynchMode	src/ServerSettings.h	/^  bool   bSynchMode;        \/*!< synch_mode: indicates whether in sync. mode *\/$/;"	m	class:ServerSettings
-bUseOffside	src/ServerSettings.h	/^  bool   bUseOffside;       \/*!< use_offside: a boolean flag indicating whether$/;"	m	class:ServerSettings
-bVerbose	src/ServerSettings.h	/^  bool   bVerbose;          \/*!< verbose: flag indicating whether verbose mode$/;"	m	class:ServerSettings
-bWindRandom	src/ServerSettings.h	/^  bool   bWindRandom;       \/*!< wind_random: random wind force and direction*\/$/;"	m	class:ServerSettings
-back_dash_rate	src/ServerSettings.h	/^    double back_dash_rate ;$/;"	m	class:ServerSettings
-binPROGRAMS_INSTALL	src/Makefile	/^binPROGRAMS_INSTALL = $(INSTALL_PROGRAM)$/;"	m
-bin_PROGRAMS	src/Makefile	/^bin_PROGRAMS = trilearn_player trilearn_coach $/;"	m
-bin_PROGRAMS	src/Makefile	/^bin_PROGRAMS = trilearn_player$(EXEEXT) trilearn_coach$(EXEEXT)$/;"	m
-bindir	src/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
-bsCheckBall	src/WorldModel.h	/^  BallStatusT   bsCheckBall;             \/*!< state of the ball              *\/$/;"	m	class:WorldModel
-build	src/Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
-build_alias	src/Makefile	/^build_alias = $/;"	m
-build_cpu	src/Makefile	/^build_cpu = x86_64$/;"	m
-build_os	src/Makefile	/^build_os = linux-gnu$/;"	m
-build_vendor	src/Makefile	/^build_vendor = unknown$/;"	m
-bzero	src/hungarian.h	41;"	d
 calculateAngleAgentWithPos	src/WorldModelUpdate.cpp	/^AngDeg WorldModel::calculateAngleAgentWithPos( VecPosition pos )$/;"	f	class:WorldModel
 calculatePosAgentWith2Flags	src/WorldModelUpdate.cpp	/^VecPosition WorldModel::calculatePosAgentWith2Flags( ObjectT objFlag1,$/;"	f	class:WorldModel
 calculateStateAgent	src/WorldModelUpdate.cpp	/^bool WorldModel::calculateStateAgent( VecPosition *posGlobal,$/;"	f	class:WorldModel
@@ -658,140 +87,14 @@ catchBall	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::catchBall()$/;"	f	cla
 checkParticlesAgent	src/WorldModelUpdate.cpp	/^int WorldModel::checkParticlesAgent( AngDeg angGlobalNeck  )$/;"	f	class:WorldModel
 checkParticlesBall	src/WorldModelUpdate.cpp	/^void WorldModel::checkParticlesBall( VecPosition posArray[],$/;"	f	class:WorldModel
 clearBall	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::clearBall( ClearBallT type, SideT s,AngDeg *angMax )$/;"	f	class:BasicPlayer
-col_total	src/hungarian.h	/^  int row_total, col_total; \/\/ row and column totals$/;"	m	struct:__anon4
 collideWithBall	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::collideWithBall( )$/;"	f	class:BasicPlayer
-commandType	src/SoccerTypes.h	/^  CommandT     commandType; \/*!< type of this command                        *\/$/;"	m	class:SoccerCommand
 communicate	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::communicate( char *str )$/;"	f	class:BasicPlayer
-cond_newInfo	src/WorldModel.h	/^  pthread_cond_t   cond_newInfo;        \/*!< cond variable for bNewInfo      *\/$/;"	m	class:WorldModel
 coneDribble	src/Player.cpp	/^bool Player::coneDribble(AngDeg& ang){$/;"	f	class:Player
 connect	src/Connection.cpp	/^bool Connection::connect(const char *host, int port )$/;"	f	class:Connection
-connection	src/ActHandler.h	/^  Connection     *connection;  \/*!< Connection with the server               *\/$/;"	m	class:ActHandler
-connection	src/SenseHandler.h	/^  Connection* connection;    \/*!< Connection with server to receive messages *\/$/;"	m	class:SenseHandler
 coordinateWith	src/WorldModelHighLevel.cpp	/^bool WorldModel::coordinateWith( ObjectT obj )$/;"	f	class:WorldModel
 cosDeg	src/Geometry.cpp	/^double cosDeg( AngDeg x )$/;"	f
 createInterceptFeatures	src/WorldModelHighLevel.cpp	/^void WorldModel::createInterceptFeatures( )$/;"	f	class:WorldModel
-curFormation	src/Formations.h	/^  FormationT        curFormation;       \/*!< type of the current formation   *\/$/;"	m	class:Formations
-dAngle	src/SoccerTypes.h	/^  double       dAngle;      \/*!< angle of this command (for turn,turn_neck)  *\/$/;"	m	class:SoccerCommand
-dAttrX	src/Formations.h	/^  double  dAttrX;     \/*!< x attraction to the ball                          *\/$/;"	m	class:PlayerTypeInfo
-dAttrY	src/Formations.h	/^  double  dAttrY;     \/*!< y attraction to the ball                          *\/$/;"	m	class:PlayerTypeInfo
-dAudioCutDist	src/ServerSettings.h	/^  double dAudioCutDist;     \/*!< audio_cut_dist: maximum distance over which a$/;"	m	class:ServerSettings
-dBallAccelMax	src/ServerSettings.h	/^  double dBallAccelMax;     \/*!< ball_accel_max: maximum acceleration of the$/;"	m	class:ServerSettings
-dBallConfThr	src/PlayerSettings.h	/^  double dBallConfThr;           \/*!< confidence threshold below which ball$/;"	m	class:PlayerSettings
-dBallDecay	src/ServerSettings.h	/^  double dBallDecay;        \/*!< ball_decay: ball speed decay per cycle      *\/$/;"	m	class:ServerSettings
-dBallRand	src/ServerSettings.h	/^  double dBallRand;         \/*!< ball_rand: random error in ball movement    *\/$/;"	m	class:ServerSettings
-dBallSize	src/ServerSettings.h	/^  double dBallSize;         \/*!< ball_size: the size (=radius) of the ball   *\/$/;"	m	class:ServerSettings
-dBallSpeedMax	src/ServerSettings.h	/^  double dBallSpeedMax;     \/*!< ball_speed_max: maximum speed of the ball   *\/$/;"	m	class:ServerSettings
-dBallWeight	src/ServerSettings.h	/^  double dBallWeight;       \/*!< ball_weight: weight of the ball (for wind)  *\/$/;"	m	class:ServerSettings
-dCatchProbability	src/ServerSettings.h	/^  double dCatchProbability; \/*!< catch_probability: the probability for a$/;"	m	class:ServerSettings
-dCatchableAreaL	src/ServerSettings.h	/^  double dCatchableAreaL;   \/*!< catchable_area_l: length of area around$/;"	m	class:ServerSettings
-dCatchableAreaW	src/ServerSettings.h	/^  double dCatchableAreaW;   \/*!< catchable_area_w: width of area around$/;"	m	class:ServerSettings
-dCkickMargin	src/ServerSettings.h	/^  double dCkickMargin;      \/*!< ckick_margin: corner kick margin, i.e. the$/;"	m	class:ServerSettings
-dClearBallDist	src/PlayerSettings.h	/^  double dClearBallDist;         \/*!< distance before the penalty area to$/;"	m	class:PlayerSettings
-dClearBallOppMaxDist	src/PlayerSettings.h	/^  double dClearBallOppMaxDist;   \/*!< radius in which opponent has to be to$/;"	m	class:PlayerSettings
-dClearBallToSideAngle	src/PlayerSettings.h	/^  double dClearBallToSideAngle;  \/*!< minimum angle between opponents before$/;"	m	class:PlayerSettings
-dConeWidth	src/PlayerSettings.h	/^  double dConeWidth;             \/*!< Cone width (at distance 1) to check for$/;"	m	class:PlayerSettings
-dDashPowerRate	src/ServerSettings.h	/^  double dDashPowerRate;    \/*!< dash_power_rate: rate by which the 'Power'$/;"	m	class:HeteroPlayerSettings
-dDashPowerRate	src/ServerSettings.h	/^  double dDashPowerRate;    \/*!< dash_power_rate: rate by which the 'Power'$/;"	m	class:ServerSettings
-dDashPowerRateDeltaMax	src/ServerSettings.h	/^  double dDashPowerRateDeltaMax;   \/*!< dash_power_rate_delta_max: maximum $/;"	m	class:ServerSettings
-dDashPowerRateDeltaMin	src/ServerSettings.h	/^  double dDashPowerRateDeltaMin;   \/*!< dash_power_rate_delta_min: minimum $/;"	m	class:ServerSettings
-dDribbleAngThr	src/PlayerSettings.h	/^  double dDribbleAngThr;         \/*!< Threshold value for angle difference$/;"	m	class:PlayerSettings
-dEffortDec	src/ServerSettings.h	/^  double dEffortDec;        \/*!< effort_dec: decrement step per cycle for$/;"	m	class:ServerSettings
-dEffortDecThr	src/ServerSettings.h	/^  double dEffortDecThr;     \/*!< effort_dec_thr: percentage of stamina_max $/;"	m	class:ServerSettings
-dEffortInc	src/ServerSettings.h	/^  double dEffortInc;        \/*!< effort_inc: increment step per cycle for$/;"	m	class:ServerSettings
-dEffortIncThr	src/ServerSettings.h	/^  double dEffortIncThr;     \/*!< effort_incr_thr: percentage of stamina_max$/;"	m	class:ServerSettings
-dEffortMax	src/ServerSettings.h	/^  double dEffortMax;        \/*!< effort_max: maximum player effort capacity  *\/$/;"	m	class:ServerSettings
-dEffortMax	src/ServerSettings.h	/^  double dEffortMax;        \/*!< effort_max: maximum value for player effort *\/$/;"	m	class:HeteroPlayerSettings
-dEffortMaxDeltaFactor	src/ServerSettings.h	/^  double dEffortMaxDeltaFactor;    \/*!< effort_max_delta_factor: amount delta$/;"	m	class:ServerSettings
-dEffortMin	src/ServerSettings.h	/^  double dEffortMin;        \/*!< effort_min: minimum value for player effort *\/$/;"	m	class:HeteroPlayerSettings
-dEffortMin	src/ServerSettings.h	/^  double dEffortMin;        \/*!< effort_min: minimum value for player effort *\/$/;"	m	class:ServerSettings
-dEffortMinDeltaFactor	src/ServerSettings.h	/^  double dEffortMinDeltaFactor;    \/*!< effort_min_delta_factor: amount delta$/;"	m	class:ServerSettings
-dExtraStamina	src/ServerSettings.h	/^  double dExtraStamina;            \/*!< extra_stamina: extra stamina for a$/;"	m	class:ServerSettings
-dExtraStamina	src/ServerSettings.h	/^  double dExtraStamina;     \/*!< extra_stamina: extra stamina for heterogeneous$/;"	m	class:HeteroPlayerSettings
-dExtraStaminaDeltaMax	src/ServerSettings.h	/^  double dExtraStaminaDeltaMax;    \/*!< extra_stamina_delta_max: maximum delta$/;"	m	class:ServerSettings
-dExtraStaminaDeltaMin	src/ServerSettings.h	/^  double dExtraStaminaDeltaMin;    \/*!< extra_stamina_delta_min: minimum delta$/;"	m	class:ServerSettings
-dFastPassEndSpeed	src/PlayerSettings.h	/^  double dFastPassEndSpeed;      \/*!< end speed ball when passed fast        *\/$/;"	m	class:PlayerSettings
-dFractionWaitNoSee	src/PlayerSettings.h	/^  double dFractionWaitNoSee;     \/*!< % of simulation step that is waited$/;"	m	class:PlayerSettings
-dFractionWaitSeeBegin	src/PlayerSettings.h	/^  double dFractionWaitSeeBegin;  \/*!< % of simulation step that is waited$/;"	m	class:PlayerSettings
-dFractionWaitSeeEnd	src/PlayerSettings.h	/^  double dFractionWaitSeeEnd;    \/*!< % of simulation step that is waited$/;"	m	class:PlayerSettings
-dGoalWidth	src/ServerSettings.h	/^  double dGoalWidth;        \/*!< goal_width: the width of the goal           *\/$/;"	m	class:ServerSettings
-dInertiaMoment	src/ServerSettings.h	/^  double dInertiaMoment;    \/*!< inertia_moment: inertia moment of a player;$/;"	m	class:HeteroPlayerSettings
-dInertiaMoment	src/ServerSettings.h	/^  double dInertiaMoment;    \/*!< inertia_moment: inertia moment of a player;$/;"	m	class:ServerSettings
-dInertiaMomentDeltaFactor	src/ServerSettings.h	/^  double dInertiaMomentDeltaFactor;\/*!< inertia_moment_delta_factor: amount by$/;"	m	class:ServerSettings
-dKickPowerRate	src/ServerSettings.h	/^  double dKickPowerRate;    \/*!< kick_power_rate: rate by which the 'Power'$/;"	m	class:ServerSettings
-dKickRand	src/ServerSettings.h	/^  double dKickRand;         \/*!< kick_rand: random error in kick direction   *\/$/;"	m	class:HeteroPlayerSettings
-dKickRand	src/ServerSettings.h	/^  double dKickRand;         \/*!< kick_rand: random error in kick direction   *\/$/;"	m	class:ServerSettings
-dKickRandDeltaFactor	src/ServerSettings.h	/^  double dKickRandDeltaFactor;     \/*!< kick_rand_delta_factor: amount delta is$/;"	m	class:ServerSettings
-dKickableMargin	src/ServerSettings.h	/^  double dKickableMargin;   \/*!< kickable_margin: margin around player in which$/;"	m	class:HeteroPlayerSettings
-dKickableMargin	src/ServerSettings.h	/^  double dKickableMargin;   \/*!< kickable_margin: margin around player in which$/;"	m	class:ServerSettings
-dKickableMarginDeltaMax	src/ServerSettings.h	/^  double dKickableMarginDeltaMax;  \/*!< kickable_margin_delta_max: maximum $/;"	m	class:ServerSettings
-dKickableMarginDeltaMin	src/ServerSettings.h	/^  double dKickableMarginDeltaMin;  \/*!< kickable_margin_delta_min: minimum $/;"	m	class:ServerSettings
-dMarkDistance	src/PlayerSettings.h	/^  double dMarkDistance;          \/*!< This is the distance the agent marks$/;"	m	class:PlayerSettings
-dMaxX	src/Formations.h	/^  double  dMaxX;      \/*!< maximal x coordinate for this player type         *\/$/;"	m	class:PlayerTypeInfo
-dMaxYPercentage	src/PlayerSettings.h	/^  double dMaxYPercentage;        \/*!< Maximum y percentage of the field width$/;"	m	class:PlayerSettings
-dMaximalKickDist	src/ServerSettings.h	/^  double dMaximalKickDist;         \/*!< the maximum distance from a player for$/;"	m	class:ServerSettings
-dMaximalKickDist	src/ServerSettings.h	/^  double dMaximalKickDist;  \/*!< the maximum distance from a player for$/;"	m	class:HeteroPlayerSettings
-dMinX	src/Formations.h	/^  double  dMinX;      \/*!< minimal x coordinate for this player type         *\/$/;"	m	class:PlayerTypeInfo
-dNewDashPowerRateDeltaMax	src/ServerSettings.h	/^  double dNewDashPowerRateDeltaMax;\/*!< new_dash_power_rate_delta_min: maximum$/;"	m	class:ServerSettings
-dNewDashPowerRateDeltaMin	src/ServerSettings.h	/^  double dNewDashPowerRateDeltaMin;\/*!< new_dash_power_rate_delta_min: minimum$/;"	m	class:ServerSettings
-dNewStaminaIncMaxDeltaFactor	src/ServerSettings.h	/^  double dNewStaminaIncMaxDeltaFactor;\/*!< stamina_inc_max_delta_factor: amount$/;"	m	class:ServerSettings
-dOffsideActiveAreaSize	src/ServerSettings.h	/^  double dOffsideActiveAreaSize;\/*!< offside_active_area_size: offside active$/;"	m	class:ServerSettings
-dOffsideKickMargin	src/ServerSettings.h	/^  double dOffsideKickMargin;\/*!< offside_kick_margin: offside kick margin,$/;"	m	class:ServerSettings
-dPassEndSpeed	src/PlayerSettings.h	/^  double dPassEndSpeed;          \/*!< end speed ball when passed to teammate *\/$/;"	m	class:PlayerSettings
-dPassExtraX	src/PlayerSettings.h	/^  double dPassExtraX;            \/*!< extra x value added to x coordinate of$/;"	m	class:PlayerSettings
-dPenDistX	src/ServerSettings.h	/^  double dPenDistX;                \/*!< pen_dist_x: x distance for ball from$/;"	m	class:ServerSettings
-dPenMaxGoalieDistX	src/ServerSettings.h	/^  double dPenMaxGoalieDistX;       \/*!< pen_max_goalie_dist_x: max goalie $/;"	m	class:ServerSettings
-dPlayerAccelMax	src/ServerSettings.h	/^  double dPlayerAccelMax;   \/*!< player_accel_max: maximum acceleration of a$/;"	m	class:ServerSettings
-dPlayerConfThr	src/PlayerSettings.h	/^  double dPlayerConfThr;         \/*!< confidence threshold below which player$/;"	m	class:PlayerSettings
-dPlayerDecay	src/ServerSettings.h	/^  double dPlayerDecay;      \/*!< player_decay: player speed decay per cycle  *\/$/;"	m	class:HeteroPlayerSettings
-dPlayerDecay	src/ServerSettings.h	/^  double dPlayerDecay;      \/*!< player_decay: player speed decay per cycle  *\/$/;"	m	class:ServerSettings
-dPlayerDecayDeltaMax	src/ServerSettings.h	/^  double dPlayerDecayDeltaMax;     \/*!< player_decay_delta_max: maximum delta$/;"	m	class:ServerSettings
-dPlayerDecayDeltaMin	src/ServerSettings.h	/^  double dPlayerDecayDeltaMin;     \/*!< player_decay_delta_min: minimum delta$/;"	m	class:ServerSettings
-dPlayerDistTolerance	src/PlayerSettings.h	/^  double dPlayerDistTolerance;   \/*!< radius in which player has to be to be$/;"	m	class:PlayerSettings
-dPlayerHighConfThr	src/PlayerSettings.h	/^  double dPlayerHighConfThr;     \/*!< confidence threshold above which player$/;"	m	class:PlayerSettings
-dPlayerRand	src/ServerSettings.h	/^  double dPlayerRand;       \/*!< player_rand: random error in player movement*\/$/;"	m	class:ServerSettings
-dPlayerSize	src/ServerSettings.h	/^  double dPlayerSize;       \/*!< dash_power_rate: rate by which the 'Power'$/;"	m	class:HeteroPlayerSettings
-dPlayerSize	src/ServerSettings.h	/^  double dPlayerSize;       \/*!< player_size: the size (=radius) of a player *\/$/;"	m	class:ServerSettings
-dPlayerSizeDeltaFactor	src/ServerSettings.h	/^  double dPlayerSizeDeltaFactor;   \/*!< player_size_delta_factor: amount delta$/;"	m	class:ServerSettings
-dPlayerSpeedMax	src/ServerSettings.h	/^  double dPlayerSpeedMax;   \/*!< player_speed_max: maximum speed of a player *\/$/;"	m	class:HeteroPlayerSettings
-dPlayerSpeedMax	src/ServerSettings.h	/^  double dPlayerSpeedMax;   \/*!< player_speed_max: maximum speed of a player *\/$/;"	m	class:ServerSettings
-dPlayerSpeedMaxDeltaMax	src/ServerSettings.h	/^  double dPlayerSpeedMaxDeltaMax;  \/*!< player_speed_max_delta_max: maximum$/;"	m	class:ServerSettings
-dPlayerSpeedMaxDeltaMin	src/ServerSettings.h	/^  double dPlayerSpeedMaxDeltaMin;  \/*!< player_speed_max_delta_min: minimum$/;"	m	class:ServerSettings
-dPlayerWeight	src/ServerSettings.h	/^  double dPlayerWeight;     \/*!< player_weight: weight of a player (for wind)*\/$/;"	m	class:ServerSettings
-dPlayerWhenToKick	src/PlayerSettings.h	/^  double dPlayerWhenToKick;      \/*!< percentage of kick power rate when kick$/;"	m	class:PlayerSettings
-dPlayerWhenToTurnAngle	src/PlayerSettings.h	/^  double dPlayerWhenToTurnAngle; \/*!< angle when to turn to ball when moving *\/$/;"	m	class:PlayerSettings
-dPower	src/SoccerTypes.h	/^  double       dPower;      \/*!< power of this command (for kick,dash)       *\/$/;"	m	class:SoccerCommand
-dQuantizeStep	src/ServerSettings.h	/^  double dQuantizeStep;     \/*!< quantize_step: quantization step for distance$/;"	m	class:ServerSettings
-dQuantizeStepL	src/ServerSettings.h	/^  double dQuantizeStepL;    \/*!< quantize_step_l: quantization step for$/;"	m	class:ServerSettings
-dRecoverDec	src/ServerSettings.h	/^  double dRecoverDec;       \/*!< recover_dec: decrement step per cycle for$/;"	m	class:ServerSettings
-dRecoverDecThr	src/ServerSettings.h	/^  double dRecoverDecThr;    \/*!< recover_dec_thr: percentage of stamina_max$/;"	m	class:ServerSettings
-dRecoverMin	src/ServerSettings.h	/^  double dRecoverMin;       \/*!< recover_min: minimum player recovery        *\/$/;"	m	class:ServerSettings
-dRelativeAngleChange	src/Objects.h	/^  double      dRelativeAngleChange;   \/*!< Relative angle change             *\/$/;"	m	class:DynamicObject
-dRelativeDistanceChange	src/Objects.h	/^  double      dRelativeDistanceChange;\/*!< Relative distance change          *\/$/;"	m	class:DynamicObject
-dShootRiskProbability	src/PlayerSettings.h	/^  double dShootRiskProbability;  \/*!< This is the probability for the ball to$/;"	m	class:PlayerSettings
-dStaminaIncMax	src/ServerSettings.h	/^  double dStaminaIncMax;    \/*!< stamina_inc_max: maximum stamina increase of a$/;"	m	class:HeteroPlayerSettings
-dStaminaIncMax	src/ServerSettings.h	/^  double dStaminaIncMax;    \/*!< stamina_inc_max: maximum stamina increase of a$/;"	m	class:ServerSettings
-dStaminaIncMaxDeltaFactor	src/ServerSettings.h	/^  double dStaminaIncMaxDeltaFactor;\/*!< stamina_inc_max_delta_factor: amount by$/;"	m	class:ServerSettings
-dStaminaMax	src/ServerSettings.h	/^  double dStaminaMax;       \/*!< stamina_max: maximum stamina of a player    *\/$/;"	m	class:ServerSettings
-dStratAreaRadius	src/PlayerSettings.h	/^  double dStratAreaRadius;       \/*!< This is the radius around the strategic$/;"	m	class:PlayerSettings
-dTackleBackDist	src/ServerSettings.h	/^  double dTackleBackDist;          \/*!< tackle_dist: distance at back of  player $/;"	m	class:ServerSettings
-dTackleDist	src/ServerSettings.h	/^  double dTackleDist;              \/*!< tackle_dist: distance in front player $/;"	m	class:ServerSettings
-dTackleExponent	src/ServerSettings.h	/^  double dTackleExponent;          \/*!< tackle_exponent: exponent need to $/;"	m	class:ServerSettings
-dTacklePowerRate	src/ServerSettings.h	/^  double dTacklePowerRate;         \/*!< tacke_power_rate: acc. power tackle  *\/$/;"	m	class:ServerSettings
-dTackleWidth	src/ServerSettings.h	/^  double dTackleWidth;             \/*!< tackle_width: distance to side of player$/;"	m	class:ServerSettings
-dTotalVarPos	src/WorldModel.h	/^  double        dTotalVarPos;$/;"	m	class:WorldModel
-dTotalVarVel	src/WorldModel.h	/^  double        dTotalVarVel;$/;"	m	class:WorldModel
-dTurnWithBallAngThr	src/PlayerSettings.h	/^  double dTurnWithBallAngThr;    \/*!< Threshold value for angle difference$/;"	m	class:PlayerSettings
-dTurnWithBallFreezeThr	src/PlayerSettings.h	/^  double dTurnWithBallFreezeThr; \/*!< Threshold value for ball speed that$/;"	m	class:PlayerSettings
-dVisibleAngle	src/ServerSettings.h	/^  double dVisibleAngle;     \/*!< visible_angle: angle of the view cone of a$/;"	m	class:ServerSettings
-dVisibleDistance	src/ServerSettings.h	/^  double dVisibleDistance;         \/*!< visible_distance: distance within which$/;"	m	class:ServerSettings
-dWindDir	src/ServerSettings.h	/^  double dWindDir;          \/*!< wind_dir: the direction of the wind         *\/$/;"	m	class:ServerSettings
-dWindForce	src/ServerSettings.h	/^  double dWindForce;        \/*!< wind_force: the force of the wind           *\/$/;"	m	class:ServerSettings
-dWindRand	src/ServerSettings.h	/^  double dWindRand;         \/*!< wind_rand: random error in wind direction   *\/$/;"	m	class:ServerSettings
-dX	src/SoccerTypes.h	/^  double       dX;          \/*!< x coordinate (for move)                     *\/$/;"	m	class:SoccerCommand
-dY	src/SoccerTypes.h	/^  double       dY;          \/*!< y coordinate (for move)                     *\/$/;"	m	class:SoccerCommand
 dashToPoint	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::dashToPoint( VecPosition pos, int iCycles )$/;"	f	class:BasicPlayer
-dash_angle_step	src/ServerSettings.h	/^    double dash_angle_step ;$/;"	m	class:ServerSettings
-datadir	src/Makefile	/^datadir = ${prefix}\/share$/;"	m
 deMeer5	src/PlayerTeams.cpp	/^SoccerCommand Player::deMeer5(  )$/;"	f	class:Player
 deMeer5_attacker	src/PlayerTeams.cpp	/^SoccerCommand Player::deMeer5_attacker()$/;"	f	class:Player
 deMeer5_defender	src/PlayerTeams.cpp	/^SoccerCommand Player::deMeer5_defender( )$/;"	f	class:Player
@@ -799,26 +102,14 @@ deMeer5_goalie	src/PlayerTeams.cpp	/^SoccerCommand Player::deMeer5_goalie(  )$/;
 deMeer5_midfielder	src/PlayerTeams.cpp	/^SoccerCommand Player::deMeer5_midfielder()$/;"	f	class:Player
 defendGoalLine	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::defendGoalLine( double dDist )$/;"	f	class:BasicPlayer
 defenderMainLoop	src/Player.cpp	/^SoccerCommand Player::defenderMainLoop( )$/;"	f	class:Player
-depcomp	src/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
 directPass	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::directPass( VecPosition pos, PassT passType)$/;"	f	class:BasicPlayer
 directTowards	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::directTowards( VecPosition posTurnTo,$/;"	f	class:BasicPlayer
 disconnect	src/Connection.cpp	/^void Connection::disconnect( void )$/;"	f	class:Connection
-distdir	src/Makefile	/^distdir = $(top_distdir)\/$(PACKAGE)-$(VERSION)$/;"	m
-drand48	src/WorldModel.h	/^inline double drand48()$/;"	f
 drawCoordinationGraph	src/WorldModel.cpp	/^void WorldModel::drawCoordinationGraph( )$/;"	f	class:WorldModel
 dribble	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::dribble( AngDeg ang, DribbleT dribbleT )$/;"	f	class:BasicPlayer
 emptyQueue	src/ActHandler.cpp	/^void ActHandler::emptyQueue( )$/;"	f	class:ActHandler
-ess_cols	src/hungarian.h	/^  int* ess_cols; \/\/ list of essential columns$/;"	m	struct:__anon4
-ess_rows	src/hungarian.h	/^  int* ess_rows; \/\/ list of essential rows$/;"	m	struct:__anon4
-event_newInfo	src/WorldModel.h	/^  HANDLE           event_newInfo;       \/*!< event for bNewInfo              *\/$/;"	m	class:WorldModel
-exec_prefix	src/Makefile	/^exec_prefix = ${prefix}$/;"	m
 executeStringCommand	src/BasicCoach.cpp	/^bool BasicCoach::executeStringCommand( char *str)$/;"	f	class:BasicCoach
 executeStringCommand	src/Player.cpp	/^bool Player::executeStringCommand( char *str)$/;"	f	class:Player
-extra_half_time	src/ServerSettings.h	/^    int extra_half_time;$/;"	m	class:ServerSettings
-formationType	src/Formations.h	/^  FormationT      formationType;               \/*!< type of this formation   *\/$/;"	m	class:FormationTypeInfo
-formations	src/Formations.h	/^  FormationTypeInfo formations[ MAX_FORMATION_TYPES ]; \/*!< stored formations*\/$/;"	m	class:Formations
-formations	src/Player.h	/^  Formations    *formations;             \/*!< all formation information      *\/$/;"	m	class:Player
-formations	src/WorldModel.h	/^  Formations     *formations;             \/*!< Reference to formation used   *\/$/;"	m	class:WorldModel
 freezeBall	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::freezeBall( )$/;"	f	class:BasicPlayer
 getACoefficient	src/Geometry.cpp	/^double Line::getACoefficient() const$/;"	f	class:Line
 getActiveInterceptionPointBall	src/BasicPlayer.cpp	/^VecPosition BasicPlayer::getActiveInterceptionPointBall( int *iCyclesBall,$/;"	f	class:BasicPlayer
@@ -1270,97 +561,9 @@ handleMessagesFromServer	src/SenseHandler.cpp	/^void SenseHandler::handleMessage
 handleStdin	src/BasicCoach.cpp	/^void BasicCoach::handleStdin( )$/;"	f	class:BasicCoach
 handleStdin	src/Player.cpp	/^void Player::handleStdin( )$/;"	f	class:Player
 holdBall	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::holdBall( )$/;"	f	class:BasicPlayer
-host	src/Makefile	/^host = x86_64-unknown-linux-gnu$/;"	m
-host_alias	src/Makefile	/^host_alias = $/;"	m
-host_cpu	src/Makefile	/^host_cpu = x86_64$/;"	m
-host_os	src/Makefile	/^host_os = linux-gnu$/;"	m
-host_triplet	src/Makefile	/^host_triplet = x86_64-unknown-linux-gnu$/;"	m
-host_vendor	src/Makefile	/^host_vendor = unknown$/;"	m
-hungarian_add_stars	src/hungarian.c	/^void hungarian_add_stars(hungarian_t* prob)$/;"	f
-hungarian_benefit	src/hungarian.c	/^hungarian_benefit(hungarian_t* prob)$/;"	f
-hungarian_build_q	src/hungarian.c	/^void hungarian_build_q(hungarian_t* prob)$/;"	f
-hungarian_check_feasibility	src/hungarian.c	/^hungarian_check_feasibility(hungarian_t* prob)$/;"	f
-hungarian_code_t	src/hungarian.c	/^} hungarian_code_t;$/;"	t	typeref:enum:__anon1	file:
-hungarian_fini	src/hungarian.c	/^void hungarian_fini(hungarian_t* prob)$/;"	f
-hungarian_init	src/hungarian.c	/^void hungarian_init(hungarian_t* prob, int* r, size_t m, size_t n, int mode)$/;"	f
-hungarian_make_cover	src/hungarian.c	/^void hungarian_make_cover(hungarian_t* prob)$/;"	f
-hungarian_print_assignment	src/hungarian.c	/^hungarian_print_assignment(hungarian_t* prob)$/;"	f
-hungarian_print_rating	src/hungarian.c	/^hungarian_print_rating(hungarian_t* prob)$/;"	f
-hungarian_print_stars	src/hungarian.c	/^void hungarian_print_stars(hungarian_t* prob)$/;"	f
-hungarian_q_t	src/hungarian.c	/^} hungarian_q_t;$/;"	t	typeref:enum:__anon2	file:
-hungarian_routine_one	src/hungarian.c	/^hungarian_code_t hungarian_routine_one(hungarian_t* prob)$/;"	f
-hungarian_routine_two	src/hungarian.c	/^hungarian_code_t hungarian_routine_two(hungarian_t* prob)$/;"	f
-hungarian_sequence_t	src/hungarian.h	/^} hungarian_sequence_t;$/;"	t	typeref:struct:__anon3
-hungarian_solve	src/hungarian.c	/^hungarian_solve(hungarian_t* prob)$/;"	f
-hungarian_t	src/hungarian.h	/^} hungarian_t;$/;"	t	typeref:struct:__anon4
-i	src/hungarian.h	/^  int* i;$/;"	m	struct:__anon3
-iCatchBanCycle	src/ServerSettings.h	/^  int    iCatchBanCycle;    \/*!< catch_ban_cycle: number of cycles after catch$/;"	m	class:ServerSettings
-iClangAdviceWin	src/ServerSettings.h	/^  int    iClangAdviceWin;   \/*!< clang_advice_win: number of advice messages by$/;"	m	class:ServerSettings
-iClangDefineWin	src/ServerSettings.h	/^  int    iClangDefineWin;   \/*!< clang_define_win: number of define messages by$/;"	m	class:ServerSettings
-iClangInfoWin	src/ServerSettings.h	/^  int    iClangInfoWin;     \/*!< clang_info_win: number of info messages by$/;"	m	class:ServerSettings
-iClangMessDelay	src/ServerSettings.h	/^  int    iClangMessDelay;   \/*!< clang_mess_delay: delay of coach messages, ie$/;"	m	class:ServerSettings
-iClangMessPerCycle	src/ServerSettings.h	/^  int    iClangMessPerCycle;\/*!< clang_mess_per_cycle: number of coach messages$/;"	m	class:ServerSettings
-iClangMetaWin	src/ServerSettings.h	/^  int    iClangMetaWin;     \/*!< clang_meta_win: number of meta messages by$/;"	m	class:ServerSettings
-iClangWinSize	src/ServerSettings.h	/^  int    iClangWinSize;     \/*!< clang_win_size: time window which controls how$/;"	m	class:ServerSettings
-iCoachPort	src/ServerSettings.h	/^  int    iCoachPort;        \/*!< coach_port: port number for coach connection*\/$/;"	m	class:ServerSettings
-iCommandCounters	src/WorldModel.h	/^  int           iCommandCounters[CMD_MAX_COMMANDS]; \/*!< counters for all$/;"	m	class:WorldModel
-iCyclesCatchWait	src/PlayerSettings.h	/^  int    iCyclesCatchWait;       \/*!< Cycles the coach waits after a catch has$/;"	m	class:PlayerSettings
-iDropBallTime	src/ServerSettings.h	/^  int    iDropBallTime;     \/*!< drop_ball_time: the number of cycles to wait$/;"	m	class:ServerSettings
-iGoalDiff	src/WorldModel.h	/^  int           iGoalDiff;               \/*!< goal difference                *\/$/;"	m	class:WorldModel
-iGoalieMaxMoves	src/ServerSettings.h	/^  int    iGoalieMaxMoves;   \/*!< goalie_max_moves: maximum number of 'move'$/;"	m	class:ServerSettings
-iHalfTime	src/ServerSettings.h	/^  int    iHalfTime;         \/*!< half_time: the length (in seconds) of a single$/;"	m	class:ServerSettings
-iHearDecay	src/ServerSettings.h	/^  int    iHearDecay;        \/*!< hear_decay: decay rate of player hearing$/;"	m	class:ServerSettings
-iHearInc	src/ServerSettings.h	/^  int    iHearInc;          \/*!< hear_inc: minimum hearing capacity of a player$/;"	m	class:ServerSettings
-iHearMax	src/ServerSettings.h	/^  int    iHearMax;          \/*!< hear_max: maximum hearing capacity of a plyer$/;"	m	class:ServerSettings
-iHeteroPlayerType	src/Objects.h	/^  int     iHeteroPlayerType;     \/*!< index of heterogeneous player type     *\/$/;"	m	class:PlayerObject
-iInitialFormation	src/PlayerSettings.h	/^  int    iInitialFormation;      \/*!< Initial formation for the team.        *\/$/;"	m	class:PlayerSettings
-iMaxMoment	src/ServerSettings.h	/^  int    iMaxMoment;        \/*!< maxmoment: maximum angle for turn\/kick      *\/$/;"	m	class:ServerSettings
-iMaxNeckAng	src/ServerSettings.h	/^  int    iMaxNeckAng;       \/*!< maxneckang: maximum neck angle rel. to body *\/$/;"	m	class:ServerSettings
-iMaxNeckMoment	src/ServerSettings.h	/^  int    iMaxNeckMoment;    \/*!< maxneckmoment: maximum angle for turnneck   *\/$/;"	m	class:ServerSettings
-iMaxPower	src/ServerSettings.h	/^  int    iMaxPower;         \/*!< maxpower: maximum power for dash\/kick       *\/$/;"	m	class:ServerSettings
-iMinMoment	src/ServerSettings.h	/^  int    iMinMoment;        \/*!< minmoment: minimum angle for turn\/kick      *\/$/;"	m	class:ServerSettings
-iMinNeckAng	src/ServerSettings.h	/^  int    iMinNeckAng;       \/*!< minneckang: minimum neck angle rel. to body *\/$/;"	m	class:ServerSettings
-iMinNeckMoment	src/ServerSettings.h	/^  int    iMinNeckMoment;    \/*!< minneckmoment: minimum angle for turnneck   *\/$/;"	m	class:ServerSettings
-iMinPower	src/ServerSettings.h	/^  int    iMinPower;         \/*!< minpower: minimum power for dash\/kick       *\/$/;"	m	class:ServerSettings
-iNrHoles	src/WorldModel.h	/^  int           iNrHoles;                \/*!< nr of holes recorded           *\/$/;"	m	class:WorldModel
-iNrOpponentsSeen	src/WorldModel.h	/^  int           iNrOpponentsSeen;        \/*!< total nr of opponents seen     *\/$/;"	m	class:WorldModel
-iNrParticlesAgent	src/WorldModel.h	/^  static const int iNrParticlesAgent = 100; \/*!<nr of particles used to store$/;"	m	class:WorldModel
-iNrParticlesBall	src/WorldModel.h	/^  static const int iNrParticlesBall  = 100; \/*! nr of particles used to store$/;"	m	class:WorldModel
-iNrTeammatesSeen	src/WorldModel.h	/^  int           iNrTeammatesSeen;        \/*!< total nr of teammates seen     *\/$/;"	m	class:WorldModel
-iNrUnknownPlayers	src/WorldModel.h	/^  int           iNrUnknownPlayers;       \/*!< number of unknown players      *\/$/;"	m	class:WorldModel
-iOlCoachPort	src/ServerSettings.h	/^  int    iOlCoachPort;      \/*!< ol_coach_port: port number for online coach *\/$/;"	m	class:ServerSettings
-iPlayerInFormation	src/Formations.h	/^  int               iPlayerInFormation; \/*!< role agent in current formation *\/$/;"	m	class:Formations
-iPlayerNumber	src/WorldModel.h	/^  int           iPlayerNumber;           \/*!< player number in soccerserver  *\/$/;"	m	class:WorldModel
-iPlayerTypes	src/ServerSettings.h	/^  int    iPlayerTypes;             \/*!< player_types: the number of player $/;"	m	class:ServerSettings
-iPlayerWhenToIntercept	src/PlayerSettings.h	/^  int    iPlayerWhenToIntercept; \/*!< how many cycles to ball when intercept *\/$/;"	m	class:PlayerSettings
-iPort	src/ServerSettings.h	/^  int    iPort;             \/*!< port: port number for player connection     *\/$/;"	m	class:ServerSettings
-iRecordVersion	src/ServerSettings.h	/^  int    iRecordVersion;    \/*!< record_version: the type of log record      *\/$/;"	m	class:ServerSettings
-iRecvStep	src/ServerSettings.h	/^  int    iRecvStep;         \/*!< recv_step: the length of the interval (in ms)$/;"	m	class:ServerSettings
-iSayCoachCntMax	src/ServerSettings.h	/^  int    iSayCoachCntMax;   \/*!< say_coach_cnt_max: maximum number of coach$/;"	m	class:ServerSettings
-iSayCoachMsgSize	src/ServerSettings.h	/^  int    iSayCoachMsgSize;  \/*!< say_coach_msg_size: maximum size of coach$/;"	m	class:ServerSettings
-iSayMsgSize	src/ServerSettings.h	/^  int    iSayMsgSize;       \/*!< say_msg_size: the maximum length (in bytes) of$/;"	m	class:ServerSettings
-iSendStep	src/ServerSettings.h	/^  int    iSendStep;         \/*!< send_step: the length of the interval (in ms)$/;"	m	class:ServerSettings
-iSendViStep	src/ServerSettings.h	/^  int    iSendViStep;       \/*!< send_vi_step: interval of coach's look, i.e.$/;"	m	class:ServerSettings
-iSenseBodyStep	src/ServerSettings.h	/^  int    iSenseBodyStep;    \/*!< sense_body_step: length of the interval (ms)$/;"	m	class:ServerSettings
-iServerTimeOut	src/PlayerSettings.h	/^  int    iServerTimeOut;         \/*!< Number of seconds before the soccer$/;"	m	class:PlayerSettings
-iSimStep	src/SenseHandler.h	/^  int         iSimStep;      \/*!< Length (microsec) of server cycles         *\/$/;"	m	class:SenseHandler
-iSimulatorStep	src/ServerSettings.h	/^  int    iSimulatorStep;    \/*!< simulator_step: the length (in ms) of a$/;"	m	class:ServerSettings
-iSlowDownFactor	src/ServerSettings.h	/^  int    iSlowDownFactor;          \/*!< slow_down_factor: factor to slow down$/;"	m	class:ServerSettings
-iSubsMax	src/ServerSettings.h	/^  int    iSubsMax;                 \/*!< subs_max: the maximum number of$/;"	m	class:ServerSettings
-iTackleCycles	src/ServerSettings.h	/^  int    iTackleCycles;            \/*!< tackle_cycles: cycles immobile after $/;"	m	class:ServerSettings
-iTimeSignal	src/SenseHandler.h	/^  int         iTimeSignal;   \/*!< Wait time (microsec) before sense calls act*\/$/;"	m	class:SenseHandler
-iTimer	src/SenseHandler.h	/^  UINT        iTimer;        \/*!< timer used to call sigalarmHandler function*\/$/;"	m	class:SenseHandler
-iTimes	src/SoccerTypes.h	/^  int          iTimes;      \/*!< how many cycles will a command  be sent     *\/$/;"	m	class:SoccerCommand
-iTriCounter	src/SenseHandler.h	/^  int         iTriCounter;   \/*!< Indicates when see message will arive      *\/$/;"	m	class:SenseHandler
-includedir	src/Makefile	/^includedir = ${prefix}\/include$/;"	m
-infodir	src/Makefile	/^infodir = ${prefix}\/info$/;"	m
 initParticlesAgent	src/WorldModelUpdate.cpp	/^void WorldModel::initParticlesAgent( AngDeg angGlobal )$/;"	f	class:WorldModel
 initParticlesAgent	src/WorldModelUpdate.cpp	/^void WorldModel::initParticlesAgent( VecPosition posInitial )$/;"	f	class:WorldModel
 initParticlesBall	src/WorldModelUpdate.cpp	/^void WorldModel::initParticlesBall( VecPosition posArray[],$/;"	f	class:WorldModel
-install_sh	src/Makefile	/^install_sh = \/home\/reinke.wolfram-tit13\/data\/programFiles\/robocup\/src\/tit11\/install-sh$/;"	m
-install_sh_DATA	src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
-install_sh_PROGRAM	src/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
-install_sh_SCRIPT	src/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
 intercept	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::intercept( bool isGoalie )$/;"	f	class:BasicPlayer
 interceptClose	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::interceptClose( )$/;"	f	class:BasicPlayer
 interceptCloseGoalie	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::interceptCloseGoalie( )$/;"	f	class:BasicPlayer
@@ -1404,7 +607,6 @@ isFullStateOn	src/WorldModel.cpp	/^bool WorldModel::isFullStateOn( SideT s )$/;"
 isGoal	src/SoccerTypes.cpp	/^bool SoccerTypes::isGoal( ObjectT o )$/;"	f	class:SoccerTypes
 isGoalKickThem	src/WorldModel.cpp	/^bool WorldModel::isGoalKickThem( PlayModeT pm )$/;"	f	class:WorldModel
 isGoalKickUs	src/WorldModel.cpp	/^bool WorldModel::isGoalKickUs( PlayModeT pm )$/;"	f	class:WorldModel
-isGoalie	src/Objects.h	/^  bool    isGoalie;              \/*!< is this object a goalie                *\/$/;"	m	class:PlayerObject
 isGoalie	src/SoccerTypes.cpp	/^bool SoccerTypes::isGoalie( ObjectT o )$/;"	f	class:SoccerTypes
 isIllegal	src/SoccerTypes.cpp	/^bool SoccerCommand::isIllegal( )$/;"	f	class:SoccerCommand
 isInBetween	src/Geometry.cpp	/^bool Line::isInBetween( VecPosition pos, VecPosition point1,VecPosition point2)$/;"	f	class:Line
@@ -1424,7 +626,6 @@ isKickInUs	src/WorldModel.cpp	/^bool WorldModel::isKickInUs( PlayModeT pm )$/;"	
 isKickOffThem	src/WorldModel.cpp	/^bool WorldModel::isKickOffThem( PlayModeT pm )$/;"	f	class:WorldModel
 isKickOffUs	src/WorldModel.cpp	/^bool WorldModel::isKickOffUs( PlayModeT pm )$/;"	f	class:WorldModel
 isKickable	src/Player.cpp	/^bool Player:: isKickable( VecPosition & pos )$/;"	f	class:Player
-isKnownPlayer	src/Objects.h	/^  bool    isKnownPlayer;         \/*!< are we sure about player number        *\/$/;"	m	class:PlayerObject
 isKnownPlayer	src/SoccerTypes.cpp	/^bool SoccerTypes::isKnownPlayer( ObjectT o )$/;"	f	class:SoccerTypes
 isKnownPlayer	src/WorldModel.cpp	/^bool WorldModel::isKnownPlayer( ObjectT o )$/;"	f	class:WorldModel
 isLastMessageSee	src/WorldModel.cpp	/^bool WorldModel::isLastMessageSee() const$/;"	f	class:WorldModel
@@ -1454,17 +655,11 @@ isVisible	src/WorldModelHighLevel.cpp	/^bool WorldModel::isVisible( ObjectT o )$
 iterateObjectDone	src/WorldModel.cpp	/^void WorldModel::iterateObjectDone( int &iIndex )$/;"	f	class:WorldModel
 iterateObjectNext	src/WorldModel.cpp	/^ObjectT WorldModel::iterateObjectNext(int& iIndex,ObjectSetT g, double dConf,$/;"	f	class:WorldModel
 iterateObjectStart	src/WorldModel.cpp	/^ObjectT WorldModel::iterateObjectStart(int& iIndex,ObjectSetT g,double dConf,$/;"	f	class:WorldModel
-itv	src/SenseHandler.h	/^  struct      itimerval itv; \/*!< timer used to set alarm to send action     *\/$/;"	m	class:SenseHandler	typeref:struct:SenseHandler::itimerval
-j	src/hungarian.h	/^  int* j;$/;"	m	struct:__anon3
-k	src/hungarian.h	/^  int k;$/;"	m	struct:__anon3
 kickBallCloseToBody	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::kickBallCloseToBody( AngDeg ang, double dKickRatio )$/;"	f	class:BasicPlayer
 kickTo	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::kickTo( VecPosition posTarget, double dEndSpeed )$/;"	f	class:BasicPlayer
 leadingPass	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::leadingPass( ObjectT o, double dDist, DirectionT dir)$/;"	f	class:BasicPlayer
 letTackle	src/Player.cpp	/^bool Player::letTackle()$/;"	f	class:Player
-libdir	src/Makefile	/^libdir = ${exec_prefix}\/lib64$/;"	m
-libexecdir	src/Makefile	/^libexecdir = ${exec_prefix}\/lib$/;"	m
 listenTo	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::listenTo( ObjectT obj )$/;"	f	class:BasicPlayer
-localstatedir	src/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
 log	src/Logger.cpp	/^bool Logger::log( int iLevel, char *str, ... )$/;"	f	class:Logger
 log	src/Logger.cpp	/^bool Logger::log( int iLevel, string str)$/;"	f	class:Logger
 logCircle	src/WorldModel.cpp	/^bool WorldModel::logCircle( int iLogLevel, VecPosition pos, double  dRadius,$/;"	f	class:WorldModel
@@ -1477,79 +672,6 @@ logObjectInformation	src/WorldModel.cpp	/^void WorldModel::logObjectInformation(
 logSignal	src/Logger.cpp	/^bool Logger::logSignal( )$/;"	f	class:Logger
 logWithTime	src/Logger.cpp	/^bool Logger::logWithTime( int iLevel, char *str, ... )$/;"	f	class:Logger
 lowDistanceToOpponentGoal	src/Player.cpp	/^double Player::lowDistanceToOpponentGoal()$/;"	f	class:Player
-m	src/hungarian.h	/^  size_t m,n;  \/\/ problem dimensions$/;"	m	struct:__anon4
-m_a	src/Geometry.h	/^  double m_a; \/*!< This is the a coefficient in the line ay + bx + c = 0 *\/$/;"	m	class:Line
-m_actionPrev	src/Player.h	/^  ActionT       m_actionPrev;            \/*!< previous action of this agent  *\/$/;"	m	class:Player
-m_angGlobalArm	src/Objects.h	/^  AngDeg  m_angGlobalArm;        \/*!< global pointing direction of arm       *\/$/;"	m	class:PlayerObject
-m_b	src/Geometry.h	/^  double m_b; \/*!< This is the b coefficient in the line ay + bx + c = 0 *\/$/;"	m	class:Line
-m_bArmMovable	src/Objects.h	/^  bool         m_bArmMovable;         \/*!< Indicates whether can move arm.   *\/$/;"	m	class:AgentObject
-m_bPerformedKick	src/WorldModel.h	/^  bool          m_bPerformedKick;       \/*!<Indicates whether ball was kicked*\/$/;"	m	class:WorldModel
-m_bRecvThink	src/WorldModel.h	/^  bool          m_bRecvThink;           \/*!< think received in sync. mode    *\/$/;"	m	class:WorldModel
-m_bWasCollision	src/WorldModel.h	/^  bool          m_bWasCollision;        \/*!<Indicates whether it is collision*\/$/;"	m	class:WorldModel
-m_buf	src/Logger.h	/^  char     m_buf[MAX_LOG_LINE];    \/*!< buffer needed by different methods   *\/$/;"	m	class:Logger
-m_c	src/Geometry.h	/^  double m_c; \/*!< This is the c coefficient in the line ay + bx + c = 0 *\/$/;"	m	class:Line
-m_changeViewCommand	src/WorldModel.h	/^  SoccerCommand m_changeViewCommand;    \/*!< last sent change_view command   *\/$/;"	m	class:WorldModel
-m_colorPlayers	src/WorldModel.h	/^  char m_colorPlayers[11][8];       \/*!< color information with which each$/;"	m	class:WorldModel
-m_dCommOffsideX	src/WorldModel.h	/^  double        m_dCommOffsideX;        \/*!< communicated offside line       *\/$/;"	m	class:WorldModel
-m_dEffort	src/Objects.h	/^  double m_dEffort;               \/*!< Effort value (0..1)               *\/$/;"	m	class:Stamina
-m_dInfo	src/SoccerTypes.h	/^  double        m_dInfo;    \/*!< information stored with this feature        *\/$/;"	m	class:Feature
-m_dRadius	src/Geometry.h	/^    double      m_dRadius;              \/*!< Radius of the circle  *\/$/;"	m	class:Circle
-m_dRecovery	src/Objects.h	/^  double m_dRecovery;             \/*!< Recovery (0..1)                   *\/$/;"	m	class:Stamina
-m_dStamina	src/Objects.h	/^  double m_dStamina;              \/*!< Stamina value (>0)                *\/$/;"	m	class:Stamina
-m_features	src/WorldModel.h	/^  Feature       m_features[MAX_FEATURES];\/*!< features applied to cur. cycle.*\/$/;"	m	class:WorldModel
-m_iArmExpires	src/Objects.h	/^  int          m_iArmExpires;         \/*!< Nr. of cycles till arm expires    *\/$/;"	m	class:AgentObject
-m_iCycleInMsg	src/WorldModel.h	/^  int           m_iCycleInMsg;          \/*!< cycle contained in message      *\/$/;"	m	class:WorldModel
-m_iMaxGenericValues	src/GenericValues.h	/^  int   m_iMaxGenericValues;\/*!< the number of generic values in the current$/;"	m	class:GenericValues
-m_iMaxMsgSize	src/Connection.h	/^  int            m_iMaxMsgSize; \/*!< max  message size for send and receive  *\/$/;"	m	class:Connection
-m_iMessageSender	src/WorldModel.h	/^  int           m_iMessageSender;       \/*!< player who send message         *\/$/;"	m	class:WorldModel
-m_iMultX	src/WorldModel.h	/^  int m_iMultX;                     \/*!< This variable denotes with which value$/;"	m	class:WorldModel
-m_iMultY	src/WorldModel.h	/^  int m_iMultY;                     \/*!< This variable denotes with which value$/;"	m	class:WorldModel
-m_iMultipleCommands	src/ActHandler.h	/^  int            m_iMultipleCommands;    \/*!< number of non-primary commands *\/$/;"	m	class:ActHandler
-m_iPenaltyNr	src/Player.h	/^  int           m_iPenaltyNr;            \/*!< number of current penalty      *\/$/;"	m	class:Player
-m_iSeeCounter	src/SenseHandler.h	/^  int         m_iSeeCounter; \/*!<! Used to count number of see msg in 1 cycle*\/$/;"	m	class:SenseHandler
-m_iStopped	src/SoccerTypes.h	/^  int m_iStopped;         \/*!< Number of cycles stopped at m_iTime *\/$/;"	m	class:Time
-m_iTackleExpires	src/Objects.h	/^  int          m_iTackleExpires;      \/*!< Nr. of cycles till tackle expires *\/$/;"	m	class:AgentObject
-m_iTime	src/SoccerTypes.h	/^  int m_iTime;            \/*!< Number of cycles, denoting the time *\/$/;"	m	class:Time
-m_iValuesTotal	src/GenericValues.h	/^  int   m_iValuesTotal;     \/*!< the total number of generic values stored in$/;"	m	class:GenericValues
-m_objFocus	src/WorldModel.h	/^  ObjectT       m_objFocus;             \/*!< object to which is focused.     *\/$/;"	m	class:WorldModel
-m_objMarkOpp	src/Player.h	/^  ObjectT       m_objMarkOpp;            \/*!< last marked opponent           *\/$/;"	m	class:Player
-m_objPassOption	src/Player.h	/^  ObjectT       m_objPassOption;         \/*!< passing option in kick         *\/$/;"	m	class:Player
-m_object	src/SoccerTypes.h	/^  ObjectT       m_object;   \/*!< object information stored with this feature *\/$/;"	m	class:Feature
-m_os	src/Logger.h	/^  ostream* m_os;                   \/*!< output stream to print messages to   *\/$/;"	m	class:Logger
-m_player_types	src/BasicCoach.h	/^        HeteroPlayerSettings m_player_types[MAX_HETERO_PLAYERS];$/;"	m	class:BasicCoach
-m_posCenter	src/Geometry.h	/^    VecPosition m_posCenter;            \/*!< Center of the circle  *\/$/;"	m	class:Circle
-m_posGlobalArm	src/Objects.h	/^  VecPosition  m_posGlobalArm;       ;\/*!< Global point to which arm point   *\/$/;"	m	class:AgentObject
-m_posLeftTop	src/Geometry.h	/^  VecPosition m_posLeftTop;     \/*!< top left position of the rectangle      *\/$/;"	m	class:Rect
-m_posRightBottom	src/Geometry.h	/^  VecPosition m_posRightBottom; \/*!< bottom right position of the rectangle  *\/$/;"	m	class:Rect
-m_queueMultipleCommands	src/ActHandler.h	/^  SoccerCommand  m_queueMultipleCommands[CMD_MAX_COMMANDS];$/;"	m	class:ActHandler
-m_queueOneCycleCommand	src/ActHandler.h	/^  SoccerCommand  m_queueOneCycleCommand; \/*!< primary command is saved here  *\/$/;"	m	class:ActHandler
-m_setLogLevels	src/Logger.h	/^  set<int> m_setLogLevels;         \/*!< set that contains all log levels     *\/$/;"	m	class:Logger
-m_setSubstitutedOpp	src/WorldModel.h	/^  set<ObjectT>  m_setSubstitutedOpp;    \/*!< Set of substituted opp players. *\/$/;"	m	class:WorldModel
-m_sidePenalty	src/WorldModel.h	/^  SideT         m_sidePenalty;$/;"	m	class:WorldModel
-m_soc	src/SoccerTypes.h	/^  SoccerCommand m_soc;      \/*!< command stored with this feature            *\/$/;"	m	class:Feature
-m_sock	src/Connection.h	/^  Socket         m_sock;        \/*!< communication protocol with the server. *\/$/;"	m	class:Connection
-m_strClassName	src/GenericValues.h	/^  char  *m_strClassName;    \/*!< the name associated with this group of generic$/;"	m	class:GenericValues
-m_strCommunicate	src/WorldModel.h	/^  char          m_strCommunicate[MAX_SAY_MSG];\/*!< string for communicating  *\/$/;"	m	class:WorldModel
-m_strHeader	src/Logger.h	/^  char     m_strHeader[MAX_HEADER];\/*!< header string printed before msg     *\/$/;"	m	class:Logger
-m_strName	src/GenericValues.h	/^  const char*      m_strName;  \/*!< the name associated with the variable to$/;"	m	class:GenericValueT
-m_strPlayerMsg	src/WorldModel.h	/^  char          m_strPlayerMsg[MAX_MSG];\/*!< message communicated by player  *\/$/;"	m	class:WorldModel
-m_strSignal	src/Logger.h	/^  string   m_strSignal;            \/*!< temporary string for other messages  *\/$/;"	m	class:Logger
-m_timeCommOffsideX	src/WorldModel.h	/^  Time          m_timeCommOffsideX;     \/*!< time Communicated offside line  *\/$/;"	m	class:WorldModel
-m_timeGlobalArm	src/Objects.h	/^  Time    m_timeGlobalArm;       \/*!< time arm last seen                     *\/$/;"	m	class:PlayerObject
-m_timeHear	src/SoccerTypes.h	/^  Time          m_timeHear; \/*!< hear time corresponding to stored info      *\/$/;"	m	class:Feature
-m_timeLastCollision	src/WorldModel.h	/^  Time          m_timeLastCollision;    \/*!< Last collision time             *\/$/;"	m	class:WorldModel
-m_timeLastSay	src/Player.h	/^  Time          m_timeLastSay;           \/*!< last time communicated         *\/$/;"	m	class:Player
-m_timePlayerMsg	src/WorldModel.h	/^  Time          m_timePlayerMsg;        \/*!< time corresponding to player msg*\/$/;"	m	class:WorldModel
-m_timeSee	src/SoccerTypes.h	/^  Time          m_timeSee;  \/*!< see time corresponding to stored information*\/$/;"	m	class:Feature
-m_timeSense	src/SoccerTypes.h	/^  Time          m_timeSense;\/*!< sense time corresponding to stored info     *\/$/;"	m	class:Feature
-m_timeTackle	src/Objects.h	/^  Time    m_timeTackle;          \/*!< time tackle command was observerd      *\/$/;"	m	class:PlayerObject
-m_timing	src/Logger.h	/^  Timing   m_timing;               \/*!< timer to print timing information    *\/$/;"	m	class:Logger
-m_type	src/GenericValues.h	/^  GenericValueKind m_type;     \/*!< the (generic) type of the variable to which$/;"	m	class:GenericValueT
-m_vAddress	src/GenericValues.h	/^  void*            m_vAddress; \/*!< a pointer to a variable of a generic type*\/$/;"	m	class:GenericValueT
-m_values	src/GenericValues.h	/^  GenericValueT ** m_values;\/*!< a pointer to an array containing all generic$/;"	m	class:GenericValues
-m_vec	src/SoccerTypes.h	/^  VecPosition   m_vec;      \/*!< information stored with this feature        *\/$/;"	m	class:Feature
-m_x	src/Geometry.h	/^  double m_x;   \/*!< x-coordinate of this position *\/$/;"	m	class:VecPosition
-m_y	src/Geometry.h	/^  double m_y;   \/*!< y-coordinate of this position *\/$/;"	m	class:VecPosition
 main	src/main.cpp	/^int main( int argc, char * argv[] )$/;"	f
 main	src/mainCoach.cpp	/^int main( int argc, char * argv[] )$/;"	f
 mainLoop	src/Player.cpp	/^void Player::mainLoop( )$/;"	f	class:Player
@@ -1574,36 +696,17 @@ makeSynchSeeToCommand	src/SoccerTypes.cpp	/^bool SoccerCommand::makeSynchSeeToCo
 makeTackleCommand	src/SoccerTypes.cpp	/^bool SoccerCommand::makeTackleCommand( char *str  )$/;"	f	class:SoccerCommand
 makeTurnCommand	src/SoccerTypes.cpp	/^bool SoccerCommand::makeTurnCommand( char *str  )$/;"	f	class:SoccerCommand
 makeTurnNeckCommand	src/SoccerTypes.cpp	/^bool SoccerCommand::makeTurnNeckCommand( char *str  )$/;"	f	class:SoccerCommand
-mandir	src/Makefile	/^mandir = ${prefix}\/man$/;"	m
 mapUnknownPlayers	src/WorldModelUpdate.cpp	/^void WorldModel::mapUnknownPlayers( Time time)$/;"	f	class:WorldModel
 mark	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::mark( ObjectT o, double dDist, MarkT mark )$/;"	f	class:BasicPlayer
 max	src/Geometry.cpp	/^double max( double d1, double d2 )$/;"	f
-max_back_tackle_power	src/ServerSettings.h	/^    double max_back_tackle_power ;$/;"	m	class:ServerSettings
-max_dash_angle	src/ServerSettings.h	/^    double max_dash_angle ;$/;"	m	class:ServerSettings
-max_dash_power	src/ServerSettings.h	/^    double max_dash_power ;$/;"	m	class:ServerSettings
-max_monitors	src/ServerSettings.h	/^    int max_monitors ;$/;"	m	class:ServerSettings
-max_tackle_power	src/ServerSettings.h	/^    double max_tackle_power ;$/;"	m	class:ServerSettings
-maxutil	src/hungarian.h	/^  int maxutil;  \/\/ maximum utility$/;"	m	struct:__anon4
 message_loop	src/Connection.cpp	/^int Connection::message_loop( FILE *fpin, FILE *fpout )$/;"	f	class:Connection
 midfielderMainLoop	src/Player.cpp	/^SoccerCommand Player::midfielderMainLoop( )$/;"	f	class:Player
 min	src/Geometry.cpp	/^double min( double d1, double d2 )$/;"	f
-min_dash_angle	src/ServerSettings.h	/^    double min_dash_angle ;$/;"	m	class:ServerSettings
-min_dash_power	src/ServerSettings.h	/^    double min_dash_power ;$/;"	m	class:ServerSettings
-mkinstalldirs	src/Makefile	/^mkinstalldirs = $(SHELL) $(top_srcdir)\/mkinstalldirs$/;"	m
-mode	src/hungarian.h	/^  int mode; \/\/ are we maximizing or minimizing?$/;"	m	struct:__anon4
 moveToPos	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::moveToPos( VecPosition posTo, AngDeg angWhenToTurn,$/;"	f	class:BasicPlayer
 moveToPosAlongLine	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::moveToPosAlongLine( VecPosition pos, AngDeg ang,$/;"	f	class:BasicPlayer
-mutex_newInfo	src/WorldModel.h	/^  CRITICAL_SECTION mutex_newInfo;       \/*!< mutex to protect bNewInfo       *\/$/;"	m	class:WorldModel
-mutex_newInfo	src/WorldModel.h	/^  pthread_mutex_t  mutex_newInfo;       \/*!< mutex to protect bNewInfo       *\/$/;"	m	class:WorldModel
-mutex_stream	src/Logger.h	/^  pthread_mutex_t mutex_stream; $/;"	m	class:Logger
 myRelativeDirection	src/Player.cpp	/^AngDeg Player::myRelativeDirection(VecPosition posAgent)$/;"	f	class:Player
-n	src/hungarian.h	/^  size_t m,n;  \/\/ problem dimensions$/;"	m	struct:__anon4
 normalize	src/Geometry.cpp	/^VecPosition VecPosition::normalize( )$/;"	f	class:VecPosition
 normalizeAngle	src/Geometry.cpp	/^AngDeg VecPosition::normalizeAngle( AngDeg angle )$/;"	f	class:VecPosition
-objRangeMax	src/Objects.h	/^  ObjectT objRangeMax;           \/*!< Maximum in range of possible player obj*\/$/;"	m	class:PlayerObject
-objRangeMin	src/Objects.h	/^  ObjectT objRangeMin;           \/*!< Minimum in range of possible player obj*\/$/;"	m	class:PlayerObject
-objectType	src/Objects.h	/^  ObjectT     objectType;             \/*!< Type of this object               *\/$/;"	m	class:Object
-oldincludedir	src/Makefile	/^oldincludedir = \/usr\/include$/;"	m
 operator !=	src/Geometry.cpp	/^bool VecPosition::operator !=( const VecPosition &p )$/;"	f	class:VecPosition
 operator !=	src/Geometry.cpp	/^bool VecPosition::operator !=( const double &d )$/;"	f	class:VecPosition
 operator !=	src/SoccerTypes.cpp	/^bool Time::operator != ( Time t )$/;"	f	class:Time
@@ -1653,25 +756,8 @@ operator >=	src/SoccerTypes.cpp	/^bool Time::operator >= ( const int  &i )$/;"	f
 outplayOpponent	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::outplayOpponent( ObjectT o, VecPosition pos,$/;"	f	class:BasicPlayer
 parseFirstDouble	src/Parse.cpp	/^double Parse::parseFirstDouble( char** strMsg )$/;"	f	class:Parse
 parseFirstInt	src/Parse.cpp	/^int Parse::parseFirstInt( char** strMsg )$/;"	f	class:Parse
-particlesPosAgent	src/WorldModel.h	/^  VecPosition   particlesPosAgent[iNrParticlesAgent]; \/*!< particles to store$/;"	m	class:WorldModel
-particlesPosBall	src/WorldModel.h	/^  VecPosition   particlesPosBall[iNrParticlesBall];   \/*! particles to store$/;"	m	class:WorldModel
-particlesVelBall	src/WorldModel.h	/^  VecPosition   particlesVelBall[iNrParticlesBall];   \/*! particles to store$/;"	m	class:WorldModel
 pass	src/PlayerTeams.cpp	/^SoccerCommand Player::pass(VecPosition target)$/;"	f	class:Player
 performPenalty	src/Player.cpp	/^void Player::performPenalty( )$/;"	f	class:Player
-performedCommands	src/WorldModel.h	/^  bool          performedCommands[CMD_MAX_COMMANDS];\/*!< commands performed in$/;"	m	class:WorldModel
-pkgdatadir	src/Makefile	/^pkgdatadir = $(datadir)\/trilearn_base_sources$/;"	m
-pkgincludedir	src/Makefile	/^pkgincludedir = $(includedir)\/trilearn_base_sources$/;"	m
-pkglibdir	src/Makefile	/^pkglibdir = $(libdir)\/trilearn_base_sources$/;"	m
-playMode	src/WorldModel.h	/^  PlayModeT     playMode;                \/*!< current play mode in the game  *\/$/;"	m	class:WorldModel
-playerType	src/Formations.h	/^  PlayerT         playerType[ MAX_TEAMMATES ]; \/*!< player_types for roles   *\/$/;"	m	class:FormationTypeInfo
-playerType	src/Formations.h	/^  PlayerT playerType; \/*!< This class gives information about this PlayerType*\/$/;"	m	class:PlayerTypeInfo
-playerTypeInfo	src/Formations.h	/^  PlayerTypeInfo  playerTypeInfo[ MAX_PLAYER_TYPES ]; \/*!< info for roles    *\/$/;"	m	class:FormationTypeInfo
-player_speed_max_min	src/ServerSettings.h	/^    double player_speed_max_min ;$/;"	m	class:ServerSettings
-posGlobal	src/Objects.h	/^  VecPosition posGlobal;              \/*!< Global position in the field      *\/$/;"	m	class:Object
-posGlobalLastSee	src/Objects.h	/^  VecPosition posGlobalLastSee;       \/*!< Global position of last see msg   *\/$/;"	m	class:Object
-posHome	src/Formations.h	/^  VecPosition     posHome[ MAX_TEAMMATES ];    \/*!< home position for roles  *\/$/;"	m	class:FormationTypeInfo
-posPositionDifference	src/Objects.h	/^  VecPosition  posPositionDifference; \/*!< Global pos difference with lastsee*\/$/;"	m	class:AgentObject
-posRelative	src/Objects.h	/^  VecPosition posRelative;            \/*!< Relative position of the object   *\/$/;"	m	class:Object
 predictAgentPos	src/WorldModelPredict.cpp	/^VecPosition WorldModel::predictAgentPos( int iCycles, int iDashPower )$/;"	f	class:WorldModel
 predictAgentPosAfterCommand	src/WorldModelPredict.cpp	/^VecPosition WorldModel::predictAgentPosAfterCommand( SoccerCommand com )$/;"	f	class:WorldModel
 predictAgentStateAfterCommand	src/WorldModelPredict.cpp	/^bool WorldModel::predictAgentStateAfterCommand( SoccerCommand com,$/;"	f	class:WorldModel
@@ -1689,7 +775,6 @@ predictStaminaAfterDash	src/WorldModelPredict.cpp	/^void WorldModel::predictStam
 predictStateAfterCommand	src/WorldModelPredict.cpp	/^bool WorldModel::predictStateAfterCommand( SoccerCommand com,$/;"	f	class:WorldModel
 predictStateAfterDash	src/WorldModelPredict.cpp	/^void WorldModel::predictStateAfterDash( double dActualPower, VecPosition *pos,$/;"	f	class:WorldModel
 predictStateAfterTurn	src/WorldModelPredict.cpp	/^void WorldModel::predictStateAfterTurn( AngDeg dSendAngle, VecPosition *pos,$/;"	f	class:WorldModel
-prefix	src/Makefile	/^prefix = \/home\/reinke.wolfram-tit13\/data\/programFiles\/robocup\/tit11$/;"	m
 printOptions	src/main.cpp	/^void printOptions( )$/;"	f
 printOptions	src/mainCoach.cpp	/^void printOptions( )$/;"	f
 printTimeDiffWithText	src/Logger.cpp	/^void Timing::printTimeDiffWithText( ostream &os, char *str, int iFactor )$/;"	f	class:Timing
@@ -1706,12 +791,7 @@ processQueuedCommands	src/WorldModelUpdate.cpp	/^void WorldModel::processQueuedC
 processRecvThink	src/WorldModelUpdate.cpp	/^bool WorldModel::processRecvThink( bool b )$/;"	f	class:WorldModel
 processSeeGlobalInfo	src/WorldModelUpdate.cpp	/^void WorldModel::processSeeGlobalInfo( ObjectT o, Time time,$/;"	f	class:WorldModel
 processUnsureHearInfo	src/WorldModelUpdate.cpp	/^bool WorldModel::processUnsureHearInfo( ObjectT o, VecPosition pos,$/;"	f	class:WorldModel
-program_transform_name	src/Makefile	/^program_transform_name = s,x,x,$/;"	m
-pt	src/WorldModel.h	/^  HeteroPlayerSettings pt[MAX_HETERO_PLAYERS]; \/*!< info hetero player types *\/$/;"	m	class:WorldModel
 putCommandInQueue	src/ActHandler.cpp	/^bool ActHandler::putCommandInQueue( SoccerCommand command )$/;"	f	class:ActHandler
-q	src/hungarian.h	/^  int** q;     \/\/ the Q matrix$/;"	m	struct:__anon4
-queuedCommands	src/WorldModel.h	/^  SoccerCommand queuedCommands[CMD_MAX_COMMANDS];   \/*!<all performed commands,$/;"	m	class:WorldModel
-r	src/hungarian.h	/^  int** r;     \/\/ the rating (utility) matrix$/;"	m	struct:__anon4
 readFormations	src/Formations.cpp	/^bool Formations::readFormations( const char *strFile )$/;"	f	class:Formations
 readServerParam	src/SenseHandler.cpp	/^bool SenseHandler::readServerParam( char *strParam, char *strMsg )$/;"	f	class:SenseHandler
 readValues	src/GenericValues.cpp	/^bool GenericValues::readValues( const char *strFile, const char *strSeparator )$/;"	f	class:GenericValues
@@ -1724,14 +804,12 @@ resampleParticlesBall	src/WorldModelUpdate.cpp	/^void WorldModel::resamplePartic
 resetTimeObjects	src/WorldModelUpdate.cpp	/^bool WorldModel::resetTimeObjects( )$/;"	f	class:WorldModel
 restartTime	src/Logger.cpp	/^void Timing::restartTime( )$/;"	f	class:Timing
 restartTimer	src/Logger.cpp	/^void Logger::restartTimer()$/;"	f	class:Logger
-rint	src/WorldModel.h	/^inline double rint(double x)$/;"	f
 rotate	src/Geometry.cpp	/^VecPosition VecPosition::rotate( AngDeg angle )$/;"	f	class:VecPosition
-row_total	src/hungarian.h	/^  int row_total, col_total; \/\/ row and column totals$/;"	m	struct:__anon4
 saveValues	src/GenericValues.cpp	/^bool GenericValues::saveValues( const char *strFile, const char *strSeparator,$/;"	f	class:GenericValues
 sayBallStatus	src/Player.cpp	/^void Player::sayBallStatus( char * strMsg  )$/;"	f	class:Player
 sayOppAttackerStatus	src/Player.cpp	/^void Player::sayOppAttackerStatus( char* strMsg )$/;"	f	class:Player
-sbindir	src/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
 searchBall	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::searchBall()$/;"	f	class:BasicPlayer
+sendAssignment	src/BasicCoach.cpp	/^void BasicCoach::sendAssignment( int *assignment )$/;"	f	class:BasicCoach
 sendCommand	src/ActHandler.cpp	/^bool ActHandler::sendCommand( SoccerCommand soc )$/;"	f	class:ActHandler
 sendCommandDirect	src/ActHandler.cpp	/^bool ActHandler::sendCommandDirect( SoccerCommand soc )$/;"	f	class:ActHandler
 sendCommands	src/ActHandler.cpp	/^bool ActHandler::sendCommands( )$/;"	f	class:ActHandler
@@ -1739,8 +817,6 @@ sendMessage	src/ActHandler.cpp	/^bool ActHandler::sendMessage( char * str )$/;"	
 sendMessage	src/Connection.cpp	/^bool Connection::sendMessage( const char *msg )$/;"	f	class:Connection
 sendMessageDirect	src/ActHandler.cpp	/^bool ActHandler::sendMessageDirect( char * str )$/;"	f	class:ActHandler
 sense_callback	src/SenseHandler.cpp	/^DWORD WINAPI sense_callback( LPVOID v )$/;"	f
-seq	src/hungarian.h	/^  hungarian_sequence_t seq; \/\/ sequence of i's and j's$/;"	m	struct:__anon4
-serv_addr	src/Connection.h	/^    struct sockaddr_in  serv_addr ;   \/*!< Server information of the socket. *\/$/;"	m	struct:_socket	typeref:struct:_socket::sockaddr_in
 setAgentObjectType	src/WorldModel.cpp	/^bool WorldModel::setAgentObjectType( ObjectT o )$/;"	f	class:WorldModel
 setAgentViewAngle	src/WorldModel.cpp	/^bool WorldModel::setAgentViewAngle( ViewAngleT va ) $/;"	f	class:WorldModel
 setAgentViewQuality	src/WorldModel.cpp	/^bool WorldModel::setAgentViewQuality( ViewQualityT vq ) $/;"	f	class:WorldModel
@@ -2008,7 +1084,6 @@ setXPosHome	src/Formations.cpp	/^bool FormationTypeInfo::setXPosHome( double x, 
 setY	src/Geometry.cpp	/^bool VecPosition::setY( double dY )$/;"	f	class:VecPosition
 setYPosHome	src/Formations.cpp	/^bool FormationTypeInfo::setYPosHome( double y, int atIndex )$/;"	f	class:FormationTypeInfo
 shallISaySomething	src/Player.cpp	/^bool Player::shallISaySomething( SoccerCommand socPri )$/;"	f	class:Player
-sharedstatedir	src/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
 show	src/Connection.cpp	/^void Connection::show( ostream os )$/;"	f	class:Connection
 show	src/Formations.cpp	/^void FormationTypeInfo::show( ostream &os )$/;"	f	class:FormationTypeInfo
 show	src/Formations.cpp	/^void Formations::show( ostream &os )$/;"	f	class:Formations
@@ -2036,78 +1111,27 @@ showLogLevels	src/Logger.cpp	/^void Logger::showLogLevels( ostream &os )$/;"	f	c
 showQueuedCommands	src/WorldModel.cpp	/^void WorldModel::showQueuedCommands( ostream & os )$/;"	f	class:WorldModel
 showStringCommands	src/BasicCoach.cpp	/^void BasicCoach::showStringCommands( ostream& out )$/;"	f	class:BasicCoach
 showStringCommands	src/Player.cpp	/^void Player::showStringCommands( ostream& out )$/;"	f	class:Player
-sideSide	src/WorldModel.h	/^  SideT         sideSide;                \/*!< side where the agent started   *\/$/;"	m	class:WorldModel
-side_dash_rate	src/ServerSettings.h	/^    double side_dash_rate ;$/;"	m	class:ServerSettings
 sigalarmHandler	src/ActHandler.cpp	/^extern void CALLBACK sigalarmHandler(UINT , UINT , DWORD , DWORD , DWORD )$/;"	f
 sign	src/Geometry.cpp	/^int sign( double d1 )$/;"	f
 sinDeg	src/Geometry.cpp	/^double sinDeg( AngDeg x )$/;"	f
-socketfd	src/Connection.h	/^    int    socketfd  ;                \/*!< File descriptor of the socket.    *\/$/;"	m	struct:_socket
-srcdir	src/Makefile	/^srcdir = .$/;"	m
-stamina	src/Objects.h	/^  Stamina      stamina;               \/*!< Stamina (stamina, effort, recovery*\/$/;"	m	class:AgentObject
-stamina_capacity	src/ServerSettings.h	/^    double stamina_capacity ;$/;"	m	class:ServerSettings
 standardsituationen	src/PlayerTeams.cpp	/^SoccerCommand Player::standardsituationen()$/;"	f	class:Player
 stdin_callback	src/BasicCoach.cpp	/^DWORD WINAPI stdin_callback( LPVOID v )$/;"	f
 stdin_callback	src/Player.cpp	/^DWORD WINAPI stdin_callback( LPVOID v )$/;"	f
 storePlayerMessage	src/WorldModelUpdate.cpp	/^bool WorldModel::storePlayerMessage( int iPlayer, char *strMsg, int iCycle )$/;"	f	class:WorldModel
 str	src/Geometry.cpp	/^string VecPosition::str( CoordSystemT cs )$/;"	f	class:VecPosition
-str	src/SoccerTypes.h	/^  char         str[MAX_SAY_MSG];\/*!< str (for say)                           *\/$/;"	m	class:SoccerCommand
-strLastHearMessage	src/WorldModel.h	/^  char          strLastHearMessage [MAX_MSG];  \/*!< Last hear message        *\/$/;"	m	class:WorldModel
-strLastSeeMessage	src/WorldModel.h	/^  char          strLastSeeMessage  [MAX_MSG];  \/*!< Last see message         *\/$/;"	m	class:WorldModel
-strLastSenseMessage	src/WorldModel.h	/^  char          strLastSenseMessage[MAX_MSG];  \/*!< Last sense_body message  *\/$/;"	m	class:WorldModel
-strLogFile	src/ServerSettings.h	/^  char   strLogFile[ 256 ]; \/*!< server log to store all actions received    *\/$/;"	m	class:ServerSettings
-strTeamName	src/WorldModel.h	/^  char          strTeamName[MAX_TEAM_NAME_LENGTH]; \/*!< Team name            *\/$/;"	m	class:WorldModel
-subdir	src/Makefile	/^subdir = src$/;"	m
 substitutePlayer	src/BasicCoach.cpp	/^void BasicCoach::substitutePlayer( int iPlayer, int iPlayerType )$/;"	f	class:BasicCoach
 subtractOneFromGoalDiff	src/WorldModel.cpp	/^int WorldModel::subtractOneFromGoalDiff()$/;"	f	class:WorldModel
 suitablePass1	src/Player.cpp	/^int Player::suitablePass1()$/;"	f	class:Player
-synch_see_offset	src/ServerSettings.h	/^    int synch_see_offset ;$/;"	m	class:ServerSettings
-sysconfdir	src/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
 tackle	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::tackle( )$/;"	f	class:BasicPlayer
 tanDeg	src/Geometry.cpp	/^double tanDeg( AngDeg x )$/;"	f
-target_alias	src/Makefile	/^target_alias = $/;"	m
 teleportToPos	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::teleportToPos( VecPosition pos )$/;"	f	class:BasicPlayer
 throughPass	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::throughPass( ObjectT o, VecPosition posEnd,$/;"	f	class:BasicPlayer
-time	src/SoccerTypes.h	/^  Time         time;        \/*!< command time, will be set by worldmodel     *\/$/;"	m	class:SoccerCommand
-time1	src/Logger.h	/^  DWORD  time1;                  \/*! < the number of milliseconds that have$/;"	m	class:Timing
-timeChangeInformation	src/Objects.h	/^  Time        timeChangeInformation;  \/*!< Time of change information        *\/$/;"	m	class:DynamicObject
-timeCheckBall	src/WorldModel.h	/^  Time          timeCheckBall;           \/*!< time bsCheckBall applies to    *\/$/;"	m	class:WorldModel
-timeGlobalAngles	src/Objects.h	/^  Time    timeGlobalAngles;      \/*!< Server time of global angles           *\/$/;"	m	class:PlayerObject
-timeGlobalPosDerivedFromSee	src/Objects.h	/^  Time        timeGlobalPosDerivedFromSee;\/*!< Time pos derived from see msg *\/$/;"	m	class:Object
-timeGlobalPosition	src/Objects.h	/^  Time        timeGlobalPosition;     \/*!< Server time of global position    *\/$/;"	m	class:Object
-timeGlobalVelocity	src/Objects.h	/^  Time        timeGlobalVelocity;     \/*!< Time of the corresponding velocity*\/$/;"	m	class:DynamicObject
-timeLastCatch	src/WorldModel.h	/^  Time          timeLastCatch;           \/*!< time of last catch by goalie   *\/$/;"	m	class:WorldModel
-timeLastHearMessage	src/WorldModel.h	/^  Time          timeLastHearMessage;     \/*!< server time of last hear msg   *\/$/;"	m	class:WorldModel
-timeLastRecvSeeMessage	src/WorldModel.h	/^  Time          timeLastRecvSeeMessage;  \/*!< server time received see msg   *\/$/;"	m	class:WorldModel
-timeLastRecvSenseMessage	src/WorldModel.h	/^  Time          timeLastRecvSenseMessage;\/*!< server time received sense msg *\/$/;"	m	class:WorldModel
-timeLastRefMessage	src/WorldModel.h	/^  Time          timeLastRefMessage;      \/*!< time of last referee message   *\/$/;"	m	class:WorldModel
-timeLastRoleAssign	src/BasicCoach.h	/^        Time timeLastRoleAssign;$/;"	m	class:BasicCoach
-timeLastSeeMessage	src/WorldModel.h	/^  Time          timeLastSeeMessage;      \/*!< server time of last see msg    *\/$/;"	m	class:WorldModel
-timeLastSeen	src/Objects.h	/^  Time        timeLastSeen;           \/*!< Time last see message has arrived *\/$/;"	m	class:Object
-timeLastSenseMessage	src/WorldModel.h	/^  Time          timeLastSenseMessage;    \/*!< server time of last sense msg  *\/$/;"	m	class:WorldModel
-timeRelativeAngles	src/Objects.h	/^  Time    timeRelativeAngles;    \/*!< Server time of relative angles     *\/$/;"	m	class:PlayerObject
-timeRelativePosition	src/Objects.h	/^  Time        timeRelativePosition;   \/*!< Server time of relative position  *\/$/;"	m	class:Object
-timerRes	src/SenseHandler.h	/^  UINT        timerRes;      \/*!< timer resolution for the application       *\/$/;"	m	class:SenseHandler
-top_builddir	src/Makefile	/^top_builddir = ..$/;"	m
-top_distdir	src/Makefile	/^top_distdir = ..$/;"	m
-top_srcdir	src/Makefile	/^top_srcdir = ..$/;"	m
-transform	src/Makefile	/^transform = $(program_transform_name)$/;"	m
-trilearn_coach_DEPENDENCIES	src/Makefile	/^trilearn_coach_DEPENDENCIES =$/;"	m
-trilearn_coach_LDADD	src/Makefile	/^trilearn_coach_LDADD = $(LDADD)$/;"	m
-trilearn_coach_LDFLAGS	src/Makefile	/^trilearn_coach_LDFLAGS =$/;"	m
-trilearn_coach_OBJECTS	src/Makefile	/^trilearn_coach_OBJECTS = $(am_trilearn_coach_OBJECTS)$/;"	m
-trilearn_coach_SOURCES	src/Makefile	/^trilearn_coach_SOURCES = ${SOURCES} \\$/;"	m
-trilearn_player_DEPENDENCIES	src/Makefile	/^trilearn_player_DEPENDENCIES =$/;"	m
-trilearn_player_LDADD	src/Makefile	/^trilearn_player_LDADD = $(LDADD)$/;"	m
-trilearn_player_LDFLAGS	src/Makefile	/^trilearn_player_LDFLAGS =$/;"	m
-trilearn_player_OBJECTS	src/Makefile	/^trilearn_player_OBJECTS = $(am_trilearn_player_OBJECTS)$/;"	m
-trilearn_player_SOURCES	src/Makefile	/^trilearn_player_SOURCES = ${SOURCES}    \\$/;"	m
 turnBackToPoint	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::turnBackToPoint( VecPosition pos, int iCycles )$/;"	f	class:BasicPlayer
 turnBodyToObject	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::turnBodyToObject( ObjectT o )$/;"	f	class:BasicPlayer
 turnBodyToPoint	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::turnBodyToPoint( VecPosition pos, int iCycles )$/;"	f	class:BasicPlayer
 turnNeckToObject	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::turnNeckToObject( ObjectT o, SoccerCommand soc )$/;"	f	class:BasicPlayer
 turnNeckToPoint	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::turnNeckToPoint(VecPosition pos, SoccerCommand soc)$/;"	f	class:BasicPlayer
 turnWithBallTo	src/BasicPlayer.cpp	/^SoccerCommand BasicPlayer::turnWithBallTo( AngDeg ang, AngDeg, double )$/;"	f	class:BasicPlayer
-u	src/hungarian.h	/^  int* u;      \/\/ the U vector$/;"	m	struct:__anon4
 updateAfterSeeMessage	src/WorldModelUpdate.cpp	/^bool WorldModel::updateAfterSeeMessage( )$/;"	f	class:WorldModel
 updateAfterSenseMessage	src/WorldModelUpdate.cpp	/^bool WorldModel::updateAfterSenseMessage( )$/;"	f	class:WorldModel
 updateAgentAndBallAfterSense	src/WorldModelUpdate.cpp	/^bool WorldModel::updateAgentAndBallAfterSense( )$/;"	f	class:WorldModel
@@ -2123,14 +1147,6 @@ updateParticlesBall	src/WorldModelUpdate.cpp	/^void WorldModel::updateParticlesB
 updateRelativeFromGlobal	src/WorldModelUpdate.cpp	/^bool WorldModel::updateRelativeFromGlobal()$/;"	f	class:WorldModel
 updateSSToHeteroPlayerType	src/WorldModelUpdate.cpp	/^bool WorldModel::updateSSToHeteroPlayerType( int iIndex )$/;"	f	class:WorldModel
 updateTime	src/SoccerTypes.cpp	/^bool Time::updateTime( int iTime )$/;"	f	class:Time
-v	src/hungarian.h	/^  int* v;      \/\/ the V vector$/;"	m	struct:__anon4
-va	src/SoccerTypes.h	/^  ViewAngleT   va;          \/*!< view angle (for change_view)                *\/$/;"	m	class:SoccerCommand
-vecGlobalVelocity	src/Objects.h	/^  VecPosition vecGlobalVelocity;      \/*!< Global velocity of the player     *\/$/;"	m	class:DynamicObject
-vecGlobalVelocityLastSee	src/Objects.h	/^  VecPosition vecGlobalVelocityLastSee;\/*!< vel. derived from last see       *\/$/;"	m	class:DynamicObject
-velSpeedRelToNeck	src/Objects.h	/^  VecPosition  velSpeedRelToNeck;     \/*!< Velocity vector relative to neck  *\/$/;"	m	class:AgentObject
-viewAngle	src/Objects.h	/^  ViewAngleT   viewAngle;             \/*!< View angle of this agent          *\/$/;"	m	class:AgentObject
-viewQuality	src/Objects.h	/^  ViewQualityT viewQuality;           \/*!< View quality of this agent        *\/$/;"	m	class:AgentObject
-vq	src/SoccerTypes.h	/^  ViewQualityT vq;          \/*!< view quality (for change_view)              *\/$/;"	m	class:SoccerCommand
 waitForNewInformation	src/WorldModel.cpp	/^bool WorldModel::waitForNewInformation( )$/;"	f	class:WorldModel
 ~BasicCoach	src/BasicCoach.cpp	/^BasicCoach::~BasicCoach( )$/;"	f	class:BasicCoach
 ~Connection	src/Connection.cpp	/^Connection::~Connection()$/;"	f	class:Connection
