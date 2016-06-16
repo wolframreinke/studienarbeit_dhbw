@@ -50,6 +50,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include <signal.h>   // needed for SIGALARM
 #include <string.h>   // needed for strlen
+#include <cstring>    // needed for strlen
 #include <stdio.h>    // needed for printf
 #include <iostream>   // needed for cout
 
@@ -707,7 +708,73 @@ bool SenseHandler::analyzePlayerMessage( int iTime, char *strMsg )
 
 bool SenseHandler::analyzeCoachMessage( char *strMsg )
 {
-  Log.log( 605, "received coach messages: %s" , strMsg );
+  // converts the given c string into a std::string object
+  Log.log( 605, "Received coach message: %s", strMsg);
+
+
+  /* --------------------------------------------------------------------------
+   * Somewhat hacky way to parse the coach message:
+   * The message consists of multiple blocks of the following form:
+   *
+   *    (do our {<playerNr>} (home (pt <X> <Y>)))
+   *
+   * The code below simply looks the string "pt" and attemts to parse the two
+   * integers between the "pt" and the first closing paranthesis (")") after the
+   * "pt".
+   *
+   * The above process is repeated 11 times, for 11 players.  Therefore, it does
+   * not work, if the home positions are not sent in order, or less than 11 home
+   * positions are sent.  However, importing the CLang parsing lib for these
+   * messages seemed to be overkill (particularily since the build process is
+   * pretty annyoing...).
+   */
+  char *p = strMsg;
+  for (int playerNr = 0; playerNr < 12; playerNr++) {
+
+    // the C++-method find() of std::string didn't work for me, so I decided to
+    // use the C-function strchr, which is a but cumbersome to use but works.
+
+    do
+    {
+      // find the next occurence of the character 'p'
+      p = strchr(p+1, 'p');
+    }
+    while (!(p == NULL || *(p+1) == 't'));  // repeat if the character after
+                                            // the 'p' is not a 't'
+
+    // If the end of the string is reached prematurely, the loop is left.
+    // this will result in pretty much random home position assignment
+    if (p == NULL)
+      break;
+
+    // find the next closing parenthesis after the 'p' found above
+    char *paren = strchr(p, ')');
+    if (paren == NULL)
+      break;
+
+    // replace the parenethesis with a zero byte.  sscanf (which is used below)
+    // expects a null-terminated string.
+    *paren = '\0';
+
+    int x, y;
+
+    // sscanf returns 2 if two numbers have been read (which is what we want)
+    if (sscanf(p+3, "%d %d", &x, &y) == 2) {
+
+      // reading the two variables was successful, therefore we can now package
+      // them up in a VecPosition object and set the new home position
+      Log.log(605, "new home position for player %d: %d %d", playerNr, x, y);
+      VecPosition homePos(x, y);
+      WM->setHomePos(playerNr, homePos);
+    }
+    else {
+      // the string between "pt" and the first ")" did not contain two numbers
+      Log.log( 605, "Couldn't parse: %s", p+3);
+    }
+
+    // the next part of the message begins after the closing parenthesis from
+    p = paren;
+  }
 
   return true;
 }

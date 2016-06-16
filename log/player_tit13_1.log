@@ -1,0 +1,650 @@
+ 0: change player from message 62 -> 1
+ 0: changed player from message 62 -> 1
+ 0: change player from message 63 -> 2
+ 0: changed player from message 63 -> 2
+ 0: change player from message 64 -> 3
+ 0: changed player from message 64 -> 3
+ 0: change player from message 65 -> 4
+ 0: changed player from message 65 -> 4
+ 0: change player from message 66 -> 5
+ 0: changed player from message 66 -> 5
+ 0: change player from message 67 -> 6
+ 0: changed player from message 67 -> 6
+ 0: change player from message 68 -> 7
+ 0: changed player from message 68 -> 7
+ 0: change player from message 69 -> 8
+ 0: changed player from message 69 -> 8
+ 0: change player from message 70 -> 9
+ 0: changed player from message 70 -> 9
+ 0: change player from message 71 -> 10
+ 0: changed player from message 71 -> 10
+ 151: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 20 0))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 0 0))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 151: new home position for player 0: -20 -10
+ 151: new home position for player 1: -12 26
+ 151: new home position for player 2: -20 10
+ 151: new home position for player 3: 20 0
+ 151: new home position for player 4: -12 -26
+ 151: new home position for player 5: 0 0
+ 151: new home position for player 6: 35 22
+ 151: new home position for player 7: 12 -15
+ 151: new home position for player 8: 0 0
+ 151: new home position for player 9: 12 15
+ 151: new home position for player 10: 35 -22
+ 351: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 20 0))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 351: new home position for player 0: -20 10
+ 351: new home position for player 1: -12 26
+ 351: new home position for player 2: 0 0
+ 351: new home position for player 3: -20 -10
+ 351: new home position for player 4: -12 -26
+ 351: new home position for player 5: 12 -15
+ 351: new home position for player 6: 35 22
+ 351: new home position for player 7: 20 0
+ 351: new home position for player 8: 0 0
+ 351: new home position for player 9: 12 15
+ 351: new home position for player 10: 35 -22
+ 495: direction old: 21.866737, new: 19.143241
+(b)r: 0.367345 phi: -1.54741 vel: ( -1.62717, -0.760245 ) (496,0) rel: ( 0.367211, -0.00991984 ), (496,0) global: ( -47.9499, 0.691501 ), (496,0), changes: -2.16, 1.5 last seen:(495,0) globalposderived: (495,0)
+ 496: direction old: -61.963560, new: -42.055778
+(b)r: 0.4 phi: -6 vel: ( -1.5671, -0.759679 ) (496,0) rel: ( 0.397809, -0.0418114 ), (496,0) global: ( -47.8715, 0.834009 ), (496,0), changes: -0.552, -223.4 last seen:(496,0) globalposderived: (496,0)
+(b)r: 0.2 phi: 75 vel: ( 0, 0 ) (497,0) rel: ( 0.0517638, 0.193185 ), (497,0) global: ( -48.02, 0.967979 ), (497,0), changes: -0.552, -223.4 last seen:(496,0) globalposderived: (496,0)
+(b)r: 0.2 phi: 2.84217e-13 vel: ( 0, 0 ) (498,0) rel: ( 0.2, 9.92105e-16 ), (498,0) global: ( -48.02, 0.967979 ), (498,0), changes: -0.552, -223.4 last seen:(496,0) globalposderived: (496,0)
+ 498: direction old: -24.830212, new: -13.373012
+(b)r: 0.4 phi: 43 vel: ( 0, 0 ) (498,0) rel: ( 0.292541, 0.272799 ), (498,0) global: ( -47.7698, 0.939747 ), (498,0), changes: 0, 0 last seen:(498,0) globalposderived: (498,0)
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (499,0) rel: ( 0.4, 0 ), (499,0) global: ( -47.7698, 0.939747 ), (499,0), changes: 0, 0 last seen:(498,0) globalposderived: (498,0)
+ 499: direction old: 9.645765, new: 1.093229
+(b)r: 0.4 phi: 14 vel: ( 0, 0 ) (499,0) rel: ( 0.388118, 0.0967688 ), (499,0) global: ( -47.7865, 0.876565 ), (499,0), changes: 0, 0 last seen:(499,0) globalposderived: (499,0)
+(b)r: 0.4 phi: -0.000150015 vel: ( 0, 0 ) (500,0) rel: ( 0.4, -1.0473e-06 ), (500,0) global: ( -47.7865, 0.876565 ), (500,0), changes: 0, 0 last seen:(499,0) globalposderived: (499,0)
+(b)r: 0.4 phi: 2.25056e-08 vel: ( 0, 0 ) (501,0) rel: ( 0.4, 1.57119e-10 ), (501,0) global: ( -47.7865, 0.876565 ), (501,0), changes: 0, 0 last seen:(499,0) globalposderived: (499,0)
+ 501: direction old: -2.861599, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (501,0) rel: ( 0.4, 0 ), (501,0) global: ( -47.7758, 0.903701 ), (501,0), changes: 0, 0 last seen:(501,0) globalposderived: (501,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (502,0) rel: ( 0.4, -2.94531e-17 ), (502,0) global: ( -47.7758, 0.903701 ), (502,0), changes: 0, 0 last seen:(501,0) globalposderived: (501,0)
+ 502: direction old: 1.099701, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (502,0) rel: ( 0.4, 0 ), (502,0) global: ( -47.7758, 0.903701 ), (502,0), changes: 0, 0 last seen:(502,0) globalposderived: (502,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (503,0) rel: ( 0.4, -2.94531e-17 ), (503,0) global: ( -47.7758, 0.903701 ), (503,0), changes: 0, 0 last seen:(502,0) globalposderived: (502,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (504,0) rel: ( 0.4, -2.94531e-17 ), (504,0) global: ( -47.7758, 0.903701 ), (504,0), changes: 0, 0 last seen:(502,0) globalposderived: (502,0)
+ 504: direction old: 1.099701, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (504,0) rel: ( 0.4, 0 ), (504,0) global: ( -47.7758, 0.903701 ), (504,0), changes: 0, 0 last seen:(504,0) globalposderived: (504,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (505,0) rel: ( 0.4, -2.94531e-17 ), (505,0) global: ( -47.7758, 0.903701 ), (505,0), changes: 0, 0 last seen:(504,0) globalposderived: (504,0)
+ 505: direction old: 1.099701, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (505,0) rel: ( 0.4, 0 ), (505,0) global: ( -47.7758, 0.903701 ), (505,0), changes: 0, 0 last seen:(505,0) globalposderived: (505,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (506,0) rel: ( 0.4, -2.94531e-17 ), (506,0) global: ( -47.7758, 0.903701 ), (506,0), changes: 0, 0 last seen:(505,0) globalposderived: (505,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (507,0) rel: ( 0.4, -2.94531e-17 ), (507,0) global: ( -47.7758, 0.903701 ), (507,0), changes: 0, 0 last seen:(505,0) globalposderived: (505,0)
+ 507: direction old: 1.099701, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (507,0) rel: ( 0.4, 0 ), (507,0) global: ( -47.7758, 0.903701 ), (507,0), changes: 0, 0 last seen:(507,0) globalposderived: (507,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (508,0) rel: ( 0.4, -2.94531e-17 ), (508,0) global: ( -47.7758, 0.903701 ), (508,0), changes: 0, 0 last seen:(507,0) globalposderived: (507,0)
+ 508: direction old: 1.099701, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (508,0) rel: ( 0.4, 0 ), (508,0) global: ( -47.7758, 0.903701 ), (508,0), changes: 0, 0 last seen:(508,0) globalposderived: (508,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (509,0) rel: ( 0.4, -2.94531e-17 ), (509,0) global: ( -47.7758, 0.903701 ), (509,0), changes: 0, 0 last seen:(508,0) globalposderived: (508,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (510,0) rel: ( 0.4, -2.94531e-17 ), (510,0) global: ( -47.7758, 0.903701 ), (510,0), changes: 0, 0 last seen:(508,0) globalposderived: (508,0)
+ 510: direction old: 1.099701, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (510,0) rel: ( 0.4, 0 ), (510,0) global: ( -47.7758, 0.903701 ), (510,0), changes: 0, 0 last seen:(510,0) globalposderived: (510,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (511,0) rel: ( 0.4, -2.94531e-17 ), (511,0) global: ( -47.7758, 0.903701 ), (511,0), changes: 0, 0 last seen:(510,0) globalposderived: (510,0)
+ 511: direction old: 1.099701, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (511,0) rel: ( 0.4, 0 ), (511,0) global: ( -47.7758, 0.903701 ), (511,0), changes: 0, 0 last seen:(511,0) globalposderived: (511,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (512,0) rel: ( 0.4, -2.94531e-17 ), (512,0) global: ( -47.7758, 0.903701 ), (512,0), changes: 0, 0 last seen:(511,0) globalposderived: (511,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (513,0) rel: ( 0.4, -2.94531e-17 ), (513,0) global: ( -47.7758, 0.903701 ), (513,0), changes: 0, 0 last seen:(511,0) globalposderived: (511,0)
+ 513: direction old: 1.099701, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (513,0) rel: ( 0.4, 0 ), (513,0) global: ( -47.7758, 0.903701 ), (513,0), changes: 0, 0 last seen:(513,0) globalposderived: (513,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (514,0) rel: ( 0.4, -2.94531e-17 ), (514,0) global: ( -47.7758, 0.903701 ), (514,0), changes: 0, 0 last seen:(513,0) globalposderived: (513,0)
+ 514: direction old: 1.099701, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (514,0) rel: ( 0.4, 0 ), (514,0) global: ( -47.7758, 0.903701 ), (514,0), changes: 0, 0 last seen:(514,0) globalposderived: (514,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (515,0) rel: ( 0.4, -2.94531e-17 ), (515,0) global: ( -47.7758, 0.903701 ), (515,0), changes: 0, 0 last seen:(514,0) globalposderived: (514,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (516,0) rel: ( 0.4, -2.94531e-17 ), (516,0) global: ( -47.7758, 0.903701 ), (516,0), changes: 0, 0 last seen:(514,0) globalposderived: (514,0)
+ 516: direction old: 1.099701, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (516,0) rel: ( 0.4, 0 ), (516,0) global: ( -47.7758, 0.903701 ), (516,0), changes: 0, 0 last seen:(516,0) globalposderived: (516,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (517,0) rel: ( 0.4, -2.94531e-17 ), (517,0) global: ( -47.7758, 0.903701 ), (517,0), changes: 0, 0 last seen:(516,0) globalposderived: (516,0)
+ 517: direction old: 1.099701, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (517,0) rel: ( 0.4, 0 ), (517,0) global: ( -47.7758, 0.903701 ), (517,0), changes: 0, 0 last seen:(517,0) globalposderived: (517,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (518,0) rel: ( 0.4, -2.94531e-17 ), (518,0) global: ( -47.7758, 0.903701 ), (518,0), changes: 0, 0 last seen:(517,0) globalposderived: (517,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (519,0) rel: ( 0.4, -2.94531e-17 ), (519,0) global: ( -47.7758, 0.903701 ), (519,0), changes: 0, 0 last seen:(517,0) globalposderived: (517,0)
+ 519: direction old: 1.099701, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (519,0) rel: ( 0.4, 0 ), (519,0) global: ( -47.7758, 0.903701 ), (519,0), changes: 0, 0 last seen:(519,0) globalposderived: (519,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (520,0) rel: ( 0.4, -2.94531e-17 ), (520,0) global: ( -47.7758, 0.903701 ), (520,0), changes: 0, 0 last seen:(519,0) globalposderived: (519,0)
+ 520: direction old: 1.099701, new: 1.099701
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (520,0) rel: ( 0.4, 0 ), (520,0) global: ( -47.7758, 0.903701 ), (520,0), changes: 0, 0 last seen:(520,0) globalposderived: (520,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (521,0) rel: ( 0.4, -2.94531e-17 ), (521,0) global: ( -47.7758, 0.903701 ), (521,0), changes: 0, 0 last seen:(520,0) globalposderived: (520,0)
+(b)r: 0.4 phi: -4.21885e-15 vel: ( 0, 0 ) (522,0) rel: ( 0.4, -2.94531e-17 ), (522,0) global: ( -47.7758, 0.903701 ), (522,0), changes: 0, 0 last seen:(520,0) globalposderived: (520,0)
+ 522: direction old: 124.992703, new: 1.195815
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (522,0) rel: ( 0.4, 0 ), (522,0) global: ( -39.6825, -10.0783 ), (522,0), changes: 0, 0 last seen:(522,0) globalposderived: (522,0)
+(b)r: 0.4 phi: 6.92779e-14 vel: ( 0, 0 ) (523,0) rel: ( 0.4, 4.83651e-16 ), (523,0) global: ( -39.6825, -10.0783 ), (523,0), changes: 0, 0 last seen:(522,0) globalposderived: (522,0)
+ 523: direction old: 1.195815, new: 1.195815
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (523,0) rel: ( 0.4, 0 ), (523,0) global: ( -39.6825, -10.0783 ), (523,0), changes: 0, 0 last seen:(523,0) globalposderived: (523,0)
+(b)r: 0.4 phi: 6.92779e-14 vel: ( 0, 0 ) (524,0) rel: ( 0.4, 4.83651e-16 ), (524,0) global: ( -39.6825, -10.0783 ), (524,0), changes: 0, 0 last seen:(523,0) globalposderived: (523,0)
+(b)r: 0.4 phi: 6.92779e-14 vel: ( 0, 0 ) (525,0) rel: ( 0.4, 4.83651e-16 ), (525,0) global: ( -39.6825, -10.0783 ), (525,0), changes: 0, 0 last seen:(523,0) globalposderived: (523,0)
+ 525: ball (-39.682490,-10.078287), agent (-40.082403,-10.086634), to (-14.139617,-17.921291) ang 1.195815 1.195815
+ 525: relpos body (0.400000,0.000000), vel. ball:(0.000000,0.000000) dist: 1.085000 (0.300000,0.085000,0.700000)
+ 525: pos (3.372179,-1.035436) too far, but can acc ball good to 2.685536 k=2.685536,0.000000
+ 525: direction old: 1.195815, new: 1.195815
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (525,0) rel: ( 0.4, 0 ), (525,0) global: ( -39.6825, -10.0783 ), (525,0), changes: 0, 0 last seen:(525,0) globalposderived: (525,0)
+ 525: ball (-39.682490,-10.078287), agent (-40.082403,-10.086634), to (-14.139617,-17.921291) ang 1.195815 1.195815
+ 525: relpos body (0.400000,0.000000), vel. ball:(0.000000,0.000000) dist: 1.085000 (0.300000,0.085000,0.700000)
+ 525: pos (3.372179,-1.035436) too far, but can acc ball good to 2.685536 k=2.685536,0.000000
+ 677: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 20 0))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 677: new home position for player 0: -20 10
+ 677: new home position for player 1: -12 26
+ 677: new home position for player 2: 0 0
+ 677: new home position for player 3: -20 -10
+ 677: new home position for player 4: -12 -26
+ 677: new home position for player 5: 20 0
+ 677: new home position for player 6: 35 22
+ 677: new home position for player 7: 12 -15
+ 677: new home position for player 8: 0 0
+ 677: new home position for player 9: 12 15
+ 677: new home position for player 10: 35 -22
+ 977: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 0 0))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 35 -22))))))
+ 977: new home position for player 0: -20 10
+ 977: new home position for player 1: -12 26
+ 977: new home position for player 2: 0 0
+ 977: new home position for player 3: -20 -10
+ 977: new home position for player 4: -12 -26
+ 977: new home position for player 5: 0 0
+ 977: new home position for player 6: 12 15
+ 977: new home position for player 7: 12 -15
+ 977: new home position for player 8: 20 0
+ 977: new home position for player 9: 35 22
+ 977: new home position for player 10: 35 -22
+ 1277: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 0 0))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 1277: new home position for player 0: -20 10
+ 1277: new home position for player 1: -12 26
+ 1277: new home position for player 2: 0 0
+ 1277: new home position for player 3: -20 -10
+ 1277: new home position for player 4: -12 -26
+ 1277: new home position for player 5: 0 0
+ 1277: new home position for player 6: 35 22
+ 1277: new home position for player 7: 12 -15
+ 1277: new home position for player 8: 20 0
+ 1277: new home position for player 9: 12 15
+ 1277: new home position for player 10: 35 -22
+(b)r: 1.43844 phi: -0.166629 vel: ( -0.46077, 0.346758 ) (1305,0) rel: ( 1.43844, -0.00418331 ), (1305,0) global: ( -37.1963, -3.62075 ), (1305,0), changes: -0.99, 2.1 last seen:(1303,0) globalposderived: (1303,0)
+ 1305: direction old: -17.864019, new: -11.633370
+(b)r: 1.3 phi: 2 vel: ( -0.461773, 0.346048 ) (1305,0) rel: ( 1.29921, 0.0453693 ), (1305,0) global: ( -37.3637, -3.41857 ), (1305,0), changes: -0.91, 8.7 last seen:(1305,0) globalposderived: (1305,0)
+(b)r: 0.437087 phi: 1.89421 vel: ( -0.434067, 0.325285 ) (1306,0) rel: ( 0.436848, 0.0144476 ), (1306,0) global: ( -37.8255, -3.07253 ), (1306,0), changes: -0.91, 8.7 last seen:(1305,0) globalposderived: (1305,0)
+ 1306: direction old: 47.029304, new: 20.501363
+(b)r: 0.5 phi: 4 vel: ( -0.527922, 0.387624 ) (1306,0) rel: ( 0.498782, 0.0348782 ), (1306,0) global: ( -37.6839, -3.24817 ), (1306,0), changes: -0.5, 71.4 last seen:(1306,0) globalposderived: (1306,0)
+(b)r: 0.2 phi: -67 vel: ( 0, 0 ) (1307,0) rel: ( 0.0781462, -0.184101 ), (1307,0) global: ( -37.9649, -3.35324 ), (1307,0), changes: -0.5, 71.4 last seen:(1306,0) globalposderived: (1306,0)
+(b)r: 0.2 phi: -0.00671803 vel: ( 0, 0 ) (1308,0) rel: ( 0.2, -2.34503e-05 ), (1308,0) global: ( -37.9649, -3.35324 ), (1308,0), changes: -0.5, 71.4 last seen:(1306,0) globalposderived: (1306,0)
+ 1308: direction old: -20.728775, new: 20.692691
+(b)r: 0.4 phi: -24 vel: ( 0, 0 ) (1308,0) rel: ( 0.365418, -0.162695 ), (1308,0) global: ( -37.763, -3.1467 ), (1308,0), changes: 0, 0 last seen:(1308,0) globalposderived: (1308,0)
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1309,0) rel: ( 0.4, 0 ), (1309,0) global: ( -37.763, -3.1467 ), (1309,0), changes: 0, 0 last seen:(1308,0) globalposderived: (1308,0)
+ 1309: direction old: 32.700174, new: -1.630218
+(b)r: 0.4 phi: -22 vel: ( 0, 0 ) (1309,0) rel: ( 0.370874, -0.149843 ), (1309,0) global: ( -37.7043, -3.37711 ), (1309,0), changes: 0, 0 last seen:(1309,0) globalposderived: (1309,0)
+(b)r: 0.4 phi: 0.000150015 vel: ( 0, 0 ) (1310,0) rel: ( 0.4, 1.0473e-06 ), (1310,0) global: ( -37.7043, -3.37711 ), (1310,0), changes: 0, 0 last seen:(1309,0) globalposderived: (1309,0)
+(b)r: 0.4 phi: -2.25056e-08 vel: ( 0, 0 ) (1311,0) rel: ( 0.4, -1.57119e-10 ), (1311,0) global: ( -37.7043, -3.37711 ), (1311,0), changes: 0, 0 last seen:(1309,0) globalposderived: (1309,0)
+ 1311: direction old: -1.630218, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1311,0) rel: ( 0.4, 0 ), (1311,0) global: ( -37.7043, -3.37682 ), (1311,0), changes: 0, 0 last seen:(1311,0) globalposderived: (1311,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1312,0) rel: ( 0.4, -1.24013e-17 ), (1312,0) global: ( -37.7043, -3.37682 ), (1312,0), changes: 0, 0 last seen:(1311,0) globalposderived: (1311,0)
+ 1312: direction old: -1.588032, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1312,0) rel: ( 0.4, 0 ), (1312,0) global: ( -37.7043, -3.37682 ), (1312,0), changes: 0, 0 last seen:(1312,0) globalposderived: (1312,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1313,0) rel: ( 0.4, -1.24013e-17 ), (1313,0) global: ( -37.7043, -3.37682 ), (1313,0), changes: 0, 0 last seen:(1312,0) globalposderived: (1312,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1314,0) rel: ( 0.4, -1.24013e-17 ), (1314,0) global: ( -37.7043, -3.37682 ), (1314,0), changes: 0, 0 last seen:(1312,0) globalposderived: (1312,0)
+ 1314: direction old: -1.588032, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1314,0) rel: ( 0.4, 0 ), (1314,0) global: ( -37.7043, -3.37682 ), (1314,0), changes: 0, 0 last seen:(1314,0) globalposderived: (1314,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1315,0) rel: ( 0.4, -1.24013e-17 ), (1315,0) global: ( -37.7043, -3.37682 ), (1315,0), changes: 0, 0 last seen:(1314,0) globalposderived: (1314,0)
+ 1315: direction old: -1.588032, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1315,0) rel: ( 0.4, 0 ), (1315,0) global: ( -37.7043, -3.37682 ), (1315,0), changes: 0, 0 last seen:(1315,0) globalposderived: (1315,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1316,0) rel: ( 0.4, -1.24013e-17 ), (1316,0) global: ( -37.7043, -3.37682 ), (1316,0), changes: 0, 0 last seen:(1315,0) globalposderived: (1315,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1317,0) rel: ( 0.4, -1.24013e-17 ), (1317,0) global: ( -37.7043, -3.37682 ), (1317,0), changes: 0, 0 last seen:(1315,0) globalposderived: (1315,0)
+ 1317: direction old: -1.588032, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1317,0) rel: ( 0.4, 0 ), (1317,0) global: ( -37.7043, -3.37682 ), (1317,0), changes: 0, 0 last seen:(1317,0) globalposderived: (1317,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1318,0) rel: ( 0.4, -1.24013e-17 ), (1318,0) global: ( -37.7043, -3.37682 ), (1318,0), changes: 0, 0 last seen:(1317,0) globalposderived: (1317,0)
+ 1318: direction old: -1.588032, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1318,0) rel: ( 0.4, 0 ), (1318,0) global: ( -37.7043, -3.37682 ), (1318,0), changes: 0, 0 last seen:(1318,0) globalposderived: (1318,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1319,0) rel: ( 0.4, -1.24013e-17 ), (1319,0) global: ( -37.7043, -3.37682 ), (1319,0), changes: 0, 0 last seen:(1318,0) globalposderived: (1318,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1320,0) rel: ( 0.4, -1.24013e-17 ), (1320,0) global: ( -37.7043, -3.37682 ), (1320,0), changes: 0, 0 last seen:(1318,0) globalposderived: (1318,0)
+ 1320: direction old: -1.588032, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1320,0) rel: ( 0.4, 0 ), (1320,0) global: ( -37.7043, -3.37682 ), (1320,0), changes: 0, 0 last seen:(1320,0) globalposderived: (1320,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1321,0) rel: ( 0.4, -1.24013e-17 ), (1321,0) global: ( -37.7043, -3.37682 ), (1321,0), changes: 0, 0 last seen:(1320,0) globalposderived: (1320,0)
+ 1321: direction old: -1.588032, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1321,0) rel: ( 0.4, 0 ), (1321,0) global: ( -37.7043, -3.37682 ), (1321,0), changes: 0, 0 last seen:(1321,0) globalposderived: (1321,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1322,0) rel: ( 0.4, -1.24013e-17 ), (1322,0) global: ( -37.7043, -3.37682 ), (1322,0), changes: 0, 0 last seen:(1321,0) globalposderived: (1321,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1323,0) rel: ( 0.4, -1.24013e-17 ), (1323,0) global: ( -37.7043, -3.37682 ), (1323,0), changes: 0, 0 last seen:(1321,0) globalposderived: (1321,0)
+ 1323: direction old: -1.588032, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1323,0) rel: ( 0.4, 0 ), (1323,0) global: ( -37.7043, -3.37682 ), (1323,0), changes: 0, 0 last seen:(1323,0) globalposderived: (1323,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1324,0) rel: ( 0.4, -1.24013e-17 ), (1324,0) global: ( -37.7043, -3.37682 ), (1324,0), changes: 0, 0 last seen:(1323,0) globalposderived: (1323,0)
+ 1324: direction old: -1.588032, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1324,0) rel: ( 0.4, 0 ), (1324,0) global: ( -37.7043, -3.37682 ), (1324,0), changes: 0, 0 last seen:(1324,0) globalposderived: (1324,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1325,0) rel: ( 0.4, -1.24013e-17 ), (1325,0) global: ( -37.7043, -3.37682 ), (1325,0), changes: 0, 0 last seen:(1324,0) globalposderived: (1324,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1326,0) rel: ( 0.4, -1.24013e-17 ), (1326,0) global: ( -37.7043, -3.37682 ), (1326,0), changes: 0, 0 last seen:(1324,0) globalposderived: (1324,0)
+ 1326: direction old: -1.588032, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1326,0) rel: ( 0.4, 0 ), (1326,0) global: ( -37.7043, -3.37682 ), (1326,0), changes: 0, 0 last seen:(1326,0) globalposderived: (1326,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1327,0) rel: ( 0.4, -1.24013e-17 ), (1327,0) global: ( -37.7043, -3.37682 ), (1327,0), changes: 0, 0 last seen:(1326,0) globalposderived: (1326,0)
+ 1327: direction old: -1.588032, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1327,0) rel: ( 0.4, 0 ), (1327,0) global: ( -37.7043, -3.37682 ), (1327,0), changes: 0, 0 last seen:(1327,0) globalposderived: (1327,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1328,0) rel: ( 0.4, -1.24013e-17 ), (1328,0) global: ( -37.7043, -3.37682 ), (1328,0), changes: 0, 0 last seen:(1327,0) globalposderived: (1327,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1329,0) rel: ( 0.4, -1.24013e-17 ), (1329,0) global: ( -37.7043, -3.37682 ), (1329,0), changes: 0, 0 last seen:(1327,0) globalposderived: (1327,0)
+ 1329: direction old: -1.588032, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1329,0) rel: ( 0.4, 0 ), (1329,0) global: ( -37.7043, -3.37682 ), (1329,0), changes: 0, 0 last seen:(1329,0) globalposderived: (1329,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1330,0) rel: ( 0.4, -1.24013e-17 ), (1330,0) global: ( -37.7043, -3.37682 ), (1330,0), changes: 0, 0 last seen:(1329,0) globalposderived: (1329,0)
+ 1330: direction old: -1.588032, new: -1.588032
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1330,0) rel: ( 0.4, 0 ), (1330,0) global: ( -37.7043, -3.37682 ), (1330,0), changes: 0, 0 last seen:(1330,0) globalposderived: (1330,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1331,0) rel: ( 0.4, -1.24013e-17 ), (1331,0) global: ( -37.7043, -3.37682 ), (1331,0), changes: 0, 0 last seen:(1330,0) globalposderived: (1330,0)
+(b)r: 0.4 phi: -1.77636e-15 vel: ( 0, 0 ) (1332,0) rel: ( 0.4, -1.24013e-17 ), (1332,0) global: ( -37.7043, -3.37682 ), (1332,0), changes: 0, 0 last seen:(1330,0) globalposderived: (1330,0)
+ 1332: direction old: -79.982991, new: -1.481528
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1332,0) rel: ( 0.4, 0 ), (1332,0) global: ( -39.6825, 10.0763 ), (1332,0), changes: 0, 0 last seen:(1332,0) globalposderived: (1332,0)
+(b)r: 0.4 phi: 2.9976e-14 vel: ( 0, 0 ) (1333,0) rel: ( 0.4, 2.09272e-16 ), (1333,0) global: ( -39.6825, 10.0763 ), (1333,0), changes: 0, 0 last seen:(1332,0) globalposderived: (1332,0)
+ 1333: direction old: -1.481528, new: -1.481528
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1333,0) rel: ( 0.4, 0 ), (1333,0) global: ( -39.6825, 10.0763 ), (1333,0), changes: 0, 0 last seen:(1333,0) globalposderived: (1333,0)
+(b)r: 0.4 phi: 2.9976e-14 vel: ( 0, 0 ) (1334,0) rel: ( 0.4, 2.09272e-16 ), (1334,0) global: ( -39.6825, 10.0763 ), (1334,0), changes: 0, 0 last seen:(1333,0) globalposderived: (1333,0)
+(b)r: 0.4 phi: 2.9976e-14 vel: ( 0, 0 ) (1335,0) rel: ( 0.4, 2.09272e-16 ), (1335,0) global: ( -39.6825, 10.0763 ), (1335,0), changes: 0, 0 last seen:(1333,0) globalposderived: (1333,0)
+ 1335: ball (-39.682537,10.076292), agent (-40.082403,10.086634), to (-10.913565,17.099399) ang -1.481528 -1.481528
+ 1335: relpos body (0.400000,0.000000), vel. ball:(0.000000,0.000000) dist: 1.085000 (0.300000,0.085000,0.700000)
+ 1335: pos (3.645669,0.889984) too far, but can acc ball good to 2.685536 k=2.685536,-0.000000
+ 1335: direction old: -1.481528, new: -1.481528
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (1335,0) rel: ( 0.4, 0 ), (1335,0) global: ( -39.6825, 10.0763 ), (1335,0), changes: 0, 0 last seen:(1335,0) globalposderived: (1335,0)
+ 1335: ball (-39.682537,10.076292), agent (-40.082403,10.086634), to (-10.913565,17.099399) ang -1.481528 -1.481528
+ 1335: relpos body (0.400000,0.000000), vel. ball:(0.000000,0.000000) dist: 1.085000 (0.300000,0.085000,0.700000)
+ 1335: pos (3.645669,0.889984) too far, but can acc ball good to 2.685536 k=2.685536,-0.000000
+ 1587: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 20 0))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 1587: new home position for player 0: -20 10
+ 1587: new home position for player 1: -12 26
+ 1587: new home position for player 2: 0 0
+ 1587: new home position for player 3: -20 -10
+ 1587: new home position for player 4: -12 -26
+ 1587: new home position for player 5: 20 0
+ 1587: new home position for player 6: 35 22
+ 1587: new home position for player 7: 12 -15
+ 1587: new home position for player 8: 0 0
+ 1587: new home position for player 9: 12 15
+ 1587: new home position for player 10: 35 -22
+ 1887: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 15))) (do our {7} (home (pt 20 0))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 35 -22))))))
+ 1887: new home position for player 0: -20 10
+ 1887: new home position for player 1: -12 26
+ 1887: new home position for player 2: 0 0
+ 1887: new home position for player 3: -20 -10
+ 1887: new home position for player 4: -12 -26
+ 1887: new home position for player 5: 12 15
+ 1887: new home position for player 6: 20 0
+ 1887: new home position for player 7: 12 -15
+ 1887: new home position for player 8: 0 0
+ 1887: new home position for player 9: 35 22
+ 1887: new home position for player 10: 35 -22
+ 2187: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 20 0))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 2187: new home position for player 0: -20 10
+ 2187: new home position for player 1: -12 26
+ 2187: new home position for player 2: 0 0
+ 2187: new home position for player 3: -20 -10
+ 2187: new home position for player 4: -12 -26
+ 2187: new home position for player 5: 20 0
+ 2187: new home position for player 6: 35 22
+ 2187: new home position for player 7: 12 -15
+ 2187: new home position for player 8: 0 0
+ 2187: new home position for player 9: 12 15
+ 2187: new home position for player 10: 35 -22
+ 2487: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 35 22))) (do our {7} (home (pt 35 -22))) (do our {8} (home (pt 12 15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 20 0))) (do our {11} (home (pt 12 -15))))))
+ 2487: new home position for player 0: -20 10
+ 2487: new home position for player 1: -12 26
+ 2487: new home position for player 2: 0 0
+ 2487: new home position for player 3: -20 -10
+ 2487: new home position for player 4: -12 -26
+ 2487: new home position for player 5: 35 22
+ 2487: new home position for player 6: 35 -22
+ 2487: new home position for player 7: 12 15
+ 2487: new home position for player 8: 0 0
+ 2487: new home position for player 9: 20 0
+ 2487: new home position for player 10: 12 -15
+ 2787: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 35 22))) (do our {7} (home (pt 20 0))) (do our {8} (home (pt 12 15))) (do our {9} (home (pt 35 -22))) (do our {10} (home (pt 0 0))) (do our {11} (home (pt 12 -15))))))
+ 2787: new home position for player 0: -20 10
+ 2787: new home position for player 1: -12 26
+ 2787: new home position for player 2: 0 0
+ 2787: new home position for player 3: -20 -10
+ 2787: new home position for player 4: -12 -26
+ 2787: new home position for player 5: 35 22
+ 2787: new home position for player 6: 20 0
+ 2787: new home position for player 7: 12 15
+ 2787: new home position for player 8: 35 -22
+ 2787: new home position for player 9: 0 0
+ 2787: new home position for player 10: 12 -15
+ 3087: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 0 0))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 35 -22))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 12 -15))))))
+ 3087: new home position for player 0: -20 10
+ 3087: new home position for player 1: -12 26
+ 3087: new home position for player 2: 0 0
+ 3087: new home position for player 3: -20 -10
+ 3087: new home position for player 4: -12 -26
+ 3087: new home position for player 5: 0 0
+ 3087: new home position for player 6: 12 15
+ 3087: new home position for player 7: 35 -22
+ 3087: new home position for player 8: 20 0
+ 3087: new home position for player 9: 35 22
+ 3087: new home position for player 10: 12 -15
+ 3387: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 20 0))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 35 -22))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 12 -15))))))
+ 3387: new home position for player 0: -20 10
+ 3387: new home position for player 1: -12 26
+ 3387: new home position for player 2: 0 0
+ 3387: new home position for player 3: -20 -10
+ 3387: new home position for player 4: -12 -26
+ 3387: new home position for player 5: 20 0
+ 3387: new home position for player 6: 35 22
+ 3387: new home position for player 7: 35 -22
+ 3387: new home position for player 8: 0 0
+ 3387: new home position for player 9: 12 15
+ 3387: new home position for player 10: 12 -15
+ 3687: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 0 0))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 35 -22))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 12 -15))))))
+ 3687: new home position for player 0: -20 10
+ 3687: new home position for player 1: -12 26
+ 3687: new home position for player 2: 0 0
+ 3687: new home position for player 3: -20 -10
+ 3687: new home position for player 4: -12 -26
+ 3687: new home position for player 5: 0 0
+ 3687: new home position for player 6: 12 15
+ 3687: new home position for player 7: 35 -22
+ 3687: new home position for player 8: 20 0
+ 3687: new home position for player 9: 35 22
+ 3687: new home position for player 10: 12 -15
+(b)r: 1.87073 phi: -0.509721 vel: ( -1.83337, -0.341864 ) (3758,0) rel: ( 1.87065, -0.0166423 ), (3758,0) global: ( -45.0232, 0.520004 ), (3758,0), changes: -2.34, -4.8 last seen:(3757,0) globalposderived: (3757,0)
+(b)r: 0.808115 phi: -0.145713 vel: ( -1.72337, -0.321352 ) (3759,0) rel: ( 0.808113, -0.00205518 ), (3759,0) global: ( -46.8566, 0.178141 ), (3759,0), changes: -2.34, -4.8 last seen:(3757,0) globalposderived: (3757,0)
+ 3759: direction old: -74.606636, new: -74.883368
+(b)r: 0.7 phi: -3 vel: ( -1.66285, -0.295834 ) (3759,0) rel: ( 0.699041, -0.0366352 ), (3759,0) global: ( -46.861, 0.181652 ), (3759,0), changes: -0.126, -124.6 last seen:(3759,0) globalposderived: (3759,0)
+(b)r: 0.2 phi: 18 vel: ( 0, 0 ) (3760,0) rel: ( 0.190211, 0.0618034 ), (3760,0) global: ( -46.9914, 0.66435 ), (3760,0), changes: -0.126, -124.6 last seen:(3759,0) globalposderived: (3759,0)
+ 3760: 2 pos: ball(-46.875516,0.037977), ball_prev(-46.861027,0.181652), agentdiff(0.061417,-0.433930)
+ 3760: direction old: 92.201794, new: -74.537432
+(b)r: 0.4 phi: 90 vel: ( 0, 0 ) (3760,0) rel: ( 2.44929e-17, 0.4 ), (3760,0) global: ( -46.8755, 0.0379774 ), (3760,0), changes: -0.126, -124.6 last seen:(3760,0) globalposderived: (3760,0)
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3761,0) rel: ( 0.4, 0 ), (3761,0) global: ( -46.8755, 0.0379774 ), (3761,0), changes: -0.126, -124.6 last seen:(3760,0) globalposderived: (3760,0)
+(b)r: 0.4 phi: 0.00830184 vel: ( 0, 0 ) (3762,0) rel: ( 0.4, 5.79578e-05 ), (3762,0) global: ( -46.8755, 0.0379774 ), (3762,0), changes: -0.126, -124.6 last seen:(3760,0) globalposderived: (3760,0)
+ 3762: 2 pos: ball(-46.726203,0.484042), ball_prev(-46.875516,0.037977), agentdiff(-0.143118,0.033345)
+ 3762: direction old: -59.193223, new: 3.898768
+(b)r: 0.4 phi: 75 vel: ( 0, 0 ) (3762,0) rel: ( 0.103528, 0.38637 ), (3762,0) global: ( -46.7262, 0.484042 ), (3762,0), changes: -0.126, -124.6 last seen:(3762,0) globalposderived: (3762,0)
+(b)r: 0.4 phi: 5.77316e-15 vel: ( 0, 0 ) (3763,0) rel: ( 0.4, 4.03043e-17 ), (3763,0) global: ( -46.7262, 0.484042 ), (3763,0), changes: -0.126, -124.6 last seen:(3762,0) globalposderived: (3762,0)
+ 3763: direction old: 24.500863, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3763,0) rel: ( 0.4, 0 ), (3763,0) global: ( -46.5939, 0.388716 ), (3763,0), changes: 0, 0 last seen:(3763,0) globalposderived: (3763,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3764,0) rel: ( 0.4, 9.30098e-18 ), (3764,0) global: ( -46.5939, 0.388716 ), (3764,0), changes: 0, 0 last seen:(3763,0) globalposderived: (3763,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3765,0) rel: ( 0.4, 9.30098e-18 ), (3765,0) global: ( -46.5939, 0.388716 ), (3765,0), changes: 0, 0 last seen:(3763,0) globalposderived: (3763,0)
+ 3765: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3765,0) rel: ( 0.4, 0 ), (3765,0) global: ( -46.5939, 0.388716 ), (3765,0), changes: 0, 0 last seen:(3765,0) globalposderived: (3765,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3766,0) rel: ( 0.4, 9.30098e-18 ), (3766,0) global: ( -46.5939, 0.388716 ), (3766,0), changes: 0, 0 last seen:(3765,0) globalposderived: (3765,0)
+ 3766: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3766,0) rel: ( 0.4, 0 ), (3766,0) global: ( -46.5939, 0.388716 ), (3766,0), changes: 0, 0 last seen:(3766,0) globalposderived: (3766,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3767,0) rel: ( 0.4, 9.30098e-18 ), (3767,0) global: ( -46.5939, 0.388716 ), (3767,0), changes: 0, 0 last seen:(3766,0) globalposderived: (3766,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3768,0) rel: ( 0.4, 9.30098e-18 ), (3768,0) global: ( -46.5939, 0.388716 ), (3768,0), changes: 0, 0 last seen:(3766,0) globalposderived: (3766,0)
+ 3768: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3768,0) rel: ( 0.4, 0 ), (3768,0) global: ( -46.5939, 0.388716 ), (3768,0), changes: 0, 0 last seen:(3768,0) globalposderived: (3768,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3769,0) rel: ( 0.4, 9.30098e-18 ), (3769,0) global: ( -46.5939, 0.388716 ), (3769,0), changes: 0, 0 last seen:(3768,0) globalposderived: (3768,0)
+ 3769: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3769,0) rel: ( 0.4, 0 ), (3769,0) global: ( -46.5939, 0.388716 ), (3769,0), changes: 0, 0 last seen:(3769,0) globalposderived: (3769,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3770,0) rel: ( 0.4, 9.30098e-18 ), (3770,0) global: ( -46.5939, 0.388716 ), (3770,0), changes: 0, 0 last seen:(3769,0) globalposderived: (3769,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3771,0) rel: ( 0.4, 9.30098e-18 ), (3771,0) global: ( -46.5939, 0.388716 ), (3771,0), changes: 0, 0 last seen:(3769,0) globalposderived: (3769,0)
+ 3771: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3771,0) rel: ( 0.4, 0 ), (3771,0) global: ( -46.5939, 0.388716 ), (3771,0), changes: 0, 0 last seen:(3771,0) globalposderived: (3771,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3772,0) rel: ( 0.4, 9.30098e-18 ), (3772,0) global: ( -46.5939, 0.388716 ), (3772,0), changes: 0, 0 last seen:(3771,0) globalposderived: (3771,0)
+ 3772: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3772,0) rel: ( 0.4, 0 ), (3772,0) global: ( -46.5939, 0.388716 ), (3772,0), changes: 0, 0 last seen:(3772,0) globalposderived: (3772,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3773,0) rel: ( 0.4, 9.30098e-18 ), (3773,0) global: ( -46.5939, 0.388716 ), (3773,0), changes: 0, 0 last seen:(3772,0) globalposderived: (3772,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3774,0) rel: ( 0.4, 9.30098e-18 ), (3774,0) global: ( -46.5939, 0.388716 ), (3774,0), changes: 0, 0 last seen:(3772,0) globalposderived: (3772,0)
+ 3774: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3774,0) rel: ( 0.4, 0 ), (3774,0) global: ( -46.5939, 0.388716 ), (3774,0), changes: 0, 0 last seen:(3774,0) globalposderived: (3774,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3775,0) rel: ( 0.4, 9.30098e-18 ), (3775,0) global: ( -46.5939, 0.388716 ), (3775,0), changes: 0, 0 last seen:(3774,0) globalposderived: (3774,0)
+ 3775: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3775,0) rel: ( 0.4, 0 ), (3775,0) global: ( -46.5939, 0.388716 ), (3775,0), changes: 0, 0 last seen:(3775,0) globalposderived: (3775,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3776,0) rel: ( 0.4, 9.30098e-18 ), (3776,0) global: ( -46.5939, 0.388716 ), (3776,0), changes: 0, 0 last seen:(3775,0) globalposderived: (3775,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3777,0) rel: ( 0.4, 9.30098e-18 ), (3777,0) global: ( -46.5939, 0.388716 ), (3777,0), changes: 0, 0 last seen:(3775,0) globalposderived: (3775,0)
+ 3777: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3777,0) rel: ( 0.4, 0 ), (3777,0) global: ( -46.5939, 0.388716 ), (3777,0), changes: 0, 0 last seen:(3777,0) globalposderived: (3777,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3778,0) rel: ( 0.4, 9.30098e-18 ), (3778,0) global: ( -46.5939, 0.388716 ), (3778,0), changes: 0, 0 last seen:(3777,0) globalposderived: (3777,0)
+ 3778: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3778,0) rel: ( 0.4, 0 ), (3778,0) global: ( -46.5939, 0.388716 ), (3778,0), changes: 0, 0 last seen:(3778,0) globalposderived: (3778,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3779,0) rel: ( 0.4, 9.30098e-18 ), (3779,0) global: ( -46.5939, 0.388716 ), (3779,0), changes: 0, 0 last seen:(3778,0) globalposderived: (3778,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3780,0) rel: ( 0.4, 9.30098e-18 ), (3780,0) global: ( -46.5939, 0.388716 ), (3780,0), changes: 0, 0 last seen:(3778,0) globalposderived: (3778,0)
+ 3780: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3780,0) rel: ( 0.4, 0 ), (3780,0) global: ( -46.5939, 0.388716 ), (3780,0), changes: 0, 0 last seen:(3780,0) globalposderived: (3780,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3781,0) rel: ( 0.4, 9.30098e-18 ), (3781,0) global: ( -46.5939, 0.388716 ), (3781,0), changes: 0, 0 last seen:(3780,0) globalposderived: (3780,0)
+ 3781: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3781,0) rel: ( 0.4, 0 ), (3781,0) global: ( -46.5939, 0.388716 ), (3781,0), changes: 0, 0 last seen:(3781,0) globalposderived: (3781,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3782,0) rel: ( 0.4, 9.30098e-18 ), (3782,0) global: ( -46.5939, 0.388716 ), (3782,0), changes: 0, 0 last seen:(3781,0) globalposderived: (3781,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3783,0) rel: ( 0.4, 9.30098e-18 ), (3783,0) global: ( -46.5939, 0.388716 ), (3783,0), changes: 0, 0 last seen:(3781,0) globalposderived: (3781,0)
+ 3783: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3783,0) rel: ( 0.4, 0 ), (3783,0) global: ( -46.5939, 0.388716 ), (3783,0), changes: 0, 0 last seen:(3783,0) globalposderived: (3783,0)
+(b)r: 0.4 phi: 1.33227e-15 vel: ( 0, 0 ) (3784,0) rel: ( 0.4, 9.30098e-18 ), (3784,0) global: ( -46.5939, 0.388716 ), (3784,0), changes: 0, 0 last seen:(3783,0) globalposderived: (3783,0)
+ 3784: direction old: 3.768551, new: 3.768551
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3784,0) rel: ( 0.4, 0 ), (3784,0) global: ( -46.5939, 0.388716 ), (3784,0), changes: 0, 0 last seen:(3784,0) globalposderived: (3784,0)
+(b)r: 0.4 phi: -8.43769e-15 vel: ( 0, 0 ) (3785,0) rel: ( 0.4, -5.89062e-17 ), (3785,0) global: ( -46.5939, 0.388716 ), (3785,0), changes: 0, 0 last seen:(3784,0) globalposderived: (3784,0)
+(b)r: 0.4 phi: -8.43769e-15 vel: ( 0, 0 ) (3786,0) rel: ( 0.4, -5.89062e-17 ), (3786,0) global: ( -46.5939, 0.388716 ), (3786,0), changes: 0, 0 last seen:(3784,0) globalposderived: (3784,0)
+ 3786: direction old: 121.858768, new: 3.819404
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3786,0) rel: ( 0.4, 0 ), (3786,0) global: ( -39.6675, -10.088 ), (3786,0), changes: 0, 0 last seen:(3786,0) globalposderived: (3786,0)
+(b)r: 0.4 phi: -1.09246e-13 vel: ( 0, 0 ) (3787,0) rel: ( 0.4, -7.62681e-16 ), (3787,0) global: ( -39.6675, -10.088 ), (3787,0), changes: 0, 0 last seen:(3786,0) globalposderived: (3786,0)
+ 3787: direction old: 3.819404, new: 3.819404
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (3787,0) rel: ( 0.4, 0 ), (3787,0) global: ( -39.6675, -10.088 ), (3787,0), changes: 0, 0 last seen:(3787,0) globalposderived: (3787,0)
+(b)r: 0.4 phi: -1.09246e-13 vel: ( 0, 0 ) (3788,0) rel: ( 0.4, -7.62681e-16 ), (3788,0) global: ( -39.6675, -10.088 ), (3788,0), changes: 0, 0 last seen:(3787,0) globalposderived: (3787,0)
+ 3788: ball (-39.667495,-10.088048), agent (-40.066607,-10.114693), to (-13.792388,-16.753626) ang 3.819404 3.819404
+ 3788: relpos body (0.400000,-0.000000), vel. ball:(0.000000,0.000000) dist: 1.085000 (0.300000,0.085000,0.700000)
+ 3788: pos (3.416040,-0.879992) too far, but can acc ball good to 2.685536 k=2.685536,0.000000
+ 3789: direction old: -11.871917, new: -13.180596
+ 3982: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 0 0))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 35 -22))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 12 -15))))))
+ 3982: new home position for player 0: -20 10
+ 3982: new home position for player 1: -12 26
+ 3982: new home position for player 2: 0 0
+ 3982: new home position for player 3: -20 -10
+ 3982: new home position for player 4: -12 -26
+ 3982: new home position for player 5: 0 0
+ 3982: new home position for player 6: 12 15
+ 3982: new home position for player 7: 35 -22
+ 3982: new home position for player 8: 20 0
+ 3982: new home position for player 9: 35 22
+ 3982: new home position for player 10: 12 -15
+ 4287: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 20 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 0 0))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 35 -22))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 12 -15))))))
+ 4287: new home position for player 0: -20 10
+ 4287: new home position for player 1: -12 26
+ 4287: new home position for player 2: 20 0
+ 4287: new home position for player 3: -20 -10
+ 4287: new home position for player 4: -12 -26
+ 4287: new home position for player 5: 0 0
+ 4287: new home position for player 6: 12 15
+ 4287: new home position for player 7: 35 -22
+ 4287: new home position for player 8: 0 0
+ 4287: new home position for player 9: 35 22
+ 4287: new home position for player 10: 12 -15
+ 4587: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 0 0))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 35 -22))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 12 -15))))))
+ 4587: new home position for player 0: -20 10
+ 4587: new home position for player 1: -12 26
+ 4587: new home position for player 2: 0 0
+ 4587: new home position for player 3: -20 -10
+ 4587: new home position for player 4: -12 -26
+ 4587: new home position for player 5: 0 0
+ 4587: new home position for player 6: 12 15
+ 4587: new home position for player 7: 35 -22
+ 4587: new home position for player 8: 20 0
+ 4587: new home position for player 9: 35 22
+ 4587: new home position for player 10: 12 -15
+ 4909: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 20 0))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 35 -22))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 12 -15))))))
+ 4909: new home position for player 0: -20 10
+ 4909: new home position for player 1: -12 26
+ 4909: new home position for player 2: 0 0
+ 4909: new home position for player 3: -20 -10
+ 4909: new home position for player 4: -12 -26
+ 4909: new home position for player 5: 20 0
+ 4909: new home position for player 6: 12 15
+ 4909: new home position for player 7: 35 -22
+ 4909: new home position for player 8: 0 0
+ 4909: new home position for player 9: 35 22
+ 4909: new home position for player 10: 12 -15
+(b)r: 1.97127 phi: -0.277938 vel: ( -0.873684, -0.849029 ) (5130,0) rel: ( 1.97124, -0.00956244 ), (5130,0) global: ( -44.3208, 0.504374 ), (5130,0), changes: -1.32, -4.4 last seen:(5128,0) globalposderived: (5128,0)
+ 5130: direction old: 15.308017, new: 18.965077
+(b)r: 0.884079 phi: -1.06477 vel: ( -0.732971, -0.673103 ) (5131,0) rel: ( 0.883926, -0.0164285 ), (5131,0) global: ( -44.7906, 0.0186162 ), (5131,0), changes: -1.188, -2.3 last seen:(5130,0) globalposderived: (5130,0)
+ 5131: direction old: 22.669868, new: 24.984470
+(b)r: 0.8 phi: -1 vel: ( -0.719144, -0.671938 ) (5131,0) rel: ( 0.799878, -0.0139619 ), (5131,0) global: ( -44.9189, 3.91059e-05 ), (5131,0), changes: -1.04, -6.4 last seen:(5131,0) globalposderived: (5131,0)
+(b)r: 0.2 phi: 152 vel: ( 0, 0 ) (5132,0) rel: ( -0.17659, 0.0938943 ), (5132,0) global: ( -45.4628, -0.253384 ), (5132,0), changes: -1.04, -6.4 last seen:(5131,0) globalposderived: (5131,0)
+(b)r: 0.2 phi: 1.84741e-13 vel: ( 0, 0 ) (5133,0) rel: ( 0.2, 6.44868e-16 ), (5133,0) global: ( -45.4628, -0.253384 ), (5133,0), changes: -1.04, -6.4 last seen:(5131,0) globalposderived: (5131,0)
+ 5133: direction old: -163.047853, new: 61.035887
+(b)r: 0.4 phi: -23 vel: ( 0, 0 ) (5133,0) rel: ( 0.368202, -0.156292 ), (5133,0) global: ( -44.8864, 0.213231 ), (5133,0), changes: 0, 0 last seen:(5133,0) globalposderived: (5133,0)
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5134,0) rel: ( 0.4, 0 ), (5134,0) global: ( -44.8864, 0.213231 ), (5134,0), changes: 0, 0 last seen:(5133,0) globalposderived: (5133,0)
+ 5134: 2 pos: ball(-44.617092,-0.220023), ball_prev(-44.886406,0.213231), agentdiff(0.063860,-0.109223)
+ 5134: vel based on 2 pos: (0.193126,-0.304589)
+ 5134: direction old: 74.210871, new: 3.718043
+(b)r: 0.4 phi: -61 vel: ( 0, 0 ) (5134,0) rel: ( 0.193924, -0.349848 ), (5134,0) global: ( -44.6171, -0.220023 ), (5134,0), changes: 0, 0 last seen:(5134,0) globalposderived: (5134,0)
+(b)r: 0.4 phi: 2.88658e-14 vel: ( 0, 0 ) (5135,0) rel: ( 0.4, 2.01521e-16 ), (5135,0) global: ( -44.6171, -0.220023 ), (5135,0), changes: 0, 0 last seen:(5134,0) globalposderived: (5134,0)
+(b)r: 0.4 phi: 2.57572e-14 vel: ( 0, 0 ) (5136,0) rel: ( 0.4, 1.79819e-16 ), (5136,0) global: ( -44.6171, -0.220023 ), (5136,0), changes: 0, 0 last seen:(5134,0) globalposderived: (5134,0)
+ 5136: direction old: -4.449808, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5136,0) rel: ( 0.4, 0 ), (5136,0) global: ( -44.7008, -0.158286 ), (5136,0), changes: 0, 0 last seen:(5136,0) globalposderived: (5136,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5137,0) rel: ( 0.4, 1.98421e-16 ), (5137,0) global: ( -44.7008, -0.158286 ), (5137,0), changes: 0, 0 last seen:(5136,0) globalposderived: (5136,0)
+ 5137: direction old: 3.461148, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5137,0) rel: ( 0.4, 0 ), (5137,0) global: ( -44.7008, -0.158286 ), (5137,0), changes: 0, 0 last seen:(5137,0) globalposderived: (5137,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5138,0) rel: ( 0.4, 1.98421e-16 ), (5138,0) global: ( -44.7008, -0.158286 ), (5138,0), changes: 0, 0 last seen:(5137,0) globalposderived: (5137,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5139,0) rel: ( 0.4, 1.98421e-16 ), (5139,0) global: ( -44.7008, -0.158286 ), (5139,0), changes: 0, 0 last seen:(5137,0) globalposderived: (5137,0)
+ 5139: direction old: 3.461148, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5139,0) rel: ( 0.4, 0 ), (5139,0) global: ( -44.7008, -0.158286 ), (5139,0), changes: 0, 0 last seen:(5139,0) globalposderived: (5139,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5140,0) rel: ( 0.4, 1.98421e-16 ), (5140,0) global: ( -44.7008, -0.158286 ), (5140,0), changes: 0, 0 last seen:(5139,0) globalposderived: (5139,0)
+ 5140: direction old: 3.461148, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5140,0) rel: ( 0.4, 0 ), (5140,0) global: ( -44.7008, -0.158286 ), (5140,0), changes: 0, 0 last seen:(5140,0) globalposderived: (5140,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5141,0) rel: ( 0.4, 1.98421e-16 ), (5141,0) global: ( -44.7008, -0.158286 ), (5141,0), changes: 0, 0 last seen:(5140,0) globalposderived: (5140,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5142,0) rel: ( 0.4, 1.98421e-16 ), (5142,0) global: ( -44.7008, -0.158286 ), (5142,0), changes: 0, 0 last seen:(5140,0) globalposderived: (5140,0)
+ 5142: direction old: 3.461148, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5142,0) rel: ( 0.4, 0 ), (5142,0) global: ( -44.7008, -0.158286 ), (5142,0), changes: 0, 0 last seen:(5142,0) globalposderived: (5142,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5143,0) rel: ( 0.4, 1.98421e-16 ), (5143,0) global: ( -44.7008, -0.158286 ), (5143,0), changes: 0, 0 last seen:(5142,0) globalposderived: (5142,0)
+ 5143: direction old: 3.461148, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5143,0) rel: ( 0.4, 0 ), (5143,0) global: ( -44.7008, -0.158286 ), (5143,0), changes: 0, 0 last seen:(5143,0) globalposderived: (5143,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5144,0) rel: ( 0.4, 1.98421e-16 ), (5144,0) global: ( -44.7008, -0.158286 ), (5144,0), changes: 0, 0 last seen:(5143,0) globalposderived: (5143,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5145,0) rel: ( 0.4, 1.98421e-16 ), (5145,0) global: ( -44.7008, -0.158286 ), (5145,0), changes: 0, 0 last seen:(5143,0) globalposderived: (5143,0)
+ 5145: direction old: 3.461148, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5145,0) rel: ( 0.4, 0 ), (5145,0) global: ( -44.7008, -0.158286 ), (5145,0), changes: 0, 0 last seen:(5145,0) globalposderived: (5145,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5146,0) rel: ( 0.4, 1.98421e-16 ), (5146,0) global: ( -44.7008, -0.158286 ), (5146,0), changes: 0, 0 last seen:(5145,0) globalposderived: (5145,0)
+ 5146: direction old: 3.461148, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5146,0) rel: ( 0.4, 0 ), (5146,0) global: ( -44.7008, -0.158286 ), (5146,0), changes: 0, 0 last seen:(5146,0) globalposderived: (5146,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5147,0) rel: ( 0.4, 1.98421e-16 ), (5147,0) global: ( -44.7008, -0.158286 ), (5147,0), changes: 0, 0 last seen:(5146,0) globalposderived: (5146,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5148,0) rel: ( 0.4, 1.98421e-16 ), (5148,0) global: ( -44.7008, -0.158286 ), (5148,0), changes: 0, 0 last seen:(5146,0) globalposderived: (5146,0)
+ 5148: direction old: 3.461148, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5148,0) rel: ( 0.4, 0 ), (5148,0) global: ( -44.7008, -0.158286 ), (5148,0), changes: 0, 0 last seen:(5148,0) globalposderived: (5148,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5149,0) rel: ( 0.4, 1.98421e-16 ), (5149,0) global: ( -44.7008, -0.158286 ), (5149,0), changes: 0, 0 last seen:(5148,0) globalposderived: (5148,0)
+ 5149: direction old: 3.461148, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5149,0) rel: ( 0.4, 0 ), (5149,0) global: ( -44.7008, -0.158286 ), (5149,0), changes: 0, 0 last seen:(5149,0) globalposderived: (5149,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5150,0) rel: ( 0.4, 1.98421e-16 ), (5150,0) global: ( -44.7008, -0.158286 ), (5150,0), changes: 0, 0 last seen:(5149,0) globalposderived: (5149,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5151,0) rel: ( 0.4, 1.98421e-16 ), (5151,0) global: ( -44.7008, -0.158286 ), (5151,0), changes: 0, 0 last seen:(5149,0) globalposderived: (5149,0)
+ 5151: direction old: 3.461148, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5151,0) rel: ( 0.4, 0 ), (5151,0) global: ( -44.7008, -0.158286 ), (5151,0), changes: 0, 0 last seen:(5151,0) globalposderived: (5151,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5152,0) rel: ( 0.4, 1.98421e-16 ), (5152,0) global: ( -44.7008, -0.158286 ), (5152,0), changes: 0, 0 last seen:(5151,0) globalposderived: (5151,0)
+ 5152: direction old: 3.461148, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5152,0) rel: ( 0.4, 0 ), (5152,0) global: ( -44.7008, -0.158286 ), (5152,0), changes: 0, 0 last seen:(5152,0) globalposderived: (5152,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5153,0) rel: ( 0.4, 1.98421e-16 ), (5153,0) global: ( -44.7008, -0.158286 ), (5153,0), changes: 0, 0 last seen:(5152,0) globalposderived: (5152,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5154,0) rel: ( 0.4, 1.98421e-16 ), (5154,0) global: ( -44.7008, -0.158286 ), (5154,0), changes: 0, 0 last seen:(5152,0) globalposderived: (5152,0)
+ 5154: direction old: 3.461148, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5154,0) rel: ( 0.4, 0 ), (5154,0) global: ( -44.7008, -0.158286 ), (5154,0), changes: 0, 0 last seen:(5154,0) globalposderived: (5154,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5155,0) rel: ( 0.4, 1.98421e-16 ), (5155,0) global: ( -44.7008, -0.158286 ), (5155,0), changes: 0, 0 last seen:(5154,0) globalposderived: (5154,0)
+ 5155: direction old: 3.461148, new: 3.461148
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5155,0) rel: ( 0.4, 0 ), (5155,0) global: ( -44.7008, -0.158286 ), (5155,0), changes: 0, 0 last seen:(5155,0) globalposderived: (5155,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5156,0) rel: ( 0.4, 1.98421e-16 ), (5156,0) global: ( -44.7008, -0.158286 ), (5156,0), changes: 0, 0 last seen:(5155,0) globalposderived: (5155,0)
+(b)r: 0.4 phi: 2.84217e-14 vel: ( 0, 0 ) (5157,0) rel: ( 0.4, 1.98421e-16 ), (5157,0) global: ( -44.7008, -0.158286 ), (5157,0), changes: 0, 0 last seen:(5155,0) globalposderived: (5155,0)
+ 5157: direction old: 114.959719, new: 3.440093
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5157,0) rel: ( 0.4, 0 ), (5157,0) global: ( -39.6673, -10.0907 ), (5157,0), changes: 0, 0 last seen:(5157,0) globalposderived: (5157,0)
+(b)r: 0.4 phi: -1.09246e-13 vel: ( 0, 0 ) (5158,0) rel: ( 0.4, -7.62681e-16 ), (5158,0) global: ( -39.6673, -10.0907 ), (5158,0), changes: 0, 0 last seen:(5157,0) globalposderived: (5157,0)
+ 5158: direction old: 3.440093, new: 3.440093
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5158,0) rel: ( 0.4, 0 ), (5158,0) global: ( -39.6673, -10.0907 ), (5158,0), changes: 0, 0 last seen:(5158,0) globalposderived: (5158,0)
+(b)r: 0.4 phi: -1.09246e-13 vel: ( 0, 0 ) (5159,0) rel: ( 0.4, -7.62681e-16 ), (5159,0) global: ( -39.6673, -10.0907 ), (5159,0), changes: 0, 0 last seen:(5158,0) globalposderived: (5158,0)
+(b)r: 0.4 phi: -1.09246e-13 vel: ( 0, 0 ) (5160,0) rel: ( 0.4, -7.62681e-16 ), (5160,0) global: ( -39.6673, -10.0907 ), (5160,0), changes: 0, 0 last seen:(5158,0) globalposderived: (5158,0)
+ 5160: ball (-39.667327,-10.090691), agent (-40.066607,-10.114693), to (-7.889259,-17.875383) ang 3.440093 3.440093
+ 5160: relpos body (0.400000,-0.000000), vel. ball:(0.000000,0.000000) dist: 1.085000 (0.300000,0.085000,0.700000)
+ 5160: pos (3.877611,-0.949901) too far, but can acc ball good to 2.685536 k=2.685536,0.000000
+ 5160: direction old: 3.440093, new: 3.440093
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5160,0) rel: ( 0.4, 0 ), (5160,0) global: ( -39.6673, -10.0907 ), (5160,0), changes: 0, 0 last seen:(5160,0) globalposderived: (5160,0)
+ 5160: ball (-39.667327,-10.090691), agent (-40.066607,-10.114693), to (-7.889259,-17.875383) ang 3.440093 3.440093
+ 5160: relpos body (0.400000,0.000000), vel. ball:(0.000000,0.000000) dist: 1.085000 (0.300000,0.085000,0.700000)
+ 5160: pos (3.877611,-0.949901) too far, but can acc ball good to 2.685536 k=2.685536,0.000000
+ 5212: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 0 0))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 20 0))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 35 -22))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 12 -15))))))
+ 5212: new home position for player 0: -20 -10
+ 5212: new home position for player 1: -12 26
+ 5212: new home position for player 2: -20 10
+ 5212: new home position for player 3: 0 0
+ 5212: new home position for player 4: -12 -26
+ 5212: new home position for player 5: 20 0
+ 5212: new home position for player 6: 12 15
+ 5212: new home position for player 7: 35 -22
+ 5212: new home position for player 8: 0 0
+ 5212: new home position for player 9: 35 22
+ 5212: new home position for player 10: 12 -15
+(b)r: 0.430598 phi: 2.14726 vel: ( -1.67714, 1.01914 ) (5372,0) rel: ( 0.430296, 0.0161337 ), (5372,0) global: ( -45.5416, -2.00191 ), (5372,0), changes: -2.376, 4.1 last seen:(5371,0) globalposderived: (5371,0)
+(b)r: 0.2 phi: -120.853 vel: ( 0, 0 ) (5373,0) rel: ( -0.102567, -0.171698 ), (5373,0) global: ( -45.7573, -1.92041 ), (5373,0), changes: -2.376, 4.1 last seen:(5371,0) globalposderived: (5371,0)
+ 5373: 2 pos: ball(-45.680337,-2.028224), ball_prev(-43.757428,-3.086095), agentdiff(-0.110614,-0.038510)
+ 5373: direction old: -6.167671, new: -20.484552
+(b)r: 0.4 phi: -89 vel: ( 0, 0 ) (5373,0) rel: ( 0.00698096, -0.399939 ), (5373,0) global: ( -45.6803, -2.02822 ), (5373,0), changes: -2.376, 4.1 last seen:(5373,0) globalposderived: (5373,0)
+(b)r: 0.4 phi: 3.55271e-15 vel: ( 0, 0 ) (5374,0) rel: ( 0.4, 2.48026e-17 ), (5374,0) global: ( -45.6803, -2.02822 ), (5374,0), changes: -2.376, 4.1 last seen:(5373,0) globalposderived: (5373,0)
+ 5374: direction old: -52.056022, new: -0.193092
+(b)r: 0.4 phi: 20 vel: ( 0, 0 ) (5374,0) rel: ( 0.375877, 0.136808 ), (5374,0) global: ( -45.4755, -1.77924 ), (5374,0), changes: 0, 0 last seen:(5374,0) globalposderived: (5374,0)
+(b)r: 0.4 phi: -0.000150015 vel: ( 0, 0 ) (5375,0) rel: ( 0.4, -1.0473e-06 ), (5375,0) global: ( -45.4755, -1.77924 ), (5375,0), changes: 0, 0 last seen:(5374,0) globalposderived: (5374,0)
+(b)r: 0.4 phi: 2.25056e-08 vel: ( 0, 0 ) (5376,0) rel: ( 0.4, 1.57119e-10 ), (5376,0) global: ( -45.4755, -1.77924 ), (5376,0), changes: 0, 0 last seen:(5374,0) globalposderived: (5374,0)
+ 5376: direction old: 29.212565, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5376,0) rel: ( 0.4, 0 ), (5376,0) global: ( -45.4588, -1.99355 ), (5376,0), changes: 0, 0 last seen:(5376,0) globalposderived: (5376,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5377,0) rel: ( 0.4, 1.01885e-17 ), (5377,0) global: ( -45.4588, -1.99355 ), (5377,0), changes: 0, 0 last seen:(5376,0) globalposderived: (5376,0)
+ 5377: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5377,0) rel: ( 0.4, 0 ), (5377,0) global: ( -45.4588, -1.99355 ), (5377,0), changes: 0, 0 last seen:(5377,0) globalposderived: (5377,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5378,0) rel: ( 0.4, 1.01885e-17 ), (5378,0) global: ( -45.4588, -1.99355 ), (5378,0), changes: 0, 0 last seen:(5377,0) globalposderived: (5377,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5379,0) rel: ( 0.4, 1.01885e-17 ), (5379,0) global: ( -45.4588, -1.99355 ), (5379,0), changes: 0, 0 last seen:(5377,0) globalposderived: (5377,0)
+ 5379: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5379,0) rel: ( 0.4, 0 ), (5379,0) global: ( -45.4588, -1.99355 ), (5379,0), changes: 0, 0 last seen:(5379,0) globalposderived: (5379,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5380,0) rel: ( 0.4, 1.01885e-17 ), (5380,0) global: ( -45.4588, -1.99355 ), (5380,0), changes: 0, 0 last seen:(5379,0) globalposderived: (5379,0)
+ 5380: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5380,0) rel: ( 0.4, 0 ), (5380,0) global: ( -45.4588, -1.99355 ), (5380,0), changes: 0, 0 last seen:(5380,0) globalposderived: (5380,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5381,0) rel: ( 0.4, 1.01885e-17 ), (5381,0) global: ( -45.4588, -1.99355 ), (5381,0), changes: 0, 0 last seen:(5380,0) globalposderived: (5380,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5382,0) rel: ( 0.4, 1.01885e-17 ), (5382,0) global: ( -45.4588, -1.99355 ), (5382,0), changes: 0, 0 last seen:(5380,0) globalposderived: (5380,0)
+ 5382: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5382,0) rel: ( 0.4, 0 ), (5382,0) global: ( -45.4588, -1.99355 ), (5382,0), changes: 0, 0 last seen:(5382,0) globalposderived: (5382,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5383,0) rel: ( 0.4, 1.01885e-17 ), (5383,0) global: ( -45.4588, -1.99355 ), (5383,0), changes: 0, 0 last seen:(5382,0) globalposderived: (5382,0)
+ 5383: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5383,0) rel: ( 0.4, 0 ), (5383,0) global: ( -45.4588, -1.99355 ), (5383,0), changes: 0, 0 last seen:(5383,0) globalposderived: (5383,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5384,0) rel: ( 0.4, 1.01885e-17 ), (5384,0) global: ( -45.4588, -1.99355 ), (5384,0), changes: 0, 0 last seen:(5383,0) globalposderived: (5383,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5385,0) rel: ( 0.4, 1.01885e-17 ), (5385,0) global: ( -45.4588, -1.99355 ), (5385,0), changes: 0, 0 last seen:(5383,0) globalposderived: (5383,0)
+ 5385: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5385,0) rel: ( 0.4, 0 ), (5385,0) global: ( -45.4588, -1.99355 ), (5385,0), changes: 0, 0 last seen:(5385,0) globalposderived: (5385,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5386,0) rel: ( 0.4, 1.01885e-17 ), (5386,0) global: ( -45.4588, -1.99355 ), (5386,0), changes: 0, 0 last seen:(5385,0) globalposderived: (5385,0)
+ 5386: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5386,0) rel: ( 0.4, 0 ), (5386,0) global: ( -45.4588, -1.99355 ), (5386,0), changes: 0, 0 last seen:(5386,0) globalposderived: (5386,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5387,0) rel: ( 0.4, 1.01885e-17 ), (5387,0) global: ( -45.4588, -1.99355 ), (5387,0), changes: 0, 0 last seen:(5386,0) globalposderived: (5386,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5388,0) rel: ( 0.4, 1.01885e-17 ), (5388,0) global: ( -45.4588, -1.99355 ), (5388,0), changes: 0, 0 last seen:(5386,0) globalposderived: (5386,0)
+ 5388: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5388,0) rel: ( 0.4, 0 ), (5388,0) global: ( -45.4588, -1.99355 ), (5388,0), changes: 0, 0 last seen:(5388,0) globalposderived: (5388,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5389,0) rel: ( 0.4, 1.01885e-17 ), (5389,0) global: ( -45.4588, -1.99355 ), (5389,0), changes: 0, 0 last seen:(5388,0) globalposderived: (5388,0)
+ 5389: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5389,0) rel: ( 0.4, 0 ), (5389,0) global: ( -45.4588, -1.99355 ), (5389,0), changes: 0, 0 last seen:(5389,0) globalposderived: (5389,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5390,0) rel: ( 0.4, 1.01885e-17 ), (5390,0) global: ( -45.4588, -1.99355 ), (5390,0), changes: 0, 0 last seen:(5389,0) globalposderived: (5389,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5391,0) rel: ( 0.4, 1.01885e-17 ), (5391,0) global: ( -45.4588, -1.99355 ), (5391,0), changes: 0, 0 last seen:(5389,0) globalposderived: (5389,0)
+ 5391: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5391,0) rel: ( 0.4, 0 ), (5391,0) global: ( -45.4588, -1.99355 ), (5391,0), changes: 0, 0 last seen:(5391,0) globalposderived: (5391,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5392,0) rel: ( 0.4, 1.01885e-17 ), (5392,0) global: ( -45.4588, -1.99355 ), (5392,0), changes: 0, 0 last seen:(5391,0) globalposderived: (5391,0)
+ 5392: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5392,0) rel: ( 0.4, 0 ), (5392,0) global: ( -45.4588, -1.99355 ), (5392,0), changes: 0, 0 last seen:(5392,0) globalposderived: (5392,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5393,0) rel: ( 0.4, 1.01885e-17 ), (5393,0) global: ( -45.4588, -1.99355 ), (5393,0), changes: 0, 0 last seen:(5392,0) globalposderived: (5392,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5394,0) rel: ( 0.4, 1.01885e-17 ), (5394,0) global: ( -45.4588, -1.99355 ), (5394,0), changes: 0, 0 last seen:(5392,0) globalposderived: (5392,0)
+ 5394: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5394,0) rel: ( 0.4, 0 ), (5394,0) global: ( -45.4588, -1.99355 ), (5394,0), changes: 0, 0 last seen:(5394,0) globalposderived: (5394,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5395,0) rel: ( 0.4, 1.01885e-17 ), (5395,0) global: ( -45.4588, -1.99355 ), (5395,0), changes: 0, 0 last seen:(5394,0) globalposderived: (5394,0)
+ 5395: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5395,0) rel: ( 0.4, 0 ), (5395,0) global: ( -45.4588, -1.99355 ), (5395,0), changes: 0, 0 last seen:(5395,0) globalposderived: (5395,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5396,0) rel: ( 0.4, 1.01885e-17 ), (5396,0) global: ( -45.4588, -1.99355 ), (5396,0), changes: 0, 0 last seen:(5395,0) globalposderived: (5395,0)
+(b)r: 0.4 phi: 1.45939e-15 vel: ( 0, 0 ) (5397,0) rel: ( 0.4, 1.01885e-17 ), (5397,0) global: ( -45.4588, -1.99355 ), (5397,0), changes: 0, 0 last seen:(5395,0) globalposderived: (5395,0)
+ 5397: direction old: 0.000385, new: 0.000385
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5397,0) rel: ( 0.4, 0 ), (5397,0) global: ( -45.4588, -1.99355 ), (5397,0), changes: 0, 0 last seen:(5397,0) globalposderived: (5397,0)
+(b)r: 0.4 phi: -7.9253e-15 vel: ( 0, 0 ) (5398,0) rel: ( 0.4, -5.5329e-17 ), (5398,0) global: ( -45.4588, -1.99355 ), (5398,0), changes: 0, 0 last seen:(5397,0) globalposderived: (5397,0)
+ 5398: direction old: -114.005982, new: -0.193877
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5398,0) rel: ( 0.4, 0 ), (5398,0) global: ( -39.6787, 10.0856 ), (5398,0), changes: 0, 0 last seen:(5398,0) globalposderived: (5398,0)
+(b)r: 0.4 phi: 1.24012e-13 vel: ( 0, 0 ) (5399,0) rel: ( 0.4, 8.65766e-16 ), (5399,0) global: ( -39.6787, 10.0856 ), (5399,0), changes: 0, 0 last seen:(5398,0) globalposderived: (5398,0)
+(b)r: 0.4 phi: 1.24012e-13 vel: ( 0, 0 ) (5400,0) rel: ( 0.4, 8.65766e-16 ), (5400,0) global: ( -39.6787, 10.0856 ), (5400,0), changes: 0, 0 last seen:(5398,0) globalposderived: (5398,0)
+ 5400: direction old: -0.193877, new: -0.193877
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5400,0) rel: ( 0.4, 0 ), (5400,0) global: ( -39.6787, 10.0856 ), (5400,0), changes: 0, 0 last seen:(5400,0) globalposderived: (5400,0)
+(b)r: 0.4 phi: 1.24012e-13 vel: ( 0, 0 ) (5401,0) rel: ( 0.4, 8.65766e-16 ), (5401,0) global: ( -39.6787, 10.0856 ), (5401,0), changes: 0, 0 last seen:(5400,0) globalposderived: (5400,0)
+ 5401: ball (-39.678677,10.085613), agent (-40.078675,10.086967), to (-13.878501,17.012347) ang -0.193877 -0.193877
+ 5401: relpos body (0.400000,0.000000), vel. ball:(0.000000,0.000000) dist: 1.085000 (0.300000,0.085000,0.700000)
+ 5401: pos (3.406917,0.914676) too far, but can acc ball good to 2.685536 k=2.685536,-0.000000
+ 5401: direction old: -0.193877, new: -0.193877
+(b)r: 0.4 phi: 0 vel: ( 0, 0 ) (5401,0) rel: ( 0.4, 0 ), (5401,0) global: ( -39.6787, 10.0856 ), (5401,0), changes: 0, 0 last seen:(5401,0) globalposderived: (5401,0)
+ 5401: ball (-39.678677,10.085613), agent (-40.078675,10.086967), to (-13.878501,17.012347) ang -0.193877 -0.193877
+ 5401: relpos body (0.400000,0.000000), vel. ball:(0.000000,0.000000) dist: 1.085000 (0.300000,0.085000,0.700000)
+ 5401: pos (3.406917,0.914676) too far, but can acc ball good to 2.685536 k=2.685536,-0.000000
+ 5512: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 0 0))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 20 0))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 35 -22))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 12 -15))))))
+ 5512: new home position for player 0: -20 -10
+ 5512: new home position for player 1: -12 26
+ 5512: new home position for player 2: -20 10
+ 5512: new home position for player 3: 0 0
+ 5512: new home position for player 4: -12 -26
+ 5512: new home position for player 5: 20 0
+ 5512: new home position for player 6: 12 15
+ 5512: new home position for player 7: 35 -22
+ 5512: new home position for player 8: 0 0
+ 5512: new home position for player 9: 35 22
+ 5512: new home position for player 10: 12 -15
+ 5812: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 0 0))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 20 0))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 35 -22))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 12 -15))))))
+ 5812: new home position for player 0: -20 -10
+ 5812: new home position for player 1: -12 26
+ 5812: new home position for player 2: -20 10
+ 5812: new home position for player 3: 0 0
+ 5812: new home position for player 4: -12 -26
+ 5812: new home position for player 5: 20 0
+ 5812: new home position for player 6: 12 15
+ 5812: new home position for player 7: 35 -22
+ 5812: new home position for player 8: 0 0
+ 5812: new home position for player 9: 35 22
+ 5812: new home position for player 10: 12 -15

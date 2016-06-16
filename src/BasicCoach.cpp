@@ -53,6 +53,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   #include <sys/poll.h>
 #endif
 
+#include <iostream>
 #include <sstream>
 #include "hungarian.h"  /* the hungarian method for dynamic role assignment */
 
@@ -113,7 +114,6 @@ void BasicCoach::mainLoopNormal( )
 
     timeLastRoleAssign = WM->getCurrentTime();
 
-
     while( WM->getPlayMode() != PM_TIME_OVER  && bContLoop )
     {
 
@@ -123,60 +123,103 @@ void BasicCoach::mainLoopNormal( )
             bContLoop = false;
         }
 
-        if (WM->getCurrentTime() - timeLastRoleAssign >= 100) {
+        if (WM->getPlayMode() == PM_PLAY_ON &&
+                WM->getCurrentTime() - timeLastRoleAssign >= 100)
+        {
 
-            // It's time to reasses the role assignment and notify the players,
-            // if it changed.
+            /*
+             * The last time we sent a role assignment to the players is more
+             * than 99 game cycles away, therefore it's time to recalculate
+             */
 
             timeLastRoleAssign = WM->getCurrentTime();
 
 
-            VecPosition pPos[PLAYER_CNT];
-            VecPosition fPos[PLAYER_CNT];
-
-            ObjectT playerType = OBJECT_TEAMMATE_1;
+            /*
+             * Retrieves the positions and home positions of all players of our
+             * team.  They are used to calculate the distance matrix, which is
+             * used in the hungarian method to determine the ideal role
+             * assignment.
+             */
+            VecPosition playerPositions[PLAYER_CNT];
+            VecPosition homePositions[PLAYER_CNT];
             for (int i = 0; i < PLAYER_CNT; i++)
             {
-                pPos[i] = WM->getGlobalPositionLastSee(playerType);
+                /*
+                 * ObjectT is an enumeration in SoccerTypes.h, that contains all
+                 * object types TriLearn knows about.  To retrieve the position
+                 * of a player, the corresponding OBJECT_TEAMMATE_n enum
+                 * constant has to be used with getGlobalPositionLastSee, where
+                 * n is a number between 1 and 11.
+                 *
+                 * To get to the correct enum constant, the index i
+                 * (ranges from 0 to 10) is added to the int representation of
+                 * OBJECT_TEAMMATE_1, which is then casted back to ObjectT.
+                 */
+                ObjectT playerType = (ObjectT) (i + (int)(OBJECT_TEAMMATE_1));
+                playerPositions[i] = WM->getGlobalPositionLastSee(playerType);
 
-                int iPlayer = playerType - OBJECT_TEAMMATE_1 + 1;
-                fPos[i] = WM->getHomePos(iPlayer);
-
-                playerType = (ObjectT) (((int) playerType) + 1);
+                /* Home position indeces range from 1 to 11 */
+                homePositions[i] = WM->getHomePos(i + 1);
             }
 
+            cout << "[DEBUG] player positions:" << endl;
+            for (int i = 0; i < PLAYER_CNT; i++)
+                cout << "[DEBUG]    player " << i << ": "
+                     << playerPositions[i].getX() << " "
+                     << playerPositions[i].getY() << endl;
 
+            for (int i = 0; i < PLAYER_CNT; i++)
+                cout << "[DEBUG]    home " << i << ": "
+                     << homePositions[i].getX() << " "
+                     << homePositions[i].getY() << endl;
+
+            /*
+             * Calculates the distance from each player to each home position
+             * and saves the result in a PLAYER_CNT*PLAYER_CNT matrix.  Each
+             * element (p, h) of the matrix is the distance between player p and
+             * home position h.
+             */
             int distances[PLAYER_CNT][PLAYER_CNT];
+            for (int iPlayer = 0; iPlayer < PLAYER_CNT; ++iPlayer)
+            {
+                for (int iHomePos = 0; iHomePos < PLAYER_CNT; ++iHomePos)
+                {
+                    double distance = playerPositions[iPlayer]
+                        .getDistanceTo(homePositions[iHomePos]);
 
-            for (int pi = 0; pi < PLAYER_CNT; pi++) {
-
-                for (int fi = 0; fi < PLAYER_CNT; fi++) {
-
-                    double distance = pPos[pi].getDistanceTo(fPos[fi]);
-                    distances[pi][fi] = (int) (distance * 1000);
+                    /*
+                     * The C-implementation of the hungarian method I'm using
+                     * expects a matrix of ints.  To avoid a high loss of
+                     * accuracy, I scale up the distance by 1000 and then
+                     * discard the decimal places by casting to int.
+                     *
+                     * The hungarian method only inspects the distances relative
+                     * to each other.  Therefore, scaling up does not change the
+                     * result.
+                     */
+                    distances[iPlayer][iHomePos] = (int) (distance * 1000);
                 }
             }
 
+            /* Initializes the hungarian method implementation. */
             hungarian_t prob;
-
             hungarian_init( &prob           /* the algorithms internal data   */
                           , (int*)distances /* the cost/distance matrix       */
                           , PLAYER_CNT      /* height of the cost matrix      */
                           , PLAYER_CNT      /* width of the cost matrix       */
-                          , HUNGARIAN_MIN   /* algorithm should minimize cost */
-                          );
+                          , HUNGARIAN_MIN );/* algorithm should minimize cost */
 
-            // hungarian_print_rating(&prob);
-
+            /* Finds the optimal role assignment and saves it in prob.a */
             hungarian_solve(&prob);
 
-            // hungarian_print_assignment(&prob);
+            // int assignment[] = {0,1,2,3,4,5,6,7,8,9,10};
 
-            // TODO assign to each player the corresponding position for player
-            // i, the corresponding position is assignment[i]
-            sendAssignment(prob.a, fPos);
+            /* sends the calculated assignment to the players so that they can
+             * adjust their positions */
+            sendAssignment(prob.a, homePositions);
 
-
+            /* releases all resources acquired for the hungarian method */
             hungarian_fini(&prob);
         }
 
@@ -191,19 +234,33 @@ void BasicCoach::mainLoopNormal( )
 }
 
 
-void BasicCoach::sendAssignment( int *assignment,
-        VecPosition homePositions[] )
+void BasicCoach::sendAssignment(int *assignment, VecPosition homePositions[])
 {
-    // call ACT->sendMessage( char *msg )
+    /*
+     * The CLang message we send to the players has the following format:
+     *
+     *     (say (advice (0 (true)
+     *         (do our {<player-number>} (home (pt <x> <y>)))
+     *         (do our {<player-number>} (home (pt <x> <y>)))
+     *         ...)))
+     *
+     * where  <player-number>  is the trikot number of the player, the command
+     *                         applies to.  It ranges from 1 to 11;
+     *
+     *        <x> and <y>      are the x and y coordinates of the new home
+     *                         position of the player in a coordinate system
+     *                         where (0, 0) is the center of the field.
+     *
+     */
 
     stringstream ss;
     ss << "(say (advice (0 (true) ";
-    for (int i = 0; i < PLAYER_CNT; i++)
+    for (int i = 0; i < PLAYER_CNT; ++i)
     {
+        /* "assignment" is simply an array of indices into homePositions */
         int index = assignment[i];
-
-        int x = (int) homePositions[index].getX(),
-            y = (int) homePositions[index].getY();
+        int x = (int) homePositions[index].getX();
+        int y = (int) homePositions[index].getY();
 
         ss << "(do our {" << (i+1)
            << "} (home (pt "
@@ -211,6 +268,9 @@ void BasicCoach::sendAssignment( int *assignment,
     }
     ss << ")))";
 
+    /* ACT->sendMessage expects a C-style (char *), and not an std::string.
+     * Therefore, the std::string is retrieved from the std::stringstream here,
+     * and then converted to a C-string. */
     char *message = (char *)ss.str().c_str();
 
     cout << message;

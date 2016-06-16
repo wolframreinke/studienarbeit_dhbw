@@ -46,11 +46,15 @@ echo "*****************************************************************"
 #first check if the last two supplied arguments are no numbers and represent
 #<host-name> or <host-name> <team-name>
 if( $#argv > 0 && ($argv[$#argv] !~ [0123456789]* || $argv[$#argv] =~ *.* ) ) then
-  @ second_last = $#argv - 1  
+  @ third_last  = $#argv - 2
+  @ second_last = $#argv - 1
   if( $#argv > 1 && ($argv[$second_last] !~ [0123456789]* || $argv[$second_last] =~ *.* ) ) then
+      # start coach?
+      set sc   = $argv[$third_last]
       set host = $argv[$second_last]
       set team = $argv[$#argv]
   else
+      set sc   = "false"
       set host = $argv[$#argv]
   endif
 endif
@@ -65,8 +69,10 @@ if( $1 =~ [0123456789]* && $1 !~ *.* ) then
       ${prog} -num ${arg} -host ${host} -team ${team} -f ${fconf} -c ${pconf} &
       sleep $wait
     else if( $arg =~ [0]* ) then
-      sleep 2
-      ${coach} -host ${host} -team ${team} -f ${fconf} &
+      if ( $sc == "true" ) then
+        sleep 2
+        ${coach} -host ${host} -team ${team} -f ${fconf} &
+      endif
     endif
   end
 else
@@ -76,7 +82,8 @@ else
     sleep $wait
     @ i++
   end
-  sleep 2
-  ${coach} -log 606 -host ${host} -team ${team} -f ${fconf} -o log/coach_${team}.log -l 0..2 &
+  if ( $sc == "true" ) then
+    sleep 2
+    ${coach} -log 606 -host ${host} -team ${team} -f ${fconf} -o log/coach_${team}.log -l 0..2 &
+  endif
 endif
-

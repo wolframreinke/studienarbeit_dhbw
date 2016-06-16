@@ -581,6 +581,11 @@ bool WorldModel::setObjectFocus( ObjectT obj )
   return true;
 }
 
+bool WorldModel::setHomePos(int playerNum, VecPosition pos)
+{
+    return formations->setCurrentPosHome(playerNum, pos);
+}
+
 
 /*! This method sets the string that we want communicate. It can be set
     during the creation of the action. When the ActHandler sends its actions,

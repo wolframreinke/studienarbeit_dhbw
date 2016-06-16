@@ -1,0 +1,320 @@
+ 0: change player from message 62 -> 1
+ 0: changed player from message 62 -> 1
+ 0: change player from message 63 -> 2
+ 0: changed player from message 63 -> 2
+ 0: change player from message 64 -> 3
+ 0: changed player from message 64 -> 3
+ 0: change player from message 65 -> 4
+ 0: changed player from message 65 -> 4
+ 0: change player from message 66 -> 5
+ 0: changed player from message 66 -> 5
+ 0: change player from message 67 -> 6
+ 0: changed player from message 67 -> 6
+ 0: change player from message 68 -> 7
+ 0: changed player from message 68 -> 7
+ 0: change player from message 69 -> 8
+ 0: changed player from message 69 -> 8
+ 0: change player from message 70 -> 9
+ 0: changed player from message 70 -> 9
+ 0: change player from message 71 -> 10
+ 0: changed player from message 71 -> 10
+ 151: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt 0 0))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 0 0))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 151: new home position for player 0: 0 0
+ 151: new home position for player 1: -12 26
+ 151: new home position for player 2: -20 10
+ 151: new home position for player 3: -20 -10
+ 151: new home position for player 4: -12 -26
+ 151: new home position for player 5: 0 0
+ 151: new home position for player 6: 35 22
+ 151: new home position for player 7: 12 -15
+ 151: new home position for player 8: 20 0
+ 151: new home position for player 9: 12 15
+ 151: new home position for player 10: 35 -22
+ 351: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 20 0))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 351: new home position for player 0: -20 10
+ 351: new home position for player 1: -12 26
+ 351: new home position for player 2: 0 0
+ 351: new home position for player 3: -20 -10
+ 351: new home position for player 4: -12 -26
+ 351: new home position for player 5: 20 0
+ 351: new home position for player 6: 35 22
+ 351: new home position for player 7: 12 -15
+ 351: new home position for player 8: 0 0
+ 351: new home position for player 9: 12 15
+ 351: new home position for player 10: 35 -22
+ 651: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 0 0))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 20 0))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 651: new home position for player 0: -20 -10
+ 651: new home position for player 1: -12 26
+ 651: new home position for player 2: -20 10
+ 651: new home position for player 3: 0 0
+ 651: new home position for player 4: -12 -26
+ 651: new home position for player 5: 20 0
+ 651: new home position for player 6: 35 22
+ 651: new home position for player 7: 12 -15
+ 651: new home position for player 8: 0 0
+ 651: new home position for player 9: 12 15
+ 651: new home position for player 10: 35 -22
+ 701: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 0 0))) (do our {5} (home (pt 0 0))) (do our {6} (home (pt -12 -26))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 701: new home position for player 0: -20 -10
+ 701: new home position for player 1: -12 26
+ 701: new home position for player 2: -20 10
+ 701: new home position for player 3: 0 0
+ 701: new home position for player 4: 0 0
+ 701: new home position for player 5: -12 -26
+ 701: new home position for player 6: 35 22
+ 701: new home position for player 7: 12 -15
+ 701: new home position for player 8: 20 0
+ 701: new home position for player 9: 12 15
+ 701: new home position for player 10: 35 -22
+ 801: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 0 0))) (do our {5} (home (pt 0 0))) (do our {6} (home (pt -12 -26))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 801: new home position for player 0: -20 -10
+ 801: new home position for player 1: -12 26
+ 801: new home position for player 2: -20 10
+ 801: new home position for player 3: 0 0
+ 801: new home position for player 4: 0 0
+ 801: new home position for player 5: -12 -26
+ 801: new home position for player 6: 35 22
+ 801: new home position for player 7: 12 -15
+ 801: new home position for player 8: 20 0
+ 801: new home position for player 9: 12 15
+ 801: new home position for player 10: 35 -22
+ 901: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 0 0))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 0 0))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 35 -22))))))
+ 901: new home position for player 0: -20 -10
+ 901: new home position for player 1: -12 26
+ 901: new home position for player 2: -20 10
+ 901: new home position for player 3: 0 0
+ 901: new home position for player 4: -12 -26
+ 901: new home position for player 5: 0 0
+ 901: new home position for player 6: 12 15
+ 901: new home position for player 7: 12 -15
+ 901: new home position for player 8: 20 0
+ 901: new home position for player 9: 35 22
+ 901: new home position for player 10: 35 -22
+ 1044: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -12 -26))) (do our {2} (home (pt 0 0))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt 20 0))) (do our {6} (home (pt -12 26))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 1044: new home position for player 0: -12 -26
+ 1044: new home position for player 1: 0 0
+ 1044: new home position for player 2: -20 10
+ 1044: new home position for player 3: -20 -10
+ 1044: new home position for player 4: 20 0
+ 1044: new home position for player 5: -12 26
+ 1044: new home position for player 6: 35 22
+ 1044: new home position for player 7: 12 -15
+ 1044: new home position for player 8: 0 0
+ 1044: new home position for player 9: 12 15
+ 1044: new home position for player 10: 35 -22
+ 1101: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 10))) (do our {2} (home (pt 0 0))) (do our {3} (home (pt -12 26))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt 20 0))) (do our {6} (home (pt -12 -26))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 1101: new home position for player 0: -20 10
+ 1101: new home position for player 1: 0 0
+ 1101: new home position for player 2: -12 26
+ 1101: new home position for player 3: -20 -10
+ 1101: new home position for player 4: 20 0
+ 1101: new home position for player 5: -12 -26
+ 1101: new home position for player 6: 35 22
+ 1101: new home position for player 7: 12 -15
+ 1101: new home position for player 8: 0 0
+ 1101: new home position for player 9: 12 15
+ 1101: new home position for player 10: 35 -22
+ 1251: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 0 0))) (do our {5} (home (pt 20 0))) (do our {6} (home (pt -12 -26))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 1251: new home position for player 0: -20 -10
+ 1251: new home position for player 1: -12 26
+ 1251: new home position for player 2: -20 10
+ 1251: new home position for player 3: 0 0
+ 1251: new home position for player 4: 20 0
+ 1251: new home position for player 5: -12 -26
+ 1251: new home position for player 6: 35 22
+ 1251: new home position for player 7: 12 -15
+ 1251: new home position for player 8: 0 0
+ 1251: new home position for player 9: 12 15
+ 1251: new home position for player 10: 35 -22
+ 1401: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 20 0))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 0 0))) (do our {7} (home (pt 35 22))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 1401: new home position for player 0: -20 -10
+ 1401: new home position for player 1: -12 26
+ 1401: new home position for player 2: -20 10
+ 1401: new home position for player 3: 20 0
+ 1401: new home position for player 4: -12 -26
+ 1401: new home position for player 5: 0 0
+ 1401: new home position for player 6: 35 22
+ 1401: new home position for player 7: 12 -15
+ 1401: new home position for player 8: 0 0
+ 1401: new home position for player 9: 12 15
+ 1401: new home position for player 10: 35 -22
+ 1501: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 0 0))) (do our {5} (home (pt 20 0))) (do our {6} (home (pt -12 -26))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 35 -22))))))
+ 1501: new home position for player 0: -20 -10
+ 1501: new home position for player 1: -12 26
+ 1501: new home position for player 2: -20 10
+ 1501: new home position for player 3: 0 0
+ 1501: new home position for player 4: 20 0
+ 1501: new home position for player 5: -12 -26
+ 1501: new home position for player 6: 12 15
+ 1501: new home position for player 7: 12 -15
+ 1501: new home position for player 8: 0 0
+ 1501: new home position for player 9: 35 22
+ 1501: new home position for player 10: 35 -22
+ 1651: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 0 0))) (do our {5} (home (pt 20 0))) (do our {6} (home (pt -12 -26))) (do our {7} (home (pt 0 0))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 35 22))) (do our {10} (home (pt 12 15))) (do our {11} (home (pt 35 -22))))))
+ 1651: new home position for player 0: -20 -10
+ 1651: new home position for player 1: -12 26
+ 1651: new home position for player 2: -20 10
+ 1651: new home position for player 3: 0 0
+ 1651: new home position for player 4: 20 0
+ 1651: new home position for player 5: -12 -26
+ 1651: new home position for player 6: 0 0
+ 1651: new home position for player 7: 12 -15
+ 1651: new home position for player 8: 35 22
+ 1651: new home position for player 9: 12 15
+ 1651: new home position for player 10: 35 -22
+ 1851: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 0 0))) (do our {5} (home (pt 0 0))) (do our {6} (home (pt -12 -26))) (do our {7} (home (pt 20 0))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 12 15))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 35 -22))))))
+ 1851: new home position for player 0: -20 -10
+ 1851: new home position for player 1: -12 26
+ 1851: new home position for player 2: -20 10
+ 1851: new home position for player 3: 0 0
+ 1851: new home position for player 4: 0 0
+ 1851: new home position for player 5: -12 -26
+ 1851: new home position for player 6: 20 0
+ 1851: new home position for player 7: 12 -15
+ 1851: new home position for player 8: 12 15
+ 1851: new home position for player 9: 35 22
+ 1851: new home position for player 10: 35 -22
+ 2151: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 0 0))) (do our {5} (home (pt 12 15))) (do our {6} (home (pt -12 -26))) (do our {7} (home (pt 0 0))) (do our {8} (home (pt 35 -22))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 12 -15))))))
+ 2151: new home position for player 0: -20 -10
+ 2151: new home position for player 1: -12 26
+ 2151: new home position for player 2: -20 10
+ 2151: new home position for player 3: 0 0
+ 2151: new home position for player 4: 12 15
+ 2151: new home position for player 5: -12 -26
+ 2151: new home position for player 6: 0 0
+ 2151: new home position for player 7: 35 -22
+ 2151: new home position for player 8: 20 0
+ 2151: new home position for player 9: 35 22
+ 2151: new home position for player 10: 12 -15
+ 2451: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt -12 -26))) (do our {5} (home (pt 12 15))) (do our {6} (home (pt 0 0))) (do our {7} (home (pt 0 0))) (do our {8} (home (pt 20 0))) (do our {9} (home (pt 12 -15))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 35 -22))))))
+ 2451: new home position for player 0: -20 -10
+ 2451: new home position for player 1: -12 26
+ 2451: new home position for player 2: -20 10
+ 2451: new home position for player 3: -12 -26
+ 2451: new home position for player 4: 12 15
+ 2451: new home position for player 5: 0 0
+ 2451: new home position for player 6: 0 0
+ 2451: new home position for player 7: 20 0
+ 2451: new home position for player 8: 12 -15
+ 2451: new home position for player 9: 35 22
+ 2451: new home position for player 10: 35 -22
+ 2751: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt -12 -26))) (do our {5} (home (pt 12 15))) (do our {6} (home (pt 0 0))) (do our {7} (home (pt 0 0))) (do our {8} (home (pt 20 0))) (do our {9} (home (pt 12 -15))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 35 -22))))))
+ 2751: new home position for player 0: -20 -10
+ 2751: new home position for player 1: -12 26
+ 2751: new home position for player 2: -20 10
+ 2751: new home position for player 3: -12 -26
+ 2751: new home position for player 4: 12 15
+ 2751: new home position for player 5: 0 0
+ 2751: new home position for player 6: 0 0
+ 2751: new home position for player 7: 20 0
+ 2751: new home position for player 8: 12 -15
+ 2751: new home position for player 9: 35 22
+ 2751: new home position for player 10: 35 -22
+ 3000: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt 12 15))) (do our {3} (home (pt 0 0))) (do our {4} (home (pt 35 -22))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt 20 0))) (do our {8} (home (pt 0 0))) (do our {9} (home (pt -20 10))) (do our {10} (home (pt -12 26))) (do our {11} (home (pt 35 22))))))
+ 3000: new home position for player 0: -20 -10
+ 3000: new home position for player 1: 12 15
+ 3000: new home position for player 2: 0 0
+ 3000: new home position for player 3: 35 -22
+ 3000: new home position for player 4: -12 -26
+ 3000: new home position for player 5: 12 -15
+ 3000: new home position for player 6: 20 0
+ 3000: new home position for player 7: 0 0
+ 3000: new home position for player 8: -20 10
+ 3000: new home position for player 9: -12 26
+ 3000: new home position for player 10: 35 22
+ 3000: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt 12 15))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 35 -22))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt 0 0))) (do our {8} (home (pt 0 0))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt -12 26))) (do our {11} (home (pt 35 22))))))
+ 3000: new home position for player 0: -20 -10
+ 3000: new home position for player 1: 12 15
+ 3000: new home position for player 2: -20 10
+ 3000: new home position for player 3: 35 -22
+ 3000: new home position for player 4: -12 -26
+ 3000: new home position for player 5: 12 -15
+ 3000: new home position for player 6: 0 0
+ 3000: new home position for player 7: 0 0
+ 3000: new home position for player 8: 20 0
+ 3000: new home position for player 9: -12 26
+ 3000: new home position for player 10: 35 22
+ 3000: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt 12 15))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 35 -22))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt 20 0))) (do our {8} (home (pt 0 0))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt -12 26))) (do our {11} (home (pt 35 22))))))
+ 3000: new home position for player 0: -20 -10
+ 3000: new home position for player 1: 12 15
+ 3000: new home position for player 2: -20 10
+ 3000: new home position for player 3: 35 -22
+ 3000: new home position for player 4: -12 -26
+ 3000: new home position for player 5: 12 -15
+ 3000: new home position for player 6: 20 0
+ 3000: new home position for player 7: 0 0
+ 3000: new home position for player 8: 0 0
+ 3000: new home position for player 9: -12 26
+ 3000: new home position for player 10: 35 22
+ 3000: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt 12 15))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 35 -22))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt 0 0))) (do our {8} (home (pt 20 0))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt -12 26))) (do our {11} (home (pt 35 22))))))
+ 3000: new home position for player 0: -20 -10
+ 3000: new home position for player 1: 12 15
+ 3000: new home position for player 2: -20 10
+ 3000: new home position for player 3: 35 -22
+ 3000: new home position for player 4: -12 -26
+ 3000: new home position for player 5: 12 -15
+ 3000: new home position for player 6: 0 0
+ 3000: new home position for player 7: 20 0
+ 3000: new home position for player 8: 0 0
+ 3000: new home position for player 9: -12 26
+ 3000: new home position for player 10: 35 22
+ 3000: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt 12 15))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 35 -22))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt 0 0))) (do our {8} (home (pt 20 0))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt -12 26))) (do our {11} (home (pt 35 22))))))
+ 3000: new home position for player 0: -20 -10
+ 3000: new home position for player 1: 12 15
+ 3000: new home position for player 2: -20 10
+ 3000: new home position for player 3: 35 -22
+ 3000: new home position for player 4: -12 -26
+ 3000: new home position for player 5: 12 -15
+ 3000: new home position for player 6: 0 0
+ 3000: new home position for player 7: 20 0
+ 3000: new home position for player 8: 0 0
+ 3000: new home position for player 9: -12 26
+ 3000: new home position for player 10: 35 22
+ 3000: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt 12 15))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 35 -22))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt 0 0))) (do our {8} (home (pt 20 0))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt -12 26))) (do our {11} (home (pt 35 22))))))
+ 3000: new home position for player 0: -20 -10
+ 3000: new home position for player 1: 12 15
+ 3000: new home position for player 2: -20 10
+ 3000: new home position for player 3: 35 -22
+ 3000: new home position for player 4: -12 -26
+ 3000: new home position for player 5: 12 -15
+ 3000: new home position for player 6: 0 0
+ 3000: new home position for player 7: 20 0
+ 3000: new home position for player 8: 0 0
+ 3000: new home position for player 9: -12 26
+ 3000: new home position for player 10: 35 22
+ 3000: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt 12 15))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 35 -22))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt 0 0))) (do our {8} (home (pt 0 0))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt -12 26))) (do our {11} (home (pt 35 22))))))
+ 3000: new home position for player 0: -20 -10
+ 3000: new home position for player 1: 12 15
+ 3000: new home position for player 2: -20 10
+ 3000: new home position for player 3: 35 -22
+ 3000: new home position for player 4: -12 -26
+ 3000: new home position for player 5: 12 -15
+ 3000: new home position for player 6: 0 0
+ 3000: new home position for player 7: 0 0
+ 3000: new home position for player 8: 20 0
+ 3000: new home position for player 9: -12 26
+ 3000: new home position for player 10: 35 22
+ 3000: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt 12 15))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 35 -22))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt 20 0))) (do our {8} (home (pt 0 0))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt -12 26))) (do our {11} (home (pt 35 22))))))
+ 3000: new home position for player 0: -20 -10
+ 3000: new home position for player 1: 12 15
+ 3000: new home position for player 2: -20 10
+ 3000: new home position for player 3: 35 -22
+ 3000: new home position for player 4: -12 -26
+ 3000: new home position for player 5: 12 -15
+ 3000: new home position for player 6: 20 0
+ 3000: new home position for player 7: 0 0
+ 3000: new home position for player 8: 0 0
+ 3000: new home position for player 9: -12 26
+ 3000: new home position for player 10: 35 22
+ 3000: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt 12 15))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt 35 -22))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt 0 0))) (do our {8} (home (pt 20 0))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt -12 26))) (do our {11} (home (pt 35 22))))))
+ 3000: new home position for player 0: -20 -10
+ 3000: new home position for player 1: 12 15
+ 3000: new home position for player 2: -20 10
+ 3000: new home position for player 3: 35 -22
+ 3000: new home position for player 4: -12 -26
+ 3000: new home position for player 5: 12 -15
+ 3000: new home position for player 6: 0 0
+ 3000: new home position for player 7: 20 0
+ 3000: new home position for player 8: 0 0
+ 3000: new home position for player 9: -12 26
+ 3000: new home position for player 10: 35 22

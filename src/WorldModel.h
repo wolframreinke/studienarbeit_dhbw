@@ -305,6 +305,11 @@ public:
   ObjectT       getObjectFocus             (                            );
   bool          setObjectFocus             ( ObjectT        obj         );
 
+  // added by Wolfram Reinke
+  bool          setHomePos                 ( int            playerNum,
+                                             VecPosition    pos         );
+
+
   // iterate over a specific object set
   ObjectT       iterateObjectStart         ( int            &iIndex,
                                              ObjectSetT     g,

@@ -45,12 +45,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </pre>
 */
 
+#include "Logger.h"
 #include "Formations.h"
 #include "Parse.h"       // Parse
 
 #include <fstream>       // ifstream
 #include <stdio.h>       // printf
 #include <math.h>        // fabs
+
+extern Logger Log;
 
 /*****************************************************************************/
 /********************** CLASS PLAYERTYPEINFO *********************************/
@@ -503,6 +506,9 @@ VecPosition Formations::getStrategicPosition( int iPlayer, VecPosition posBall,
 
   // get the home position and calculate the associated strategic position
   posHome = formations[ft].getPosHome( iPlayer );
+
+  // Log.log(605, "using home position %f, %f", posHome.getX(), posHome.getY());
+
   y = posHome.getY() + posBall.getY() * ptInfo->getAttrY();
   x = posHome.getX() + posBall.getX() * ptInfo->getAttrX();
 
@@ -528,6 +534,10 @@ VecPosition Formations::getStrategicPosition( int iPlayer, VecPosition posBall,
 }
 
 // Bypass the stupid encapsulation ...
+bool Formations::setCurrentPosHome(int iPlayer, VecPosition pos)
+{
+    return formations[curFormation].setPosHome(pos, iPlayer);
+}
 VecPosition Formations::getCurrentPosHome(int iPlayer)
 {
     return formations[curFormation].getPosHome(iPlayer);

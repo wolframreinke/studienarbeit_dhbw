@@ -188,6 +188,7 @@ public:
                                     FormationT  ft = FT_ILLEGAL );
 
   VecPosition getCurrentPosHome(int iPlayer);
+  bool setCurrentPosHome(int iPlayer, VecPosition pos);
 
   // method to read the formations from a formation configuration file.
   bool        readFormations      ( const char *strFile         );
