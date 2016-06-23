@@ -159,20 +159,21 @@ void BasicCoach::mainLoopNormal( )
                 ObjectT playerType = (ObjectT) (i + (int)(OBJECT_TEAMMATE_1));
                 playerPositions[i] = WM->getGlobalPositionLastSee(playerType);
 
-                /* Home position indeces range from 1 to 11 */
-                homePositions[i] = WM->getHomePos(i + 1);
+                /* Home position indeces range from 0 to 10 */
+                homePositions[i] = WM->getHomePos(i);
             }
 
-            cout << "[DEBUG] player positions:" << endl;
-            for (int i = 0; i < PLAYER_CNT; i++)
-                cout << "[DEBUG]    player " << i << ": "
-                     << playerPositions[i].getX() << " "
-                     << playerPositions[i].getY() << endl;
+            // cout << "[DEBUG] player positions:" << endl;
+            // for (int i = 0; i < PLAYER_CNT; i++)
+            //     cout << "[DEBUG]    player " << i << ": "
+            //          << playerPositions[i].getX() << " "
+            //          << playerPositions[i].getY() << endl;
 
-            for (int i = 0; i < PLAYER_CNT; i++)
-                cout << "[DEBUG]    home " << i << ": "
-                     << homePositions[i].getX() << " "
-                     << homePositions[i].getY() << endl;
+            // cout << "[DEBUG] home positions:" << endl;
+            // for (int i = 0; i < PLAYER_CNT; i++)
+            //     cout << "[DEBUG]    home " << i << ": "
+            //          << homePositions[i].getX() << " "
+            //          << homePositions[i].getY() << endl;
 
             /*
              * Calculates the distance from each player to each home position
@@ -212,8 +213,6 @@ void BasicCoach::mainLoopNormal( )
 
             /* Finds the optimal role assignment and saves it in prob.a */
             hungarian_solve(&prob);
-
-            // int assignment[] = {0,1,2,3,4,5,6,7,8,9,10};
 
             /* sends the calculated assignment to the players so that they can
              * adjust their positions */

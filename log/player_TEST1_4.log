@@ -1,0 +1,63 @@
+ 0: change player from message 62 -> 1
+ 0: changed player from message 62 -> 1
+ 0: change player from message 63 -> 2
+ 0: changed player from message 63 -> 2
+ 0: change player from message 64 -> 3
+ 0: changed player from message 64 -> 3
+ 0: change player from message 65 -> 4
+ 0: changed player from message 65 -> 4
+ 0: change player from message 66 -> 5
+ 0: changed player from message 66 -> 5
+ 0: change player from message 67 -> 6
+ 0: changed player from message 67 -> 6
+ 0: change player from message 68 -> 7
+ 0: changed player from message 68 -> 7
+ 0: change player from message 69 -> 8
+ 0: changed player from message 69 -> 8
+ 0: change player from message 70 -> 9
+ 0: changed player from message 70 -> 9
+ 0: change player from message 71 -> 10
+ 0: changed player from message 71 -> 10
+ 151: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -50 0))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 20 0))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 35 -22))))))
+ 151: new home position for player 0: -50 0
+ 151: new home position for player 1: -12 26
+ 151: new home position for player 2: -20 10
+ 151: new home position for player 3: -20 -10
+ 151: new home position for player 4: -12 -26
+ 151: new home position for player 5: 20 0
+ 151: new home position for player 6: 12 15
+ 151: new home position for player 7: 12 -15
+ 151: new home position for player 8: 0 0
+ 151: new home position for player 9: 35 22
+ 151: new home position for player 10: 35 -22
+ 351: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -50 0))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt 0 0))) (do our {8} (home (pt 12 15))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 35 -22))))))
+ 351: new home position for player 0: -50 0
+ 351: new home position for player 1: -12 26
+ 351: new home position for player 2: -20 10
+ 351: new home position for player 3: -20 -10
+ 351: new home position for player 4: -12 -26
+ 351: new home position for player 5: 12 -15
+ 351: new home position for player 6: 0 0
+ 351: new home position for player 7: 12 15
+ 351: new home position for player 8: 20 0
+ 351: new home position for player 9: 35 22
+ 351: new home position for player 10: 35 -22
+ 512: 2 pos: ball(-10.628205,-0.390510), ball_prev(-10.131896,-0.094208), agentdiff(0.040306,-0.050587)
+ 512: vel based on 2 pos: (-0.504418,-0.230972)
+ 512: direction old: 97.402596, new: 96.849516
+ 568: direction old: 179.018377, new: -179.308978
+ 569: direction old: 179.781684, new: 178.673921
+(b)r: 1.19798 phi: -6.35997 vel: ( 0, 0 ) (570,0) rel: ( 1.19061, -0.132706 ), (570,0) global: ( -35.4671, -1.24361 ), (570,0), changes: -0.132, -1.1 last seen:(569,0) globalposderived: (569,0)
+(b)r: 0.493618 phi: -17.1133 vel: ( 0, 0 ) (571,0) rel: ( 0.471763, -0.145253 ), (571,0) global: ( -35.4671, -1.24361 ), (571,0), changes: -0.132, -1.1 last seen:(569,0) globalposderived: (569,0)
+ 656: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -20 10))) (do our {3} (home (pt 12 15))) (do our {4} (home (pt -50 0))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt -12 26))) (do our {8} (home (pt 20 0))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 35 -22))))))
+ 656: new home position for player 0: -20 -10
+ 656: new home position for player 1: -20 10
+ 656: new home position for player 2: 12 15
+ 656: new home position for player 3: -50 0
+ 656: new home position for player 4: -12 -26
+ 656: new home position for player 5: 12 -15
+ 656: new home position for player 6: -12 26
+ 656: new home position for player 7: 20 0
+ 656: new home position for player 8: 0 0
+ 656: new home position for player 9: 35 22
+ 656: new home position for player 10: 35 -22

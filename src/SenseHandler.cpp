@@ -729,13 +729,12 @@ bool SenseHandler::analyzeCoachMessage( char *strMsg )
    * pretty annyoing...).
    */
   char *p = strMsg;
-  for (int playerNr = 0; playerNr < 12; playerNr++) {
+  for (int playerNr = 0; playerNr < 11; playerNr++) {
 
     // the C++-method find() of std::string didn't work for me, so I decided to
     // use the C-function strchr, which is a but cumbersome to use but works.
 
-    do
-    {
+    do {
       // find the next occurence of the character 'p'
       p = strchr(p+1, 'p');
     }
@@ -765,7 +764,10 @@ bool SenseHandler::analyzeCoachMessage( char *strMsg )
       // them up in a VecPosition object and set the new home position
       Log.log(605, "new home position for player %d: %d %d", playerNr, x, y);
       VecPosition homePos(x, y);
+      VecPosition oldHomePos = WM->getHomePos(playerNr);
       WM->setHomePos(playerNr, homePos);
+
+      cout << oldHomePos << " --> " << homePos << endl;
     }
     else {
       // the string between "pt" and the first ")" did not contain two numbers

@@ -533,11 +533,12 @@ VecPosition Formations::getStrategicPosition( int iPlayer, VecPosition posBall,
   return VecPosition( x, y );
 }
 
-// Bypass the stupid encapsulation ...
+// added by Wolfram Reinke
 bool Formations::setCurrentPosHome(int iPlayer, VecPosition pos)
 {
     return formations[curFormation].setPosHome(pos, iPlayer);
 }
+// added by Wolfram Reinke
 VecPosition Formations::getCurrentPosHome(int iPlayer)
 {
     return formations[curFormation].getPosHome(iPlayer);

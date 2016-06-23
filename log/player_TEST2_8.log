@@ -1,0 +1,76 @@
+ 0: change player from message 62 -> 1
+ 0: changed player from message 62 -> 1
+ 0: change player from message 63 -> 2
+ 0: changed player from message 63 -> 2
+ 0: change player from message 64 -> 3
+ 0: changed player from message 64 -> 3
+ 0: change player from message 65 -> 4
+ 0: changed player from message 65 -> 4
+ 0: change player from message 66 -> 5
+ 0: changed player from message 66 -> 5
+ 0: change player from message 67 -> 6
+ 0: changed player from message 67 -> 6
+ 0: change player from message 68 -> 7
+ 0: changed player from message 68 -> 7
+ 0: change player from message 69 -> 8
+ 0: changed player from message 69 -> 8
+ 0: change player from message 70 -> 9
+ 0: changed player from message 70 -> 9
+ 0: change player from message 71 -> 10
+ 0: changed player from message 71 -> 10
+ 352: direction old: 92.759522, new: 91.289247
+(b)r: 1.23739 phi: -26.8225 vel: ( 0.543638, -1.21032 ) (353,0) rel: ( 1.10425, -0.558345 ), (353,0) global: ( 7.41269, -3.04511 ), (353,0), changes: -1.45, -13.4 last seen:(352,0) globalposderived: (352,0)
+ 353: direction old: 61.593618, new: 62.601887
+(b)r: 1.2 phi: -29 vel: ( 0.559404, -1.22515 ) (353,0) rel: ( 1.04954, -0.581772 ), (353,0) global: ( 7.34159, -3.13218 ), (353,0), changes: -0.864, -53 last seen:(353,0) globalposderived: (353,0)
+(b)r: 1.14221 phi: -8.57994 vel: ( 0.52584, -1.15164 ) (354,0) rel: ( 1.12942, -0.170405 ), (354,0) global: ( 7.901, -4.35733 ), (354,0), changes: -0.864, -53 last seen:(353,0) globalposderived: (353,0)
+ 355: direction old: -50.527715, new: -39.606657
+(b)r: 2 phi: -7 vel: ( 0.482474, -1.03425 ) (355,0) rel: ( 1.98509, -0.243739 ), (355,0) global: ( 8.43478, -4.92256 ), (355,0), changes: 1, -13.3 last seen:(355,0) globalposderived: (355,0)
+ 356: direction old: -38.850102, new: -46.195459
+ 368: direction old: -71.958435, new: -68.021032
+(b)r: 1.9032 phi: 6.32808 vel: ( 0.176956, -0.415738 ) (370,0) rel: ( 1.8916, 0.209773 ), (370,0) global: ( 13.1806, -15.8395 ), (370,0), changes: 0.162, 0.7 last seen:(368,0) globalposderived: (368,0)
+ 370: direction old: -55.258280, new: -63.813437
+(b)r: 2 phi: 6 vel: ( 0.173881, -0.415235 ) (370,0) rel: ( 1.98904, 0.209057 ), (370,0) global: ( 12.9729, -16.0622 ), (370,0), changes: 0.12, 0.3 last seen:(370,0) globalposderived: (370,0)
+(b)r: 1.54053 phi: 7.94859 vel: ( 0.163448, -0.390321 ) (371,0) rel: ( 1.52573, 0.213031 ), (371,0) global: ( 13.1468, -16.4774 ), (371,0), changes: 0.12, 0.3 last seen:(370,0) globalposderived: (370,0)
+ 371: direction old: -61.755117, new: -61.556764
+(b)r: 1.6 phi: 8 vel: ( 0.169817, -0.388285 ) (371,0) rel: ( 1.58443, 0.222677 ), (371,0) global: ( 13.1797, -16.5269 ), (371,0), changes: 0.096, 0.4 last seen:(371,0) globalposderived: (371,0)
+(b)r: 1.6912 phi: -1.04519 vel: ( 0.159628, -0.364988 ) (372,0) rel: ( 1.69092, -0.0308494 ), (372,0) global: ( 13.3495, -16.9152 ), (372,0), changes: 0.096, 0.4 last seen:(371,0) globalposderived: (371,0)
+(b)r: 1.37165 phi: -3.93722 vel: ( 0.150051, -0.343088 ) (373,0) rel: ( 1.36841, -0.094182 ), (373,0) global: ( 13.5091, -17.2801 ), (373,0), changes: 0.096, 0.4 last seen:(371,0) globalposderived: (371,0)
+ 373: direction old: -74.451341, new: -63.885929
+(b)r: 1.3 phi: -2 vel: ( 0.150914, -0.336682 ) (373,0) rel: ( 1.29921, -0.0453693 ), (373,0) global: ( 13.6855, -17.0247 ), (373,0), changes: 0.104, -1.2 last seen:(373,0) globalposderived: (373,0)
+(b)r: 0.812539 phi: -5.00697 vel: ( 0.141859, -0.316481 ) (374,0) rel: ( 0.809438, -0.0709159 ), (374,0) global: ( 13.8364, -17.3613 ), (374,0), changes: 0.104, -1.2 last seen:(373,0) globalposderived: (373,0)
+ 374: ball (13.836366,-17.361342), agent (13.517484,-16.613991), to (3.147802,2.644657) ang -59.885929 -61.885929
+ 374: relpos body (0.812539,-7.006969), vel. ball:(0.141859,-0.316481) dist: 1.100688 (0.300000,0.085000,0.715688)
+ 374: point too far, reposition ball (k_r = 0.840923)
+ 374: (kick 16.031634 160.019682), vecDesired (0.077815,0.041837) 0.000000 posDes(13.914181,-17.319504)
+ 374: direction old: -52.669318, new: -64.512867
+(b)r: 0.9 phi: -3 vel: ( 0.155059, -0.319522 ) (374,0) rel: ( 0.898767, -0.0471024 ), (374,0) global: ( 13.7009, -17.4883 ), (374,0), changes: 0.054, -0.2 last seen:(374,0) globalposderived: (374,0)
+ 374: ball (13.700895,-17.488312), agent (13.313617,-16.675898), to (3.147802,2.644657) ang -59.512867 -61.512867
+ 374: relpos body (0.900000,-5.000000), vel. ball:(0.155059,-0.319522) dist: 1.100688 (0.300000,0.085000,0.715688)
+ 374: point too far, reposition ball (k_r = 0.813159)
+ 374: (kick 20.569680 167.712857), vecDesired (0.014004,0.109498) 0.000000 posDes(13.714899,-17.378814)
+(b)r: 0.490738 phi: 1.04842 vel: ( 0.0217246, 0.0933327 ) (375,0) rel: ( 0.490656, 0.00897924 ), (375,0) global: ( 13.724, -17.389 ), (375,0), changes: 0.054, -0.2 last seen:(374,0) globalposderived: (374,0)
+ 375: ball (13.724006,-17.389021), agent (13.482090,-16.962055), to (3.147802,2.644657) ang -59.512867 -61.512867
+ 375: relpos body (0.490738,-0.951576), vel. ball:(0.021725,0.093333) dist: 1.100688 (0.300000,0.085000,0.715688)
+ 375: pos (-1.548059,2.932368) too far, but can acc ball good to 2.668341 k=2.596705,-0.062785
+ 376: 2 pos: ball(12.468994,-15.110552), ball_prev(13.700895,-17.488312), agentdiff(-0.024664,0.010699)
+ 376: direction old: 116.332420, new: 118.347210
+(b)r: 1.85919 phi: -23.8549 vel: ( 0.758863, -0.0538123 ) (478,0) rel: ( 1.70037, -0.7519 ), (478,0) global: ( -4.25639, 12.1629 ), (478,0), changes: -0.48, -13.2 last seen:(476,0) globalposderived: (476,0)
+ 478: direction old: 81.386611, new: 78.030943
+(b)r: 1.8 phi: -23 vel: ( 0.722284, -0.0366218 ) (478,0) rel: ( 1.65691, -0.703316 ), (478,0) global: ( -4.15484, 12.1299 ), (478,0), changes: 0.072, -23 last seen:(478,0) globalposderived: (478,0)
+ 479: direction old: 37.031935, new: 56.722093
+ 481: direction old: 43.082300, new: 39.265970
+ 482: direction old: 37.028181, new: 37.358490
+(b)r: 1.83353 phi: -1.84018 vel: ( 0.511234, -0.012411 ) (483,0) rel: ( 1.83259, -0.0588776 ), (483,0) global: ( -1.57654, 12.2894 ), (483,0), changes: 0.176, -6.2 last seen:(482,0) globalposderived: (482,0)
+(b)r: 1.4549 phi: -0.550659 vel: ( 0.48056, -0.0116664 ) (484,0) rel: ( 1.45483, -0.0139826 ), (484,0) global: ( -1.06531, 12.277 ), (484,0), changes: 0.176, -6.2 last seen:(482,0) globalposderived: (482,0)
+ 484: direction old: 36.165143, new: 30.391524
+(b)r: 1.5 phi: -3 vel: ( 0.498304, -0.0075066 ) (484,0) rel: ( 1.49794, -0.0785039 ), (484,0) global: ( -0.954528, 12.171 ), (484,0), changes: 0.15, -7.7 last seen:(484,0) globalposderived: (484,0)
+(b)r: 1.03704 phi: -0.327715 vel: ( 0.468406, -0.00705621 ) (485,0) rel: ( 1.03702, -0.00593154 ), (485,0) global: ( -0.456224, 12.1635 ), (485,0), changes: 0.15, -7.7 last seen:(484,0) globalposderived: (484,0)
+ 485: ball (-0.456224,12.163530), agent (-1.377977,11.688317), to (-0.691499,-0.034567) ang 14.601272 27.601272
+ 485: relpos body (1.037041,12.672285), vel. ball:(0.468406,-0.007056) dist: 1.100688 (0.300000,0.085000,0.715688)
+ 485: point good and can reach point 123.204880
+ 485: direction old: 29.796502, new: 26.449698
+(b)r: 1 phi: -2 vel: ( 0.472415, -0.00326495 ) (485,0) rel: ( 0.999391, -0.0348995 ), (485,0) global: ( -0.409022, 12.1233 ), (485,0), changes: 0.1, -9.5 last seen:(485,0) globalposderived: (485,0)
+ 485: ball (-0.409022,12.123286), agent (-1.304348,11.677874), to (-0.691499,-0.034567) ang 15.449698 28.449698
+ 485: relpos body (1.000000,11.000000), vel. ball:(0.472415,-0.003265) dist: 1.100688 (0.300000,0.085000,0.715688)
+ 485: point good and can reach point 121.068596
+(b)r: 1.78208 phi: -99.8778 vel: ( -0.0137483, -1.90267 ) (486,0) rel: ( -0.305711, -1.75566 ), (486,0) global: ( -0.423648, 10.0992 ), (486,0), changes: 0.1, -9.5 last seen:(485,0) globalposderived: (485,0)

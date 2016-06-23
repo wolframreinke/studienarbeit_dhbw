@@ -1,0 +1,80 @@
+ 0: change player from message 62 -> 1
+ 0: changed player from message 62 -> 1
+ 0: change player from message 63 -> 2
+ 0: changed player from message 63 -> 2
+ 0: change player from message 64 -> 3
+ 0: changed player from message 64 -> 3
+ 0: change player from message 65 -> 4
+ 0: changed player from message 65 -> 4
+ 0: change player from message 66 -> 5
+ 0: changed player from message 66 -> 5
+ 0: change player from message 67 -> 6
+ 0: changed player from message 67 -> 6
+ 0: change player from message 68 -> 7
+ 0: changed player from message 68 -> 7
+ 0: change player from message 69 -> 8
+ 0: changed player from message 69 -> 8
+ 0: change player from message 70 -> 9
+ 0: changed player from message 70 -> 9
+ 0: change player from message 71 -> 10
+ 0: changed player from message 71 -> 10
+ 151: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -50 0))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 20 0))) (do our {7} (home (pt 12 15))) (do our {8} (home (pt 12 -15))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 35 -22))))))
+ 151: new home position for player 0: -50 0
+ 151: new home position for player 1: -12 26
+ 151: new home position for player 2: -20 10
+ 151: new home position for player 3: -20 -10
+ 151: new home position for player 4: -12 -26
+ 151: new home position for player 5: 20 0
+ 151: new home position for player 6: 12 15
+ 151: new home position for player 7: 12 -15
+ 151: new home position for player 8: 0 0
+ 151: new home position for player 9: 35 22
+ 151: new home position for player 10: 35 -22
+ 351: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -50 0))) (do our {2} (home (pt -12 26))) (do our {3} (home (pt -20 10))) (do our {4} (home (pt -20 -10))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt 0 0))) (do our {8} (home (pt 12 15))) (do our {9} (home (pt 20 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 35 -22))))))
+ 351: new home position for player 0: -50 0
+ 351: new home position for player 1: -12 26
+ 351: new home position for player 2: -20 10
+ 351: new home position for player 3: -20 -10
+ 351: new home position for player 4: -12 -26
+ 351: new home position for player 5: 12 -15
+ 351: new home position for player 6: 0 0
+ 351: new home position for player 7: 12 15
+ 351: new home position for player 8: 20 0
+ 351: new home position for player 9: 35 22
+ 351: new home position for player 10: 35 -22
+ 616: direction old: 137.652079, new: 136.072848
+(b)r: 1.8 phi: -8 vel: ( 1.03062, -0.680362 ) (616,0) rel: ( 1.78248, -0.250512 ), (616,0) global: ( -20.8052, -22.7876 ), (616,0), changes: -1.44, -8.1 last seen:(616,0) globalposderived: (616,0)
+(b)r: 0.2 phi: -90 vel: ( -0.0968787, 0.0639541 ) (617,0) rel: ( 9.44834e-16, -0.2 ), (617,0) global: ( -19.8357, -23.5524 ), (617,0), changes: -1.44, -8.1 last seen:(616,0) globalposderived: (616,0)
+ 617: turnWithBall: turn since ball will be kickable in t+1
+(b)r: 0.231614 phi: 87.1579 vel: ( -0.091066, 0.0601168 ) (618,0) rel: ( 0.0114843, 0.231329 ), (618,0) global: ( -19.9326, -23.4884 ), (618,0), changes: -1.44, -8.1 last seen:(616,0) globalposderived: (616,0)
+ 618: ball (-19.932617,-23.488445), agent (-19.928993,-23.720031), to (-15.937506,-23.459213) ang 3.738600 3.738600
+ 618: relpos body (0.231614,87.157888), vel. ball:(-0.091066,0.060117) dist: 1.008938 (0.300000,0.085000,0.623938)
+ 618: point good and can reach point 34.020031
+ 618: 2 pos: ball(-19.680637,-23.520628), ball_prev(-20.805162,-22.787575), agentdiff(0.218829,-0.199505)
+ 618: direction old: 117.294764, new: 85.766764
+(b)r: 0.4 phi: 98 vel: ( -0.091066, 0.0601168 ) (618,0) rel: ( -0.0556692, 0.396107 ), (618,0) global: ( -19.6806, -23.5206 ), (618,0), changes: -1.44, -8.1 last seen:(618,0) globalposderived: (618,0)
+ 618: ball (-19.680637,-23.520628), agent (-19.710164,-23.919537), to (0.288113,-21.899905) ang -12.233236 -12.233236
+ 618: relpos body (0.400000,98.000000), vel. ball:(-0.091066,0.060117) dist: 1.008938 (0.300000,0.085000,0.623938)
+ 618: point too far, reposition ball (k_r = 0.857879)
+ 618: (kick 33.915046 -33.930024), vecDesired (0.453021,-0.506524) 0.000000 posDes(-19.227617,-24.027152)
+(b)r: 0.484032 phi: 2.28011 vel: ( 0.420387, -0.453616 ) (619,0) rel: ( 0.483649, 0.0192572 ), (619,0) global: ( -19.2334, -24.0032 ), (619,0), changes: -1.44, -8.1 last seen:(618,0) globalposderived: (618,0)
+ 619: ball (-19.233417,-24.003198), agent (-19.710164,-23.919537), to (0.296839,-21.904789) ang -12.233236 -12.233236
+ 619: relpos body (0.484032,2.280109), vel. ball:(0.420387,-0.453616) dist: 1.008938 (0.300000,0.085000,0.623938)
+ 619: pos (3.099120,0.332982) too far, but can acc ball good to 2.905804 k=2.584313,-0.495930
+ 619: direction old: -9.953127, new: -4.233236
+(b)r: 0.5 phi: 8 vel: ( 0.429125, -0.452588 ) (619,0) rel: ( 0.495134, 0.0695866 ), (619,0) global: ( -19.2115, -23.9564 ), (619,0), changes: 0.47, -47.9 last seen:(619,0) globalposderived: (619,0)
+ 619: ball (-19.211528,-23.956445), agent (-19.710164,-23.919537), to (0.288113,-21.899905) ang -12.233236 -12.233236
+ 619: relpos body (0.500000,8.000000), vel. ball:(0.429125,-0.452588) dist: 1.008938 (0.300000,0.085000,0.623938)
+ 619: pos (3.099765,0.326918) too far, but can acc ball good to 2.876266 k=2.545589,-0.495100
+ 656: Received coach message: online_coach_left (advice (0 (true) (do our {1} (home (pt -20 -10))) (do our {2} (home (pt -20 10))) (do our {3} (home (pt 12 15))) (do our {4} (home (pt -50 0))) (do our {5} (home (pt -12 -26))) (do our {6} (home (pt 12 -15))) (do our {7} (home (pt -12 26))) (do our {8} (home (pt 20 0))) (do our {9} (home (pt 0 0))) (do our {10} (home (pt 35 22))) (do our {11} (home (pt 35 -22))))))
+ 656: new home position for player 0: -20 -10
+ 656: new home position for player 1: -20 10
+ 656: new home position for player 2: 12 15
+ 656: new home position for player 3: -50 0
+ 656: new home position for player 4: -12 -26
+ 656: new home position for player 5: 12 -15
+ 656: new home position for player 6: -12 26
+ 656: new home position for player 7: 20 0
+ 656: new home position for player 8: 0 0
+ 656: new home position for player 9: 35 22
+ 656: new home position for player 10: 35 -22
